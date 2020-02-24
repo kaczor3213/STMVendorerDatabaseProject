@@ -19,6 +19,7 @@ start up
 wynagrodzenia
 stanowiska
 karta pracownika
+uprawnienia
 
 Użytkowicy:
 administrator
