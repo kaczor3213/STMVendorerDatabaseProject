@@ -17,6 +17,7 @@ start up'y
 stanowiska
 uprawnienia
 datki
+dane przedsiębiorstw
 
 Użytkowicy:
 pracownicy(szerokopojęte pojęcie)
