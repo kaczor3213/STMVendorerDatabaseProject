@@ -12,7 +12,7 @@
     <tr>
         <td>Punkty sprzedaży/dystrybucji</td>
         <td>Dane</td>
-        <td></td>
+        <td>Informacje dotyczące konkretnego punktu sprzedaży/poddystrybutora. Stanowią one istotne dane takie jak nazwa przedsiębiorstwa, siedziba przedsiębiorstwa, adres danego punktu sprzedaży, rodzaj </td>
     </tr>
     <tr>
         <td>Dostawcy</td>
