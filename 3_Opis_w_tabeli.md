@@ -6,82 +6,112 @@
     </tr>
     <tr>
         <td>Rodzaje towarów</td>
-        <td></td>
+        <td>Podzbiór</td>
         <td></td>
     </tr>    
     <tr>
         <td>Punkty sprzedaży/dystrybucji</td>
-        <td>Danych</td>
+        <td>Dane</td>
         <td></td>
     </tr>
     <tr>
         <td>Dostawcy</td>
-        <td></td>
+        <td>Dane</td>
         <td></td>
     </tr>
     <tr>
-        <td>Hurtownia asortymentu</td>
-        <td></td>
+        <td>Hurtownie</td>
+        <td>Dane</td>
         <td></td>
     </tr>
     <tr>
         <td>Płatności</td>
-        <td></td>
+        <td>Podzbiór</td>
         <td></td>
     </tr>
     <tr>
-        <td>Sprzedaż hurtowa</td>
-        <td></td>
+        <td>Sprzedaże</td>
+        <td>Dane</td>
         <td></td>
     </tr>
     <tr>
         <td>Towary</td>
-        <td></td>
+        <td>Dane</td>
         <td></td>
     </tr>
     <tr>
         <td>Przesunięcia magazynowe</td>
-        <td></td>
+        <td>Dane</td>
         <td></td>
     </tr>
     <tr>
-        <td>Zamówienie</td>
-        <td></td>
+        <td>Zamówienia</td>
+        <td>Dane</td>
         <td></td>
     </tr>
     <tr>
         <td>Listy przewozowe</td>
-        <td></td>
+        <td>Dane</td>
         <td></td>
     </tr>
     <tr>
         <td>Faktury</td>
-        <td></td>
+        <td>Dane</td>
         <td></td>
     </tr>
     <tr>
         <td>Fundacje</td>
-        <td></td>
+        <td>Dane</td>
         <td></td>
     </tr>
     <tr>
-        <td>Start up</td>
-        <td></td>
+        <td>Start up'y</td>
+        <td>Dane</td>
         <td></td>
     </tr>
     <tr>
         <td>Stanowiska</td>
-        <td></td>
+        <td>Pozbiór</td>
         <td></td>
     </tr>
     <tr>
         <td>Datki</td>
-        <td></td>
+        <td>Dane</td>
         <td></td>
     </tr>
     <tr>
-        <td>Pracownik</td>
+        <td>Pracownicy</td>
+        <td>Dane</td>
         <td></td>
+    </tr>
+    <tr>
+        <td>Stan magazynowy</td>
+        <td>Łącząca</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Towary_Sprzedaż</td>
+        <td>Łącząca</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Towary_Rodzaje</td>
+        <td>Łącząca</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Towary_Zamówienie</td>
+        <td>Łącząca</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Przesunięcie_Towary</td>
+        <td>Łącząca</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Uprawnienia_Stanowiska</td>
+        <td>Łącząca</td>
         <td></td>
     </tr>
 </table>
@@ -92,7 +122,7 @@
         <th>Opis</th>
     </tr> 
     <tr>
-        <td>Rodzaje umowy(enum)</td>
+        <td>Rodzaje umowy</td>
         <td></td>
     </tr>
 </table>
