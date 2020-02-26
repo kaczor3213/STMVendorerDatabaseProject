@@ -1,1 +1,11 @@
 # STMVendorerDatabaseProject
+
+## Basic description of a company
+
+Głównym celem przedsiębiorstwa jest dystrybucja i magazynowanie sprzętu w Polsce od światowego producenta STMicroelectronics układów scalonych. Producent oferuje bogaty asortyment, który jest ściągany w dużych zamówieniach zza granicy i jest odbierany w głównej hurtowni w Polsce. Każde przyjęcie towaru musi być wraz z listem przewozowym, fakturą. Każda dostawa musi być odebrana przez uprawnionego do tego pracownika, pracownicy autoryzują swoje zadania przy użyciu karty elektronicznej, która jest wydawana przez dział informatyczny firmy. Każda z tych kart stanowi elektroniczną autoryzację pracownika i nadaje mu odpowiednie uprawnienia w zależności od jego stanowiska. Każdy pracownik ma podpisaną umowę ze spółką, która jest archiwizowana. Firma może zatrudniać różnych pracowników na różnych rodzajach umowy. Dla każdego pracownika jest przewidziana indywidualna stawka wynagrodzenia. 
+
+Firma prowadzi jedynie sprzedaż hurtową do poddystrybutorów, których dane są archiwizowane. Sprzedaż jest udokumentowana w postaci faktury sprzedaży. Ilość produktów ulokowanych/odsprzedanych do pomniejszych punktów sprzedaży jest monitorowana. Każda sprzedaż zawiera również informację o formie płatności. Dla poszczególnej sprzedaży przewidziany jest możliwy rabat.
+
+Zamawiany sprzęt to głównie układy scalone różnego przeznaczenia oraz elementy pasywne, są one księgowane według różnych kategorii. Towar ten jest ulokowany albo w magazynach, albo w punktach sprzedaży, bądź jest to towar, który został dopiero zamówiony i jest oczekiwany na dostarczenie. Towar może być dostarczany przez róźnych przewoźników.Firma w Polsce może mieć wiele hurtownii, oraz pomiędzy hurtowniami może być przemieszczany asortyment. Dokument przesunięcia magazynowego jest automatycznie generowany przy każdej transakcji między hurtowniami.
+
+Firma może przekazywać datki na fundacje, której dane są również księgowane, oraz może sponsorować Start-up'y w formie sprzętu bądź pieniężnie.
