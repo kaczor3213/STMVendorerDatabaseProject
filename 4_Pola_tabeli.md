@@ -228,7 +228,7 @@
         <td></td>
     </tr>
     <tr>
-        <td>id_Płatności,netto brutto</td>
+        <td>id_Płatności</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
@@ -251,6 +251,20 @@
     <tr>
         <td>Data</td>
         <td>timestamp</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+     <tr>
+        <td>Kwota_łączna</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Rabat</td>
+        <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
