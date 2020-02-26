@@ -80,7 +80,7 @@
         <td></td>
     </tr>
     <tr>
-        <td>Dane klienta</td>
+        <td>Dane przedsiębiorstw</td>
         <td>Dane</td>
         <td></td>
     </tr>
