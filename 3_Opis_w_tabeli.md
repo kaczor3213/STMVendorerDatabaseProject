@@ -5,7 +5,7 @@
         <th>Opis</th>
     </tr>
     <tr>
-        <td>Rodzaje towarów</td>
+        <td>Kategorie towarów</td>
         <td>Podzbiór</td>
         <td></td>
     </tr>    
@@ -75,6 +75,11 @@
         <td></td>
     </tr>
     <tr>
+        <td>Uprawnienia</td>
+        <td>Podzbiór</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>Datki</td>
         <td>Dane</td>
         <td></td>
@@ -90,7 +95,12 @@
         <td></td>
     </tr>
     <tr>
-        <td>Stan magazynowy</td>
+        <td>Umowy</td>
+        <td>Dane</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Hurtownie_Towary</td>
         <td>Łącząca</td>
         <td></td>
     </tr>
@@ -100,7 +110,7 @@
         <td></td>
     </tr>
     <tr>
-        <td>Towary_Rodzaje</td>
+        <td>Towary_Kategorie</td>
         <td>Łącząca</td>
         <td></td>
     </tr>
