@@ -10,21 +10,21 @@
         <th style="text-align: center;" colspan="5">Kategorie towarów</th>
     </tr>
     <tr>
-        <td>id_Kategorii_towaru</td>
+        <td>id_kategorii_towaru</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>Kategoria</td>
+        <td>kategoria</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Podkategorii</td>
+        <td>id_podkategorii</td>
         <td>znakowe(30 max)</td>
         <td>nie</td>
         <td>tak</td>
@@ -34,56 +34,49 @@
         <th style="text-align: center;" colspan="5">Punkty sprzedaży</th>
     </tr>
     <tr>
-        <td>id_Punktu_sprzedaży</td>
+        <td>id_punktu_sprzedaży</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Przedsiębiorcy</td>
+        <td>id_przedsiębiorcy</td>
         <td>całkowity</td>
         <td>nie</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Ulica</td>
-        <td>znakowe(20 max)</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Numer</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Mieszkanie</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Województwo</td>
+        <td>ulica</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Kod_pocztowy</td>
+        <td>numer_mieszkania</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Miejscowość</td>
+        <td>województwo</td>
+        <td>znakowe(20 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>kod_pocztowy</td>
+        <td>znakowe(6 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>miejscowość</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
@@ -93,56 +86,49 @@
         <th style="text-align: center;" colspan="5">Dostawcy</th>
     </tr>
     <tr>
-        <td>id_Dostawcy</td>
+        <td>id_dostawcy</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>Ulica</td>
-        <td>znakowe(20 max)</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Numer</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Mieszkanie</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Województwo</td>
+        <td>ulica</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Kod_pocztowy</td>
+        <td>numer_mieszkania</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Miejscowość</td>
+        <td>województwo</td>
+        <td>znakowe(20 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>kod_pocztowy</td>
+        <td>znakowe(6 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>miejscowość</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>NIP</td>
+        <td>nip</td>
         <td>całkowite(10 max)</td>
         <td>tak</td>
         <td>tak</td>
@@ -152,49 +138,49 @@
         <th style="text-align: center;" colspan="5">Hurtownie</th>
     </tr>
     <tr>
-        <td>id_Hurtowni</td>
+        <td>id_hurtowni</td>
         <td>całkowite</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>Ulica</td>
-        <td>znakowe(20 max)</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Numer</td>
-        <td>całkowity</td>
+        <td>kod_hurtowni</td>
+        <td>znakowe(6 max)</td>
         <td>tak</td>
-        <td>nie</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Mieszkanie</td>
-        <td>całkowity</td>
         <td>tak</td>
-        <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Województwo</td>
+        <td>ulica</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Kod_pocztowy</td>
+        <td>numer_mieszkania</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Miejscowość</td>
+        <td>województwo</td>
+        <td>znakowe(20 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>kod_pocztowy</td>
+        <td>znakowe(6 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>miejscowość</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
@@ -204,14 +190,14 @@
         <th style="text-align: center;" colspan="5">Płatności</th>
     </tr>
     <tr>
-        <td>id_Płatności</td>
+        <td>id_płatności</td>
         <td>całkowite</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>Rodzaj_płatności</td>
+        <td>rodzaj_płatności</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>tak</td>
@@ -221,63 +207,63 @@
         <th style="text-align: center;" colspan="5">Sprzedaże</th>
     </tr>
     <tr>
-        <td>id_Sprzedaży</td>
+        <td>id_sprzedaży</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Płatności</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>id_Punktu_Sprzedaży</td>
+        <td>id_płatności</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Faktury(do rozważenia)</td>
+        <td>id_punktu_sprzedaży</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>id_faktury(do rozważenia)</td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>Data</td>
+        <td>data_zlecenia_sprzedaży</td>
         <td>timestamp</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
-     <tr>
-        <td>Kwota_łączna</td>
+    <tr>
+        <td>data_zaksięgowania_płatności</td>
+        <td>timestamp</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>rabat</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Rabat</td>
+        <td>cena_sum_netto</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Kwota_łącznie_netto</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Kwota_łącznie_brutto</td>
+        <td>cena_sum_brutto</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
@@ -287,21 +273,56 @@
         <th style="text-align: center;" colspan="5">Towary</th>
     </tr>
     <tr>
-        <td>id_Towaru</td>
+        <td>id_towaru</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>VAT</td>
+        <td>nazwa</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Towary_Rodzaje</td>
+        <td>kod_producenta</td>
+        <td>znakowe(10 max)</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>opis</td>
+        <td>znakowe(200 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>dostępność</td>
+        <td>boolowski</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>cena_jedn_netto</td>
+        <td>decymalny</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>cena_jedn_brutto</td>
+        <td>decymalny</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>stawka_vat</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
@@ -311,159 +332,313 @@
         <th style="text-align: center;" colspan="5">Przesunięcia magazynowe</th>
     </tr>
     <tr>
-        <td>id_Przesunięcia_magazynowego</td>
+        <td>id_przesunięcia_magazynowego</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Pracownika</td>
+        <td>id_pracownika</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
      <tr>
-        <td>id_Listu_Przewozowego</td>
+        <td>id_listu_przewozowego</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>Data</td>
+        <td>data_zlecenia</td>
         <td>Timestamp</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Hurtownii_źródłowej</td>
+        <td>data_realizacji</td>
+        <td>Timestamp</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>data_odbioru_końcowego</td>
+        <td>Timestamp</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>id_hurtownii_źródłowej</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Hurtownii_docelowej</td>
+        <td>id_hurtownii_docelowej</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Zamówienie</th>
+        <th style="text-align: center;" colspan="5">zamówienia</th>
     </tr>
     <tr>
-        <td>id_Zamówienia</td>
+        <td>id_zamówienia</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Dostawcy</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>id_Hurtowni</td>
+        <td>id_dostawcy</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Pracownika</td>
+        <td>id_hurtowni</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Data</td>
+        <td>id_pracownika</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>data_zlecenia</td>
         <td>timestamp</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Listy przewozowe</th>
-    </tr>
-    <tr>
-        <td>id_Listu_przewozowego</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>tak</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>id_Zamówienia</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>tak</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Nazwa_Dostawcy</td>
-        <td>znakowy(30 max)</td>
+        <td>data_odbioru</td>
+        <td>timestamp</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Ulica</td>
-        <td>znakowe(20 max)</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <th style="text-align: center;" colspan="5">listy_przewozowe</th>
     </tr>
     <tr>
-        <td>Numer</td>
+        <td>id_listu_przewozowego</td>
         <td>całkowity</td>
         <td>tak</td>
-        <td>nie</td>
+        <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>Mieszkanie</td>
+        <td>id_sprzedaży</td>
         <td>całkowity</td>
         <td>tak</td>
-        <td>nie</td>
+        <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>Województwo</td>
+        <td>id_dostawcy</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>id_hurtowni</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>województwo_odbiorcy</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Kod_pocztowy</td>
-        <td>znakowe(6 max)</td>
+        <td>powiat_odbiorcy</td>
+        <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Miejscowość</td>
+        <td>gmina_odbiorcy</td>
+        <td>znakowe(20 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>miejscowość_odbiorcy</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Faktury</th>
+        <td>ulica_odbiorcy</td>
+        <td>znakowe(20 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
     </tr>
     <tr>
-        <td>id_Faktury</td>
+        <td>numer_mieszkania_odbiorcy</td>
+        <td>znakowe(6 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>kod_pocztowy_odbiorcy</td>
+        <td>znakowe(6 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>data_wystawienia</td>
+        <td>timestamp</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>data_przyjęcia_do_przewozu</td>
+        <td>timestamp</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>sposób pakowania</td>
+        <td>enumeryczny</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>waga</td>
+        <td>decymalny</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>rodzaj_towaru</td>
+        <td>znakowe(20 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>koszt_wysyłki_netto</td>
+        <td>timestamp</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>koszt_wysyłki_brutto</td>
+        <td>timestamp</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <th style="text-align: center;" colspan="5">faktury</th>
+    </tr>
+    <tr>
+        <td>id_faktury</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>imie_nabywcy</td>
+        <td>całkowity</td>
+        <td>nie</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>nazwisko_nabywcy</td>
+        <td>całkowity</td>
+        <td>nie</td>
+        <td>nie</td>_
+        <td></td>
+    </tr>
+    <tr>
+        <td>nazwa_nabywcy</td>
+        <td>całkowity</td>
+        <td>nie</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ulica_nabywcy</td>
+        <td>znakowe(20 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>numer_mieszkania_nabywcy</td>
+        <td>znakowe(6 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>kod_pocztowy_nabywcy</td>
+        <td>znakowe(6 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>miejscowość nabywcy</td>
+        <td>znakowe(20 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>numer_telefonu_nabywcy</td>
+        <td>całkowity</td>
+        <td>nie</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>numer_fax_nabywcy</td>
+        <td>całkowity</td>
+        <td>nie</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>email_nabywcy</td>
+        <td>znakowe(50 max)</td>
+        <td>nie</td>
+        <td>nie</td>
         <td></td>
     </tr>
     <tr>
@@ -478,6 +653,20 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>stawka_vat</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>data_wystawienia</td>
+        <td>timestamp</td>
+        <td>tak</td>
+        <td>nie</td>
         <td></td>
     </tr>
     <tr>
@@ -897,7 +1086,7 @@
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Hurtownie_Towary</th>
+        <th style="text-align: center;" colspan="5">Towary_Hurtownie</th>
     </tr>
     <tr>
         <td>id_Hurtownie_Towary</td>
@@ -915,13 +1104,6 @@
     </tr>
     <tr>
         <td>id_Towaru</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cena_jednostkowa</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
