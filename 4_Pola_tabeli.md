@@ -687,21 +687,28 @@
         <td></td>
     </tr>
     <tr>
-        <td>numer</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>mieszkanie</td>
-        <td>całkowity</td>
+        <td>numer_mieszkania</td>
+        <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
         <td>województwo</td>
+        <td>znakowe(20 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>powiat</td>
+        <td>znakowe(20 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>gmina</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
@@ -724,6 +731,20 @@
     <tr>
         <td>nazwa_fundacji</td>
         <td>znakowy(30 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>numer_telefonu</td>
+        <td>znakowy(11 max 9 min)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>email</td>
+        <td>znakowy(20 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
@@ -760,15 +781,8 @@
         <td></td>
     </tr>
     <tr>
-        <td>numer</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>mieszkanie</td>
-        <td>całkowity</td>
+        <td>numer_mieszkania</td>
+        <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
@@ -795,6 +809,20 @@
         <td></td>
     </tr>
     <tr>
+        <td>powiat</td>
+        <td>znakowe(30 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>gmina</td>
+        <td>znakowe(30 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>nazwa_start_up</td>
         <td>znakowy(30 max)</td>
         <td>tak</td>
@@ -804,14 +832,14 @@
     <tr>
         <td>nip</td>
         <td>całkowity(9)</td>
-        <td>tak</td>
+        <td>nie</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
         <td>regon</td>
         <td>całkowity(14 max 9 min)</td>
-        <td>tak</td>
+        <td>nie</td>
         <td>tak</td>
         <td></td>
     </tr>
@@ -856,7 +884,7 @@
         <td>tak</td>
         <td></td>
     </tr>
-        <tr>
+    <tr>
         <th style="text-align: center;" colspan="5">datki</th>
     </tr>
     <tr>
@@ -900,20 +928,13 @@
     <tr>
         <td>ulica</td>
         <td>znakowe(20 max)</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>numer</td>
-        <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>mieszkanie</td>
-        <td>całkowity</td>
+        <td>numer_mieszkania</td>
+        <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
@@ -934,6 +955,20 @@
     </tr>
     <tr>
         <td>miejscowość</td>
+        <td>znakowe(30 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>powiat</td>
+        <td>znakowe(30 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>gmina</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
@@ -1006,7 +1041,7 @@
         <td></td>
     </tr>
     <tr>
-        <td>naziwsko</td>
+        <td>nazwisko</td>
         <td>znakowy(15max)</td>
         <td>tak</td>
         <td>nie</td>
@@ -1019,23 +1054,16 @@
         <td>tak</td>
         <td></td>
     </tr>
-     <tr>
+    <tr>
         <td>ulica</td>
         <td>znakowe(20 max)</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>numer</td>
-        <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>mieszkanie</td>
-        <td>całkowity</td>
+        <td>numer_mieszkania</td>
+        <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
@@ -1056,6 +1084,20 @@
     </tr>
     <tr>
         <td>miejscowość</td>
+        <td>znakowe(30 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>powiat</td>
+        <td>znakowe(30 max)</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>gmina</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>

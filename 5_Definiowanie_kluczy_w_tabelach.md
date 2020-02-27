@@ -74,8 +74,9 @@ klucze kandydujące:
 klucze kandydujące:
 
 * id_fundacji
-* nip	
-* regon	
+* nazwa_fundacji
+* nip
+* regon
 
 ### Tabela: `start_up`
 
@@ -111,7 +112,6 @@ klucze kandydujące:
 klucze kandydujące:
 
 * id_pracownika
-* id_umowy
 * pesel
 * telefon
 
@@ -119,7 +119,7 @@ klucze kandydujące:
 
 klucze kandydujące:
 
-* id_umowy	
+* id_umowy
 
 ### Tabela: `stany magazynowe`
 
@@ -130,7 +130,3 @@ klucze kandydujące:
 ### Tabela: ``
 
 klucze kandydujące:
-
-
-
-

@@ -12,8 +12,7 @@
         <td>id_podkategorii	</td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">punkty_sprzedaży
-</th>
+        <th style="text-align: center;" colspan="5">punkty_sprzedaży</th>
     </tr>
     <tr>
         <th>Nazwa tabeli pierwotnej </th>
