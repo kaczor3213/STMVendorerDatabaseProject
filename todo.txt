@@ -1,3 +1,2 @@
-poprawa relacji dostawca i list przewozowy(aktuazlizacja na kartce jako wzór)
-hurtownia list przewozowy
-listy przewozowe przy wysyłce
+litsy przewozowe i dostawcy unikalni???
+ustalenie nazw tabel łączących

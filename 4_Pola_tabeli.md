@@ -281,7 +281,7 @@
     </tr>
     <tr>
         <td>nazwa</td>
-        <td>całkowity</td>
+        <td>znakowy(30 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
@@ -453,7 +453,7 @@
         <td>id_dostawcy</td>
         <td>całkowity</td>
         <td>tak</td>
-        <td>tak</td>
+        <td>nie</td>
         <td></td>
     </tr>
     <tr>
@@ -573,21 +573,21 @@
     </tr>
     <tr>
         <td>imie_nabywcy</td>
-        <td>całkowity</td>
+        <td>znakowy(20 max)</td>
         <td>nie</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
         <td>nazwisko_nabywcy</td>
-        <td>całkowity</td>
+        <td>znakowy(20 max)</td>
         <td>nie</td>
         <td>nie</td>_
         <td></td>
     </tr>
     <tr>
         <td>nazwa_nabywcy</td>
-        <td>całkowity</td>
+        <td>znakowy(30 max)</td>
         <td>nie</td>
         <td>nie</td>
         <td></td>
@@ -614,7 +614,7 @@
         <td></td>
     </tr>
     <tr>
-        <td>miejscowość nabywcy</td>
+        <td>miejscowość_nabywcy</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
@@ -1143,7 +1143,7 @@
     </tr>
     <tr>
         <td>rodzaj</td>
-        <td>znakowy</td>
+        <td>znakowy(30 max)</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
@@ -1180,10 +1180,10 @@
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">towary_sprzedaż</th>
+        <th style="text-align: center;" colspan="5">towary_sprzedaże</th>
     </tr>
     <tr>
-        <td>id_towary_sprzedaż</td>
+        <td>id_towary_sprzedaże</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
@@ -1218,10 +1218,10 @@
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">towary_kategorie</th>
+        <th style="text-align: center;" colspan="5">towary_kategorie_towarów</th>
     </tr>
     <tr>
-        <td>id_towary_kategorie</td>
+        <td>id_towary_kategorie_towarów</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
@@ -1242,10 +1242,10 @@
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">towary_zamówienie</th>
+        <th style="text-align: center;" colspan="5">towary_zamówienia</th>
     </tr>
     <tr>
-        <td>id_towary_zamówienie</td>
+        <td>id_towary_zamówienia</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
