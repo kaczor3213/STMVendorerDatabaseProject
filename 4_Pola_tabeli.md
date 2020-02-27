@@ -7,7 +7,7 @@
         <th>opis</th>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">kategorie towarów</th>
+        <th style="text-align: center;" colspan="5">kategorie_towarów</th>
     </tr>
     <tr>
         <td>id_kategorii_towaru</td>
@@ -31,7 +31,7 @@
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">punkty sprzedaży</th>
+        <th style="text-align: center;" colspan="5">punkty_sprzedaży</th>
     </tr>
     <tr>
         <td>id_punktu_sprzedaży</td>
@@ -329,7 +329,7 @@
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">przesunięcia magazynowe</th>
+        <th style="text-align: center;" colspan="5">przesunięcia_magazynowe</th>
     </tr>
     <tr>
         <td>id_przesunięcia_magazynowego</td>
@@ -682,8 +682,8 @@
      <tr>
         <td>ulica</td>
         <td>znakowe(20 max)</td>
-        <td></td>
-        <td></td>
+        <td>tak</td>
+        <td>nie</td>
         <td></td>
     </tr>
     <tr>
@@ -743,7 +743,7 @@
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">start up</th>
+        <th style="text-align: center;" colspan="5">start_up</th>
     </tr>
     <tr>
         <td>id_start_up</td>
@@ -755,8 +755,8 @@
      <tr>
         <td>ulica</td>
         <td>znakowe(20 max)</td>
-        <td></td>
-        <td></td>
+        <td>tak</td>
+        <td>nie</td>
         <td></td>
     </tr>
     <tr>
@@ -840,7 +840,7 @@
         <td></td>
     </tr>
     <tr>
-        <th>uprawnienia</th>
+        <th style="text-align: center;" colspan="5">uprawnienia</th>
     </tr>
     <tr>
         <td>id_uprawnienia</td>
@@ -888,7 +888,7 @@
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">dane przedsiębiorstw</th>
+        <th style="text-align: center;" colspan="5">dane_przedsiębiorstw</th>
     </tr>
     <tr>
         <td>id_przedsiębiorstwa</td>
@@ -1086,10 +1086,10 @@
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">towary_hurtownie</th>
+        <th style="text-align: center;" colspan="5">stany_magazynowe</th>
     </tr>
     <tr>
-        <td>id_hurtownie_towary</td>
+        <td>id_stanu_magazynowego</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>

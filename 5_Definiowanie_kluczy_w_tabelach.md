@@ -61,15 +61,76 @@ klucze kandydujące:
 
 klucze kandydujące:
 
+* id_listu_przewozowego
+
+### Tabela: `faktury`
+
+klucze kandydujące:
+
+* id_faktury
+
+### Tabela: `fundacje`
+
+klucze kandydujące:
+
+* id_fundacji
+* nip	
+* regon	
+
+### Tabela: `start_up`
+
+klucze kandydujące:
+
+* id_start_up
+* nip	
+* regon	
+
+### Tabela: `stanowiska`
+
+klucze kandydujące:
+
+* id_stanowiska	
+* nazwa
+
+### Tabela: `datki`
+
+klucze kandydujące:
+
+* id_datku
+
+### Tabela: `dane_przedsiębiorstw`
+
+klucze kandydujące:
+
+* id_przedsiębiorstwa
+* nip
+* regon
+
+### Tabela: `pracownicy`
+
+klucze kandydujące:
+
+* id_pracownika
+* id_umowy
+* pesel
+* telefon
+
+### Tabela: `umowy`
+
+klucze kandydujące:
+
+* id_umowy	
+
+### Tabela: `stany magazynowe`
+
+klucze kandydujące:
+
+* id_hurtownie_towary
+
 ### Tabela: ``
 
 klucze kandydujące:
 
-### Tabela: ``
 
-klucze kandydujące:
 
-### Tabela: ``
-
-klucze kandydujące:
 

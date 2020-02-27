@@ -1,24 +1,24 @@
 <table>
 <tr>
     <th text-align: center></th>
-    <th text-align: center>kategorie towarów</th>
-    <th text-align: center>punkty sprzedaży</th>
+    <th text-align: center>kategorie_towarów</th>
+    <th text-align: center>punkty_sprzedaży</th>
     <th text-align: center>dostawcy</th>
     <th text-align: center>hurtownie</th>
     <th text-align: center>płatności</th>
     <th text-align: center>sprzedaże</th>
     <th text-align: center>towary</th>
-    <th text-align: center>przesunięcia magazynowe</th>
+    <th text-align: center>przesunięcia_magazynowe</th>
     <th text-align: center>zamówienie</th>
-    <th text-align: center>listy przewozowe</th>
+    <th text-align: center>listy_przewozowe</th>
     <th text-align: center>faktury</th>
     <th text-align: center>fundacje</th>
     <th text-align: center>start up</th>
     <th text-align: center>stanowiska</th>
-    <th text-align: center>dane przedsiębiorstw</th>
+    <th text-align: center>dane_przedsiębiorstw</th>
     <th text-align: center>pracownicy</th>
     <th text-align: center>umowy</th>
-    <th text-align: center>towary_hurtownie</th>
+    <th text-align: center>stany_magazynowe</th>
     <th text-align: center>datki</th>
     <th text-align: center>uprawnienia</th>
     <th text-align: center>umowy</th>
@@ -26,7 +26,7 @@
         
 </tr>
 <tr>
-    <th text-align: center>kategorie towarów</th>
+    <th text-align: center>kategorie_towarów</th>
     <td text-align: center>1:n</td>
     <td text-align: center></td>
     <td text-align: center></td>
@@ -51,7 +51,7 @@
 
 </tr>
 <tr>
-    <th text-align: center>punkty sprzedaży</th>
+    <th text-align: center>punkty_sprzedaży</th>
     <td text-align: center></td>
     <td text-align: center></td>
     <td text-align: center></td>
@@ -196,7 +196,7 @@
     <td text-align: center></td>
 </tr>
 <tr>
-    <th text-align: center>przesunięcia magazynowe</th>
+    <th text-align: center>przesunięcia_magazynowe</th>
     <td text-align: center></td>
     <td text-align: center></td>
     <td text-align: center></td>
@@ -244,7 +244,7 @@
     <td text-align: center></td>
 </tr>
 <tr>
-    <th text-align: center>listy przewozowe</th>
+    <th text-align: center>listy_przewozowe</th>
     <td text-align: center></td>
     <td text-align: center></td>
     <td text-align: center>1:1</td>
@@ -316,7 +316,7 @@
     <td text-align: center></td> 
 </tr>
 <tr>
-    <th text-align: center>start up</th>
+    <th text-align: center>start_up</th>
     <td text-align: center></td> 
     <td text-align: center></td> 
     <td text-align: center></td> 
@@ -364,7 +364,7 @@
     <td text-align: center></td>
 </tr>
 <tr>
-    <th text-align: center>dane przedsiębiorstw</th>
+    <th text-align: center>dane_przedsiębiorstw</th>
     <td text-align: center></td>
     <td text-align: center>1:n</td>
     <td text-align: center></td>
@@ -460,7 +460,7 @@
     <td text-align: center></td>   
 </tr>
 <tr>
-    <th text-align: center>stany magazynowe</th>
+    <th text-align: center>stany_magazynowe</th>
     <td text-align: center></td> 
     <td text-align: center></td> 
     <td text-align: center></td> 
