@@ -764,6 +764,13 @@
         <td></td>
     </tr>
     <tr>
+        <td>krs</td>
+        <td>całkowity(10 max)</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td></td>
+    </tr>
+    <tr>
         <th style="text-align: center;" colspan="5">start_up</th>
     </tr>
     <tr>
@@ -840,6 +847,13 @@
         <td>regon</td>
         <td>całkowity(14 max 9 min)</td>
         <td>nie</td>
+        <td>tak</td>
+        <td></td>
+    </tr>
+      <tr>
+        <td>krs</td>
+        <td>całkowity(10 max)</td>
+        <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
@@ -991,6 +1005,13 @@
     <tr>
         <td>regon</td>
         <td>całkowity(14 max 9 min)</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>krs</td>
+        <td>całkowity(10 max)</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
