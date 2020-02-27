@@ -1,0 +1,485 @@
+<table>
+<tr>
+    <th text-align: center></th>
+    <th text-align: center>kategorie towarów</th>
+    <th text-align: center>punkty sprzedaży</th>
+    <th text-align: center>dostawcy</th>
+    <th text-align: center>hurtownie</th>
+    <th text-align: center>płatności</th>
+    <th text-align: center>sprzedaże</th>
+    <th text-align: center>towary</th>
+    <th text-align: center>przesunięcia magazynowe</th>
+    <th text-align: center>zamówienie</th>
+    <th text-align: center>listy przewozowe</th>
+    <th text-align: center>faktury</th>
+    <th text-align: center>fundacje</th>
+    <th text-align: center>start up</th>
+    <th text-align: center>stanowiska</th>
+    <th text-align: center>dane przedsiębiorstw</th>
+    <th text-align: center>pracownicy</th>
+    <th text-align: center>umowy</th>
+    <th text-align: center>towary_hurtownie</th>
+    <th text-align: center>datki</th>
+    <th text-align: center>uprawnienia</th>
+    <th text-align: center>umowy</th>
+    
+        
+</tr>
+<tr>
+    <th text-align: center>kategorie towarów</th>
+    <td text-align: center>1:n</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+
+</tr>
+<tr>
+    <th text-align: center>punkty sprzedaży</th>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:n</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:1</td>
+    <td text-align: center></td>
+    <td text-align: center></td>  
+    <td text-align: center></td>  
+    <td text-align: center></td>  
+    <td text-align: center></td>
+    <td text-align: center></td>
+</tr>
+<tr>
+    <th text-align: center>dostawcy</th>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:n</td>
+    <td text-align: center>1:n</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>  
+    <td text-align: center></td>  
+    <td text-align: center></td>  
+    <td text-align: center></td>
+    <td text-align: center></td>
+</tr>
+<tr>
+    <th text-align: center>hurtownie</th>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:n</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:n</td>
+    <td text-align: center></td>  
+    <td text-align: center>1:n</td>  
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+</tr>
+<tr>
+    <th text-align: center>płatności</th>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:n</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>  
+    <td text-align: center></td>  
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+</tr>
+<tr>
+    <th text-align: center>sprzedaże</th>
+    <td text-align: center></td>
+    <td text-align: center>1:1</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:1</td>
+    <td text-align: center></td>
+    <td text-align: center>m:n</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:1</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    
+</tr>
+<tr>
+    <th text-align: center>towary</th>
+    <td text-align: center>m:n</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>m:n</td>
+    <td text-align: center></td>
+    <td text-align: center>m:n</td>
+    <td text-align: center>m:n</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:n</td>  
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+</tr>
+<tr>
+    <th text-align: center>przesunięcia magazynowe</th>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:1</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>m:n</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:1</td>
+    <td text-align: center></td>
+    <td text-align: center></td>  
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+</tr>
+<tr>
+    <th text-align: center>zamówienie</th>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:1</td>
+    <td text-align: center>1:1</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>m:n</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:1</td>
+    <td text-align: center></td>
+    <td text-align: center></td>  
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+</tr>
+<tr>
+    <th text-align: center>listy przewozowe</th>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:1</td>
+    <td text-align: center>1:1</td>
+    <td text-align: center></td>
+    <td text-align: center>1:1</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>  
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+</tr>
+<tr>
+    <th text-align: center>faktury</th>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:1</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:1</td>
+    <td text-align: center></td>
+    <td text-align: center></td>  
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+</tr>
+<tr>
+    <th text-align: center>fundacje</th>
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td>  
+    <td text-align: center>1:n</td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+</tr>
+<tr>
+    <th text-align: center>start up</th>
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td>  
+    <td text-align: center>1:n</td>  
+    <td text-align: center></td>
+    <td text-align: center></td>
+</tr>
+<tr>
+    <th text-align: center>stanowiska</th>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:n</td>
+    <td text-align: center></td>
+    <td text-align: center></td>  
+    <td text-align: center></td>
+    <td text-align: center>m:n</td>
+    <td text-align: center></td>
+</tr>
+<tr>
+    <th text-align: center>dane przedsiębiorstw</th>
+    <td text-align: center></td>
+    <td text-align: center>1:n</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>  
+    <td text-align: center></td>  
+    <td text-align: center></td>  
+    <td text-align: center></td>  
+</tr>
+<tr>
+    <th text-align: center>pracownicy</th>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:n</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:n</td>
+    <td text-align: center>1:n</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center>1:1</td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>  
+    <td text-align: center></td>  
+    <td text-align: center></td>  
+    <td text-align: center>1:1</td>  
+</tr>
+<tr>
+    <th text-align: center>datki</th>
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center>m:n</td>
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center>1:n</td>
+    <td text-align: center>1:n</td>
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td>  
+    <td text-align: center></td>  
+    <td text-align: center></td>  
+    <td text-align: center></td>  
+</tr>
+<tr>
+    <th text-align: center>umowy</th>
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center>1:1</td>
+    <td text-align: center></td> 
+    <td text-align: center></td>   
+    <td text-align: center></td>   
+    <td text-align: center></td>   
+    <td text-align: center></td>   
+</tr>
+<tr>
+    <th text-align: center>stany magazynowe</th>
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center>1:n</td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center>1:n</td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td> 
+    <td text-align: center></td>
+    <td text-align: center></td> 
+    <td text-align: center></td>   
+    <td text-align: center></td>   
+    <td text-align: center></td>   
+    <td text-align: center></td>   
+</tr>
