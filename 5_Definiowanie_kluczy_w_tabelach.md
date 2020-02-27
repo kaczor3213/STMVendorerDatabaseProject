@@ -76,6 +76,7 @@ klucze kandydujące:
 * id_fundacji
 * nip	
 * regon	
+* krs
 
 ### Tabela: `start_up`
 
@@ -84,6 +85,7 @@ klucze kandydujące:
 * id_start_up
 * nip	
 * regon	
+* krs
 
 ### Tabela: `stanowiska`
 
@@ -105,6 +107,7 @@ klucze kandydujące:
 * id_przedsiębiorstwa
 * nip
 * regon
+* krs
 
 ### Tabela: `pracownicy`
 
