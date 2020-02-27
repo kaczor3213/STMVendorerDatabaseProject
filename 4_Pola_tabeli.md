@@ -857,7 +857,7 @@
         <td></td>
     </tr>
         <tr>
-        <th>datki</th>
+        <th style="text-align: center;" colspan="5">datki</th>
     </tr>
     <tr>
         <td>id_datku</td>
