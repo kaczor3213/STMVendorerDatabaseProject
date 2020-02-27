@@ -1280,10 +1280,10 @@
         <td></td>
     </tr>
      <tr>
-        <th style="text-align: center;" colspan="5">przesunięcie_towary</th>
+        <th style="text-align: center;" colspan="5">przesunięcia_towary</th>
     </tr>
     <tr>
-        <td>id_przesunięcie_towary</td>
+        <td>id_przesunięcia_towary</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
