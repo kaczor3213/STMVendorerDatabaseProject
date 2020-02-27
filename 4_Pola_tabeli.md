@@ -1,13 +1,13 @@
 <table>
     <tr>
-        <th>Nazwa pola</th>
-        <th>Typ pola</th>
-        <th>Czy pole jest wymagane</th>
-        <th>Czy jest unikatowa</th>
-        <th>Opis</th>
+        <th>nazwa pola</th>
+        <th>typ pola</th>
+        <th>czy pole jest wymagane</th>
+        <th>czy jest unikatowa</th>
+        <th>opis</th>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Kategorie towarów</th>
+        <th style="text-align: center;" colspan="5">kategorie towarów</th>
     </tr>
     <tr>
         <td>id_kategorii_towaru</td>
@@ -31,7 +31,7 @@
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Punkty sprzedaży</th>
+        <th style="text-align: center;" colspan="5">punkty sprzedaży</th>
     </tr>
     <tr>
         <td>id_punktu_sprzedaży</td>
@@ -83,7 +83,7 @@
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Dostawcy</th>
+        <th style="text-align: center;" colspan="5">dostawcy</th>
     </tr>
     <tr>
         <td>id_dostawcy</td>
@@ -135,7 +135,7 @@
         <td></td>
     </tr>
      <tr>
-        <th style="text-align: center;" colspan="5">Hurtownie</th>
+        <th style="text-align: center;" colspan="5">hurtownie</th>
     </tr>
     <tr>
         <td>id_hurtowni</td>
@@ -187,7 +187,7 @@
         <td></td>
     </tr>
      <tr>
-        <th style="text-align: center;" colspan="5">Płatności</th>
+        <th style="text-align: center;" colspan="5">płatności</th>
     </tr>
     <tr>
         <td>id_płatności</td>
@@ -204,7 +204,7 @@
         <td></td>
     </tr>
      <tr>
-        <th style="text-align: center;" colspan="5">Sprzedaże</th>
+        <th style="text-align: center;" colspan="5">sprzedaże</th>
     </tr>
     <tr>
         <td>id_sprzedaży</td>
@@ -270,7 +270,7 @@
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Towary</th>
+        <th style="text-align: center;" colspan="5">towary</th>
     </tr>
     <tr>
         <td>id_towaru</td>
@@ -329,7 +329,7 @@
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Przesunięcia magazynowe</th>
+        <th style="text-align: center;" colspan="5">przesunięcia magazynowe</th>
     </tr>
     <tr>
         <td>id_przesunięcia_magazynowego</td>
@@ -354,21 +354,21 @@
     </tr>
     <tr>
         <td>data_zlecenia</td>
-        <td>Timestamp</td>
+        <td>timestamp</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
         <td>data_realizacji</td>
-        <td>Timestamp</td>
+        <td>timestamp</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
         <td>data_odbioru_końcowego</td>
-        <td>Timestamp</td>
+        <td>timestamp</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
@@ -642,14 +642,14 @@
         <td></td>
     </tr>
     <tr>
-        <td>id_Pracownika</td>
+        <td>id_pracownika</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Sprzedaży</td>
+        <td>id_sprzedaży</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
@@ -670,602 +670,626 @@
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Fundacje</th>
+        <th style="text-align: center;" colspan="5">fundacje</th>
     </tr>
     <tr>
-        <td>id_Fundacji</td>
+        <td>id_fundacji</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
      <tr>
-        <td>Ulica</td>
+        <td>ulica</td>
         <td>znakowe(20 max)</td>
         <td></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>Numer</td>
+        <td>numer</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Mieszkanie</td>
+        <td>mieszkanie</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Województwo</td>
+        <td>województwo</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Kod_pocztowy</td>
+        <td>kod_pocztowy</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Miejscowość</td>
+        <td>miejscowość</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Nazwa_Fundacji</td>
+        <td>nazwa_fundacji</td>
         <td>znakowy(30 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>NIP</td>
+        <td>nip</td>
         <td>całkowity(9)</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>REGON</td>
+        <td>regon</td>
         <td>całkowity(14 max 9 min)</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Start up</th>
+        <th style="text-align: center;" colspan="5">start up</th>
     </tr>
     <tr>
-        <td>id_Start_up</td>
+        <td>id_start_up</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
      <tr>
-        <td>Ulica</td>
+        <td>ulica</td>
         <td>znakowe(20 max)</td>
         <td></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>Numer</td>
+        <td>numer</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Mieszkanie</td>
+        <td>mieszkanie</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Województwo</td>
+        <td>województwo</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Kod_pocztowy</td>
+        <td>kod_pocztowy</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Miejscowość</td>
+        <td>miejscowość</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Nazwa_Start_up</td>
+        <td>nazwa_start_up</td>
         <td>znakowy(30 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>NIP</td>
+        <td>nip</td>
         <td>całkowity(9)</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>REGON</td>
+        <td>regon</td>
         <td>całkowity(14 max 9 min)</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Stanowiska</th>
+        <th style="text-align: center;" colspan="5">stanowiska</th>
     </tr>
     <tr>
-        <td>id_Stanowiska</td>
+        <td>id_stanowiska</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Pracownika</td>
+        <td>id_pracownika</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Nazwa</td>
+        <td>nazwa</td>
         <td>znakowy(30 max)</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <th>Uprawnienia</th>
+        <th>uprawnienia</th>
     </tr>
     <tr>
-        <td>id_Uprawnienia</td>
+        <td>id_uprawnienia</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>Rodzaj/Nazwa</td>
+        <td>rodzaj/nazwa</td>
         <td>znakowy(30 maks)</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
         <tr>
-        <th>Datki</th>
+        <th>datki</th>
     </tr>
     <tr>
-        <td>id_Datku</td>
+        <td>id_datku</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Fundacji</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>id_Start_up</td>
+        <td>id_fundacji</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Kwota</td>
+        <td>id_start_up</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Dane przedsiębiorstw</th>
+        <td>kwota</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
     </tr>
     <tr>
-        <td>id_Przedsiębiorstwa</td>
+        <th style="text-align: center;" colspan="5">dane przedsiębiorstw</th>
+    </tr>
+    <tr>
+        <td>id_przedsiębiorstwa</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>Ulica</td>
+        <td>ulica</td>
         <td>znakowe(20 max)</td>
         <td></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>Numer</td>
+        <td>numer</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Mieszkanie</td>
+        <td>mieszkanie</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Województwo</td>
+        <td>województwo</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Kod_pocztowy</td>
+        <td>kod_pocztowy</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Miejscowość</td>
+        <td>miejscowość</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Nazwa_Przedsiębiorcy</td>
+        <td>nazwa_przedsiębiorcy</td>
         <td>znakowy(30 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>NIP</td>
+        <td>nip</td>
         <td>całkowity(9)</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>REGON</td>
+        <td>regon</td>
         <td>całkowity(14 max 9 min)</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Pracownicy</th>
+        <th style="text-align: center;" colspan="5">pracownicy</th>
     </tr>
     <tr>
-        <td>id_Pracownika</td>
+        <td>id_pracownika</td>
         <td>calkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Umowy</td>
+        <td>id_umowy</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Stanowiska</td>
+        <td>id_stanowiska</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Hurtownii</td>
+        <td>id_hurtownii</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Imie</td>
+        <td>imie</td>
         <td>znakowy(15max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Drugie_imie</td>
+        <td>drugie_imie</td>
         <td>znakowy(15max)</td>
         <td>nie</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Naziwsko</td>
+        <td>naziwsko</td>
         <td>znakowy(15max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Pesel</td>
+        <td>pesel</td>
         <td>całkowity(11)</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
      <tr>
-        <td>Ulica</td>
+        <td>ulica</td>
         <td>znakowe(20 max)</td>
         <td></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>Numer</td>
+        <td>numer</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Mieszkanie</td>
+        <td>mieszkanie</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Województwo</td>
+        <td>województwo</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Kod_pocztowy</td>
+        <td>kod_pocztowy</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Miejscowość</td>
+        <td>miejscowość</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Telefon</td>
+        <td>telefon</td>
         <td>całkowity(9 min 11 max)</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Umowy</th>
+        <th style="text-align: center;" colspan="5">umowy</th>
     </tr>
     <tr>
-        <td>id_Umowy</td>
+        <td>id_umowy</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>Rodzaj</td>
+        <td>rodzaj</td>
         <td>znakowy</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Towary_Hurtownie</th>
+        <th style="text-align: center;" colspan="5">towary_hurtownie</th>
     </tr>
     <tr>
-        <td>id_Hurtownie_Towary</td>
+        <td>id_hurtownie_towary</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Hurtownii</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>id_Towaru</td>
+        <td>id_hurtownii</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Ilość</td>
+        <td>id_towaru</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Towary_Sprzedaż</th>
-    </tr>
-    <tr>
-        <td>id_Towary_Sprzedaż</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>tak</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>id_Towaru</td>
+        <td>ilość</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Sprzedaży</td>
+        <th style="text-align: center;" colspan="5">towary_sprzedaż</th>
+    </tr>
+    <tr>
+        <td>id_towary_sprzedaż</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>id_towaru</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Cena_jednostkowa</td>
+        <td>id_sprzedaży</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Ilość</td>
+        <td>cena_jednostkowa</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Towary_Kategorie</th>
-    </tr>
-    <tr>
-        <td>id_Towary_Kategorie</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>tak</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>id_Towaru</td>
+        <td>ilość</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Kategorii_towaru</td>
+        <th style="text-align: center;" colspan="5">towary_kategorie</th>
+    </tr>
+    <tr>
+        <td>id_towary_kategorie</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>id_towaru</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Towary_Zamówienie</th>
-    </tr>
-    <tr>
-        <td>id_Towary_Zamówienie</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>tak</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>id_Towaru</td>
+        <td>id_kategorii_towaru</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Zamówienia</td>
+        <th style="text-align: center;" colspan="5">towary_zamówienie</th>
+    </tr>
+    <tr>
+        <td>id_towary_zamówienie</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>id_towaru</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Cena_jednostkowa</td>
+        <td>id_zamówienia</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>Ilość</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td></td>
-    </tr>
-     <tr>
-        <th style="text-align: center;" colspan="5">Przesunięcie_Towary</th>
-    </tr>
-    <tr>
-        <td>id_Przesunięcie_Towary</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>tak</td>
-        <td></td>
-    </tr>
-     <tr>
-        <td>id_Przesunięcia_magazynowego</td>
+        <td>cena_jednostkowa</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Towaru</td>
+        <td>ilość</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
      <tr>
-        <td>Ilość</td>
-        <td>całkowity</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td></td>
+        <th style="text-align: center;" colspan="5">przesunięcie_towary</th>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">Uprawnienia_Stanowiska</th>
-    </tr>
-    <tr>
-        <td>id_Uprawnienia_Stanowiska</td>
+        <td>id_przesunięcie_towary</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
         <td></td>
     </tr>
      <tr>
-        <td>id_Uprawnienia</td>
+        <td>id_przesunięcia_magazynowego</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
         <td></td>
     </tr>
     <tr>
-        <td>id_Stanowiska</td>
+        <td>id_towaru</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+     <tr>
+        <td>ilość</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <th style="text-align: center;" colspan="5">uprawnienia_stanowiska</th>
+    </tr>
+    <tr>
+        <td>id_uprawnienia_stanowiska</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td></td>
+    </tr>
+     <tr>
+        <td>id_uprawnienia</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>id_stanowiska</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <th style="text-align: center;" colspan="5">towary_datki</th>
+    </tr>
+    <tr>
+        <td>id_towary_datki</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>id_towary</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>id_datki</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>

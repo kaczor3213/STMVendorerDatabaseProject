@@ -1,6 +1,3 @@
 poprawa relacji dostawca i list przewozowy(aktuazlizacja na kartce jako wzór)
 hurtownia list przewozowy
-towary niezgodność w wyświetlaniu(błąd jak się nie poprawi jak code chce ehhh)
-numer listu przewozowego zamówienia dodaj
 listy przewozowe przy wysyłce
-jebane datki do dodania!!!!!

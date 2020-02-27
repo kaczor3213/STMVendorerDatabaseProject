@@ -109,7 +109,7 @@
     <td text-align: center></td>
     <td text-align: center></td>
     <td text-align: center>1:n</td>
-    <td text-align: center></td>
+    <td text-align: center>1:n</td>
     <td text-align: center></td>
     <td text-align: center></td>
     <td text-align: center></td>
@@ -157,7 +157,7 @@
     <td text-align: center>m:n</td>
     <td text-align: center></td>
     <td text-align: center></td>
-    <td text-align: center></td>
+    <td text-align: center>1:n</td>
     <td text-align: center>1:1</td>
     <td text-align: center></td>
     <td text-align: center></td>
