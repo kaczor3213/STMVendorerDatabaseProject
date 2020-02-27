@@ -6,8 +6,8 @@
         <th>Czy jest unikatowa</th>
         <th>Opis</th>
     </tr>
-    <tr colspawn="5">
-        <th>Kategorie towarów</th>
+    <tr>
+        <th style="text-align: center;" colspan="5">Kategorie towarów</th>
     </tr>
     <tr>
         <td>id_Kategorii_towaru</td>
@@ -30,8 +30,8 @@
         <td>tak</td>
         <td></td>
     </tr>
-    <tr colspawn="5">
-        <th>Punkty sprzedaży</th>
+    <tr>
+        <th style="text-align: center;" colspan="5">Punkty sprzedaży</th>
     </tr>
     <tr>
         <td>id_Punktu_sprzedaży</td>
@@ -89,8 +89,8 @@
         <td>nie</td>
         <td></td>
     </tr>
-    <tr colspawn="5">
-        <th>Dostawcy</th>
+    <tr>
+        <th style="text-align: center;" colspan="5">Dostawcy</th>
     </tr>
     <tr>
         <td>id_Dostawcy</td>
@@ -148,8 +148,8 @@
         <td>tak</td>
         <td></td>
     </tr>
-     <tr colspawn="5">
-        <th>Hurtownie</th>
+     <tr>
+        <th style="text-align: center;" colspan="5">Hurtownie</th>
     </tr>
     <tr>
         <td>id_Hurtowni</td>
@@ -200,8 +200,8 @@
         <td>nie</td>
         <td></td>
     </tr>
-     <tr colspawn="5">
-        <th>Płatności</th>
+     <tr>
+        <th style="text-align: center;" colspan="5">Płatności</th>
     </tr>
     <tr>
         <td>id_Płatności</td>
@@ -217,8 +217,8 @@
         <td>tak</td>
         <td></td>
     </tr>
-     <tr colspawn="5">
-        <th>Sprzedaże</th>
+     <tr>
+        <th style="text-align: center;" colspan="5">Sprzedaże</th>
     </tr>
     <tr>
         <td>id_Sprzedaży</td>
@@ -283,8 +283,8 @@
         <td>nie</td>
         <td></td>
     </tr>
-    <tr colspawn="5">
-        <th>Towary</th>
+    <tr>
+        <th style="text-align: center;" colspan="5">Towary</th>
     </tr>
     <tr>
         <td>id_Towaru</td>
@@ -307,8 +307,8 @@
         <td>nie</td>
         <td></td>
     </tr>
-    <tr colspawn="5">
-        <th>Przesunięcia magazynowe</th>
+    <tr>
+        <th style="text-align: center;" colspan="5">Przesunięcia magazynowe</th>
     </tr>
     <tr>
         <td>id_Przesunięcia_magazynowego</td>
@@ -352,8 +352,8 @@
         <td>nie</td>
         <td></td>
     </tr>
-    <tr colspawn="5">
-        <th>Zamówienie</th>
+    <tr>
+        <th style="text-align: center;" colspan="5">Zamówienie</th>
     </tr>
     <tr>
         <td>id_Zamówienia</td>
@@ -390,8 +390,8 @@
         <td>nie</td>
         <td></td>
     </tr>
-    <tr colspawn="5">
-        <th>Listy przewozowe</th>
+    <tr>
+        <th style="text-align: center;" colspan="5">Listy przewozowe</th>
     </tr>
     <tr>
         <td>id_Listu_przewozowego</td>
@@ -456,8 +456,8 @@
         <td>nie</td>
         <td></td>
     </tr>
-    <tr colspawn="5">
-        <th>Faktury</th>
+    <tr>
+        <th style="text-align: center;" colspan="5">Faktury</th>
     </tr>
     <tr>
         <td>id_Faktury</td>
@@ -480,8 +480,8 @@
         <td>tak</td>
         <td></td>
     </tr>
-    <tr colspawn="5">
-        <th>Fundacje</th>
+    <tr>
+        <th style="text-align: center;" colspan="5">Fundacje</th>
     </tr>
     <tr>
         <td>id_Fundacji</td>
@@ -553,8 +553,8 @@
         <td>tak</td>
         <td></td>
     </tr>
-    <tr colspawn="5">
-        <th>Start up</th>
+    <tr>
+        <th style="text-align: center;" colspan="5">Start up</th>
     </tr>
     <tr>
         <td>id_Start_up</td>
@@ -626,8 +626,8 @@
         <td>tak</td>
         <td></td>
     </tr>
-    <tr colspawn="5">
-        <th>Stanowiska</th>
+    <tr>
+        <th style="text-align: center;" colspan="5">Stanowiska</th>
     </tr>
     <tr>
         <td>id_Stanowiska</td>
@@ -650,7 +650,7 @@
         <td>tak</td>
         <td></td>
     </tr>
-    <tr colspawn="5">
+    <tr>
         <th>Uprawnienia</th>
     </tr>
     <tr>
@@ -667,7 +667,7 @@
         <td>tak</td>
         <td></td>
     </tr>
-        <tr colspawn="5">
+        <tr>
         <th>Datki</th>
     </tr>
     <tr>
@@ -698,9 +698,8 @@
         <td>nie</td>
         <td></td>
     </tr>
-    </tr>
-        <tr colspawn="5">
-        <th>Dane przedsiębiorstw</th>
+    <tr>
+        <th style="text-align: center;" colspan="5">Dane przedsiębiorstw</th>
     </tr>
     <tr>
         <td>id_Przedsiębiorstwa</td>
@@ -773,8 +772,7 @@
         <td></td>
     </tr>
     <tr>
-        <tr colspawn="5">
-        <th>Pracownicy</th>
+        <th style="text-align: center;" colspan="5">Pracownicy</th>
     </tr>
     <tr>
         <td>id_Pracownika</td>
@@ -882,8 +880,7 @@
         <td></td>
     </tr>
     <tr>
-        <tr colspawn="5">
-        <th>Umowy</th>
+        <th style="text-align: center;" colspan="5">Umowy</th>
     </tr>
     <tr>
         <td>id_Umowy</td>
@@ -900,8 +897,7 @@
         <td></td>
     </tr>
     <tr>
-        <tr colspawn="5">
-        <th>Hurtownie_Towary</th>
+        <th style="text-align: center;" colspan="5">Hurtownie_Towary</th>
     </tr>
     <tr>
         <td>id_Hurtownie_Towary</td>
@@ -939,8 +935,7 @@
         <td></td>
     </tr>
     <tr>
-        <tr colspawn="5">
-        <th>Towary_Sprzedaż</th>
+        <th style="text-align: center;" colspan="5">Towary_Sprzedaż</th>
     </tr>
     <tr>
         <td>id_Towary_Sprzedaż</td>
@@ -978,8 +973,7 @@
         <td></td>
     </tr>
     <tr>
-        <tr colspawn="5">
-        <th>Towary_Kategorie</th>
+        <th style="text-align: center;" colspan="5">Towary_Kategorie</th>
     </tr>
     <tr>
         <td>id_Towary_Kategorie</td>
@@ -1003,8 +997,7 @@
         <td></td>
     </tr>
     <tr>
-        <tr colspawn="5">
-        <th>Towary_Zamówienie</th>
+        <th style="text-align: center;" colspan="5">Towary_Zamówienie</th>
     </tr>
     <tr>
         <td>id_Towary_Zamówienie</td>
@@ -1042,8 +1035,7 @@
         <td></td>
     </tr>
      <tr>
-        <tr colspawn="5">
-        <th>Przesunięcie_Towary</th>
+        <th style="text-align: center;" colspan="5">Przesunięcie_Towary</th>
     </tr>
     <tr>
         <td>id_Przesunięcie_Towary</td>
@@ -1074,8 +1066,7 @@
         <td></td>
     </tr>
     <tr>
-        <tr colspawn="5">
-        <th>Uprawnienia_Stanowiska</th>
+        <th style="text-align: center;" colspan="5">Uprawnienia_Stanowiska</th>
     </tr>
     <tr>
         <td>id_Uprawnienia_Stanowiska</td>
