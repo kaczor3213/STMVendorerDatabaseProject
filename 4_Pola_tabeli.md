@@ -14,21 +14,21 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator kategorii towaru</td>
     </tr>
     <tr>
         <td>kategoria</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciąg określający kategorię towaru</td>
     </tr>
     <tr>
         <td>id_podkategorii</td>
         <td>znakowe(30 max)</td>
         <td>nie</td>
         <td>tak</td>
-        <td></td>
+        <td>ciąg określający podkategorię towaru</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">punkty_sprzedaży</th>
@@ -38,49 +38,49 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator punktu sprzedaży</td>
     </tr>
     <tr>
         <td>id_przedsiębiorcy</td>
         <td>całkowity</td>
         <td>nie</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator przedsiębiorcy</td>
     </tr>
     <tr>
         <td>ulica</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający nazwę ulicy</td>
     </tr>
     <tr>
         <td>numer_mieszkania</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający numer mieszkania</td>
     </tr>
     <tr>
         <td>województwo</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający województwo</td>
     </tr>
     <tr>
         <td>kod_pocztowy</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg 6 znaków określający kod pocztowy</td>
     </tr>
     <tr>
         <td>miejscowość</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający miejscowość</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">dostawcy</th>
@@ -90,49 +90,49 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator dostawcy</td>
     </tr>
     <tr>
         <td>ulica</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający nazwę ulicy</td>
     </tr>
     <tr>
         <td>numer_mieszkania</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający numer mieszkania</td>
     </tr>
     <tr>
         <td>województwo</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający województwo</td>
     </tr>
     <tr>
         <td>kod_pocztowy</td>
-        <td>znakowe(6 max)</td>
+        <td>znakowe(6)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg 6 znaków określający kod pocztowy</td>
     </tr>
     <tr>
         <td>miejscowość</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający miejscowość</td>
     </tr>
     <tr>
         <td>nip</td>
-        <td>całkowite(10 max)</td>
+        <td>całkowity(10)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciąg cyfr określający numer identyfikacyjny podatnika o długości 10</td>
     </tr>
      <tr>
         <th style="text-align: center;" colspan="5">hurtownie</th>
@@ -142,49 +142,49 @@
         <td>całkowite</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator hurtownii</td>
     </tr>
     <tr>
         <td>kod_hurtowni</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciąg znakowy określający hurtownię</td>
     </tr>
     <tr>
         <td>ulica</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający nazwę ulicy</td>
     </tr>
     <tr>
         <td>numer_mieszkania</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający numer mieszkania</td>
     </tr>
     <tr>
         <td>województwo</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający województwo</td>
     </tr>
     <tr>
         <td>kod_pocztowy</td>
-        <td>znakowe(6 max)</td>
+        <td>znakowe(6</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający kod pocztowy</td>
     </tr>
     <tr>
         <td>miejscowość</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający miejscowość</td>
     </tr>
      <tr>
         <th style="text-align: center;" colspan="5">płatności</th>
@@ -194,14 +194,14 @@
         <td>całkowite</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator płatności</td>
     </tr>
     <tr>
         <td>rodzaj_płatności</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciąg znakowy określający rodzaj płatności</td>
     </tr>
      <tr>
         <th style="text-align: center;" colspan="5">sprzedaże</th>
@@ -211,63 +211,63 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator sprzedaży</td>
     </tr>
     <tr>
         <td>id_płatności</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator płatności</td>
     </tr>
     <tr>
         <td>id_punktu_sprzedaży</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator punktu sprzedaży</td>
     </tr>
     <tr>
         <td>id_faktury(do rozważenia)</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>identyfikator faktury</td>
     </tr>
     <tr>
         <td>data_zlecenia_sprzedaży</td>
         <td>timestamp</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>data wystawienia zlecenia sprzedaży</td>
     </tr>
     <tr>
         <td>data_zaksięgowania_płatności</td>
         <td>timestamp</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>data zaksięgowowania płatności</td>
     </tr>
     <tr>
         <td>rabat</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba określająca wielkość rabatu</td>
     </tr>
     <tr>
         <td>cena_sum_netto</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba określająca cenę sumaryczną netto</td>
     </tr>
     <tr>
         <td>cena_sum_brutto</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba określająca cenę sumaryczną brutto</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">towary</th>
@@ -277,56 +277,56 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator towaru</td>
     </tr>
     <tr>
         <td>nazwa</td>
         <td>znakowy(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający nazwę towaru</td>
     </tr>
     <tr>
         <td>kod_producenta</td>
         <td>znakowe(10 max)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciąg znakowy określający kod producenta</td>
     </tr>
     <tr>
         <td>opis</td>
         <td>znakowe(200 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający cechy, opinie o towarze</td>
     </tr>
     <tr>
         <td>dostępność</td>
         <td>boolowski</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>wskazuje na dostępność towaru, tak bądź nie</td>
     </tr>
     <tr>
         <td>cena_jedn_netto</td>
         <td>decymalny</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba zmiennoprzecinkowa określająca wartość ceny pojedyńczego produktu netto</td>
     </tr>
     <tr>
         <td>cena_jedn_brutto</td>
         <td>decymalny</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba zmiennoprzecinkowa określająca wartość ceny pojedyńczego produktu brutto</td>
     </tr>
     <tr>
         <td>stawka_vat</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba określająca wielkość stawki vat'u</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">przesunięcia_magazynowe</th>
@@ -336,56 +336,56 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator przesunięcia magazynowego</td>
     </tr>
     <tr>
         <td>id_pracownika</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator pracownika</td>
     </tr>
      <tr>
         <td>id_listu_przewozowego</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator listu przewozowego</td>
     </tr>
     <tr>
         <td>data_zlecenia</td>
         <td>timestamp</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>data wystawiwenia zlecenia</td>
     </tr>
     <tr>
         <td>data_realizacji</td>
         <td>timestamp</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>data realizacji zlecenia</td>
     </tr>
     <tr>
         <td>data_odbioru_końcowego</td>
         <td>timestamp</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>data odbioru przesunięcia towarowego</td>
     </tr>
     <tr>
         <td>id_hurtownii_źródłowej</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator hurtowni, z której przesuwamy towar</td>
     </tr>
     <tr>
         <td>id_hurtownii_docelowej</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator hurtowni, do której przesuwamy towar</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">zamówienia</th>
@@ -395,42 +395,42 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfiaktor zamówienia</td>
     </tr>
     <tr>
         <td>id_dostawcy</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator dostawcy</td>
     </tr>
     <tr>
         <td>id_hurtowni</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator hurtowni</td>
     </tr>
     <tr>
         <td>id_pracownika</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator pracownika</td>
     </tr>
     <tr>
         <td>data_zlecenia</td>
         <td>timestamp</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>data wystawienia zlecenia</td>
     </tr>
     <tr>
         <td>data_odbioru</td>
         <td>timestamp</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>data odbioru zamówienia</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">listy_przewozowe</th>
@@ -440,126 +440,126 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator listu przewozowego</td>
     </tr>
     <tr>
         <td>id_sprzedaży</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator sprzedaży</td>
     </tr>
     <tr>
         <td>id_dostawcy</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator dostawcy</td>
     </tr>
     <tr>
         <td>id_hurtowni</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfiaktor hurtowni</td>
     </tr>
     <tr>
         <td>województwo_odbiorcy</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg określający województwo, w którym jest odbiorca</td>
     </tr>
     <tr>
         <td>powiat_odbiorcy</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg określający powiat, w którym jest odbiorca</td>
     </tr>
     <tr>
         <td>gmina_odbiorcy</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg określający gminę, w której jest odbiorca</td>
     </tr>
     <tr>
         <td>miejscowość_odbiorcy</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg określający miejscowosć, w której jest odbiorca</td>
     </tr>
     <tr>
         <td>ulica_odbiorcy</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg określający nazwę ulicy, na której jest odbiorca</td>
     </tr>
     <tr>
         <td>numer_mieszkania_odbiorcy</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg określający numer mieszkania, odbiorcy</td>
     </tr>
     <tr>
         <td>kod_pocztowy_odbiorcy</td>
-        <td>znakowe(6 max)</td>
+        <td>znakowe(6)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg 6 znaków określający kod pocztowy miejscowości, w której znajduje się odbiorca</td>
     </tr>
     <tr>
         <td>data_wystawienia</td>
         <td>timestamp</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>data wystawienia listu przewozowego</td>
     </tr>
     <tr>
         <td>data_przyjęcia_do_przewozu</td>
         <td>timestamp</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>data przyjęcia towaru do przewozu</td>
     </tr>
     <tr>
         <td>sposób pakowania</td>
         <td>enumeryczny</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający sposób zapokowania towaru</td>
     </tr>
     <tr>
         <td>waga</td>
         <td>decymalny</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba zmiennoprzecinkowa określająca wagę towaru</td>
     </tr>
     <tr>
         <td>rodzaj_towaru</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający rodzaj towaru</td>
     </tr>
     <tr>
         <td>koszt_wysyłki_netto</td>
-        <td>timestamp</td>
+        <td>decymalny</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba zmiennoprzecinkowa określająca koszt wysyłki netto</td>
     </tr>
     <tr>
         <td>koszt_wysyłki_brutto</td>
-        <td>timestamp</td>
+        <td>decymalny</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba zmiennoprzecinkowa określająca koszt wysyłki brutto</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">faktury</th>
@@ -569,105 +569,105 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator faktury</td>
     </tr>
     <tr>
         <td>imie_nabywcy</td>
         <td>znakowy(20 max)</td>
         <td>nie</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający imię nabywcy</td>
     </tr>
     <tr>
         <td>nazwisko_nabywcy</td>
         <td>znakowy(20 max)</td>
         <td>nie</td>
         <td>nie</td>_
-        <td></td>
+        <td>ciąg znakowy określający nazwisko nabywcy</td>
     </tr>
     <tr>
         <td>nazwa_nabywcy</td>
         <td>znakowy(30 max)</td>
         <td>nie</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający nazwę nabywcy</td>
     </tr>
     <tr>
         <td>ulica_nabywcy</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający ulicę, na której znajduje się nabywca</td>
     </tr>
     <tr>
         <td>numer_mieszkania_nabywcy</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający numer mieszkania nabywcy</td>
     </tr>
     <tr>
         <td>kod_pocztowy_nabywcy</td>
-        <td>znakowe(6 max)</td>
+        <td>znakowe(6)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg 6 znaków określający kod pocztowy miejscowości, w której znajduje się nabywca</td>
     </tr>
     <tr>
         <td>miejscowość_nabywcy</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający miejscowość, w której znajduje się nabywca</td>
     </tr>
     <tr>
         <td>numer_telefonu_nabywcy</td>
         <td>całkowity</td>
         <td>nie</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba określająca numer telefonu nabywcy</td>
     </tr>
     <tr>
         <td>numer_fax_nabywcy</td>
         <td>całkowity</td>
         <td>nie</td>
         <td>nie</td>
-        <td></td>
+        <td>numer określający numer fax nabywcy</td>
     </tr>
     <tr>
         <td>email_nabywcy</td>
         <td>znakowe(50 max)</td>
         <td>nie</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający email nabywcy</td>
     </tr>
     <tr>
         <td>id_pracownika</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfiaktor pracownika</td>
     </tr>
     <tr>
         <td>id_sprzedaży</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator sprzedaży</td>
     </tr>
     <tr>
         <td>stawka_vat</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba określająca wielkość stawki vat'u</td>
     </tr>
     <tr>
         <td>data_wystawienia</td>
         <td>timestamp</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>data wystawienia faktury</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">fundacje</th>
@@ -677,98 +677,98 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator fundacji</td>
     </tr>
      <tr>
         <td>ulica</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający nazwę ulicy, na której znajduje się fundacja</td>
     </tr>
     <tr>
         <td>numer_mieszkania</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający numer mieszknia fundacji</td>
     </tr>
     <tr>
         <td>województwo</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający województwo, w którym znajduje się fundacja</td>
     </tr>
     <tr>
         <td>powiat</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający powiat, na którym znajduje się fundacja</td>
     </tr>
     <tr>
         <td>gmina</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający gminę, na którym znajduje się fundacja</td>
     </tr>
     <tr>
         <td>kod_pocztowy</td>
-        <td>znakowe(6 max)</td>
+        <td>znakowe(6)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg 6 znaków określający kod pocztowy miejscowości, w której znajduje się fundacja</td>
     </tr>
     <tr>
         <td>miejscowość</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający miejscowość, na której znajduje się fundacja</td>
     </tr>
     <tr>
         <td>nazwa_fundacji</td>
         <td>znakowy(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający nazwę fundacji</td>
     </tr>
     <tr>
         <td>numer_telefonu</td>
-        <td>znakowy(11 max 9 min)</td>
+        <td>całkowity(11 lub 9 )</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg cyfr o długości 11 bądź 9 określający numer telefon fundacji</td>
     </tr>
     <tr>
         <td>email</td>
         <td>znakowy(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający email fundacji</td>
     </tr>
     <tr>
         <td>nip</td>
-        <td>całkowity(9)</td>
+        <td>całkowity(10)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciag cyfr określający numer identyfikacyjny podatnika o długości 10, fundacji </td>
     </tr>
     <tr>
         <td>regon</td>
-        <td>całkowity(14 max 9 min)</td>
+        <td>całkowity(14 lub 9)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciąg cyfr określający numer regon fundacji, o długości 9 bądź 14</td>
     </tr>
     <tr>
         <td>krs</td>
-        <td>całkowity(10 max)</td>
+        <td>całkowity(10)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciąg cyfr określający numer krs fundacji, o długości 10</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">start_up</th>
@@ -778,84 +778,84 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator start up'u</td>
     </tr>
      <tr>
         <td>ulica</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający nazwę ulicy, na ktorej znajduje się start up</td>
     </tr>
     <tr>
         <td>numer_mieszkania</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający numer mieszkania start up'u</td>
     </tr>
     <tr>
         <td>województwo</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający województwo, w którym znajduje się start up</td>
     </tr>
     <tr>
         <td>kod_pocztowy</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający kod pocztowy miejscowości, w której znajduje się start up</td>
     </tr>
     <tr>
         <td>miejscowość</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający miejscowość, w której znajduje się start up</td>
     </tr>
     <tr>
         <td>powiat</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający powiat, w którym znajduje się start up</td>
     </tr>
     <tr>
         <td>gmina</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający gminę, w której znajduje się start up</td>
     </tr>
     <tr>
         <td>nazwa_start_up</td>
         <td>znakowy(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający nazwę start up'u</td>
     </tr>
     <tr>
         <td>nip</td>
         <td>całkowity(9)</td>
         <td>nie</td>
         <td>tak</td>
-        <td></td>
+        <td>ciag cyfr określający numer identyfikacyjny podatnika o długości 10, start up'u</td>
     </tr>
     <tr>
         <td>regon</td>
-        <td>całkowity(14 max 9 min)</td>
+        <td>całkowity(14 bądź 9 )</td>
         <td>nie</td>
         <td>tak</td>
-        <td></td>
+        <td>ciag cyfr określający numer regon o długości 14 bądź 9, start up'u</td>
     </tr>
       <tr>
         <td>krs</td>
-        <td>całkowity(10 max)</td>
+        <td>całkowity(10)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciag cyfr określający numer krs o długości 10, start up'u</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">stanowiska</th>
@@ -865,21 +865,21 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator stanowiska</td>
     </tr>
     <tr>
         <td>id_pracownika</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator pracownika</td>
     </tr>
     <tr>
         <td>nazwa</td>
         <td>znakowy(30 max)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciąg znaków określający nazwę stanowiska</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">uprawnienia</th>
@@ -889,14 +889,14 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator uprawnienia</td>
     </tr>
     <tr>
         <td>rodzaj/nazwa</td>
         <td>znakowy(30 maks)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciąg znaków określający rodzaj/nazwę uprawnienia</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">datki</th>
@@ -906,28 +906,28 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator datku</td>
     </tr>
     <tr>
         <td>id_fundacji</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator fundacji</td>
     </tr>
     <tr>
         <td>id_start_up</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator start up'u</td>
     </tr>
     <tr>
         <td>kwota</td>
-        <td>całkowity</td>
+        <td>decymalny</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba zmiennoprzecinkowa określająca kwotę przeznaczoną na fundację/start up</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">dane_przedsiębiorstw</th>
@@ -937,84 +937,84 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator przedsiębiorstwa</td>
     </tr>
     <tr>
         <td>ulica</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający nazwę ulicy, na ktorej znajduje się przedsiębiorstwo</td>
     </tr>
     <tr>
         <td>numer_mieszkania</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający numer mieszkania przedsiębiorstwa/td>
     </tr>
     <tr>
         <td>województwo</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający województwo, w którym znajduje się przedsiębiorstwo</td>
     </tr>
     <tr>
         <td>kod_pocztowy</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający kod pocztowy miejscowości miejscowości, w której znajduje się przedsiębiorstwo</td>
     </tr>
     <tr>
         <td>miejscowość</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający miejscowość, w której znajduje się przedsiębiorstwo</td>
     </tr>
     <tr>
         <td>powiat</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający powiat, w którym znajduje się przedsiębiorstwo</td>
     </tr>
     <tr>
         <td>gmina</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający gminę, w której znajduje się przedsiębiorstwo</td>
     </tr>
     <tr>
         <td>nazwa_przedsiębiorcy</td>
         <td>znakowy(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znakowy określający nazwę przedsiębiorstwa</td>
     </tr>
     <tr>
         <td>nip</td>
         <td>całkowity(9)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciag cyfr określający numer identyfikacyjny podatnika o długości 10, przedsiębiorstwa</td>
     </tr>
     <tr>
         <td>regon</td>
-        <td>całkowity(14 max 9 min)</td>
+        <td>całkowity(14 bądź 9)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciag cyfr określający numer regon długości 14 bądź 9, przedsiębiorstwa</td>
     </tr>
     <tr>
         <td>krs</td>
-        <td>całkowity(10 max)</td>
+        <td>całkowity(10)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciag cyfr określający numer krs o długości 10, przedsiębiorstwa</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">pracownicy</th>
@@ -1024,112 +1024,112 @@
         <td>calkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator pracownika</td>
     </tr>
     <tr>
         <td>id_umowy</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator umowy</td>
     </tr>
     <tr>
         <td>id_stanowiska</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator stanowiska</td>
     </tr>
     <tr>
         <td>id_hurtownii</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator hurtowni</td>
     </tr>
     <tr>
         <td>imie</td>
         <td>znakowy(15max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znaków określający imię pracownika</td>
     </tr>
     <tr>
         <td>drugie_imie</td>
         <td>znakowy(15max)</td>
         <td>nie</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znaków określający drugie imię pracownika</td>
     </tr>
     <tr>
         <td>nazwisko</td>
         <td>znakowy(15max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znaków określający nazwisko pracownika</td>
     </tr>
     <tr>
         <td>pesel</td>
         <td>całkowity(11)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciąg cyfr określający pesel pracownika, o długości 11</td>
     </tr>
     <tr>
         <td>ulica</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znaków określający ulicę, na której mieszka pracownik</td>
     </tr>
     <tr>
         <td>numer_mieszkania</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znaków określający numer mieszkania, w którym mieszka pracownik</td>
     </tr>
     <tr>
         <td>województwo</td>
         <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znaków określający województwo, w którym mieszka pracownik</td>
     </tr>
     <tr>
         <td>kod_pocztowy</td>
         <td>znakowe(6 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znaków określający kod pocztowy miejscowości, w której mieszka pracownik</td>
     </tr>
     <tr>
         <td>miejscowość</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znaków określający miejsowość, w której mieszka pracownik</td>
     </tr>
     <tr>
         <td>powiat</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znaków określający powiat, w którym mieszka pracownik</td>
     </tr>
     <tr>
         <td>gmina</td>
         <td>znakowe(30 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>ciąg znaków określający gmina, w którym mieszka pracownik</td>
     </tr>
     <tr>
         <td>telefon</td>
         <td>całkowity(9 min 11 max)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciąg znaków określający województwo, w którym mieszka pracownik</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">umowy</th>
@@ -1139,14 +1139,14 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator umowy</td>
     </tr>
     <tr>
         <td>rodzaj</td>
         <td>znakowy(30 max)</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>ciąg znaków określający rodzaj umowy</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">stany_magazynowe</th>
@@ -1156,28 +1156,28 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator stanu magazynowego</td>
     </tr>
     <tr>
         <td>id_hurtownii</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator hurtowni</td>
     </tr>
     <tr>
         <td>id_towaru</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator towaru</td>
     </tr>
     <tr>
         <td>ilość</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba całkowita określająca ilość towaru</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">towary_sprzedaże</th>
@@ -1187,35 +1187,35 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator tabeli towary-sprzedaże</td>
     </tr>
     <tr>
         <td>id_towaru</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator towaru</td>
     </tr>
     <tr>
         <td>id_sprzedaży</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator sprzedaży</td>
     </tr>
     <tr>
         <td>cena_jednostkowa</td>
-        <td>całkowity</td>
+        <td>decymalny</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba zmiennoprzecinkowa określająca cenę jednostkową towaru</td>
     </tr>
     <tr>
         <td>ilość</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba całkowita określająca ilość towaru</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">towary_kategorie_towarów</th>
@@ -1225,21 +1225,21 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator tabeli towary-kategorie towarów</td>
     </tr>
     <tr>
         <td>id_towaru</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator towaru</td>
     </tr>
     <tr>
         <td>id_kategorii_towaru</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator kategorii</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">towary_zamówienia</th>
@@ -1249,35 +1249,35 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator zamówienia</td>
     </tr>
     <tr>
         <td>id_towaru</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator towaru</td>
     </tr>
     <tr>
         <td>id_zamówienia</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator zamówienia</td>
     </tr>
     <tr>
         <td>cena_jednostkowa</td>
-        <td>całkowity</td>
+        <td>decymalny</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba zmiennoprzecinkowa określająca cenę jednostkową towaru</td>
     </tr>
     <tr>
         <td>ilość</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba całkowita określająca ilość towaru</td>
     </tr>
      <tr>
         <th style="text-align: center;" colspan="5">przesunięcia_towary</th>
@@ -1287,28 +1287,28 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator tabeli przesunięcia-towary</td>
     </tr>
      <tr>
         <td>id_przesunięcia_magazynowego</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator przesunięcia magazynowego</td>
     </tr>
     <tr>
         <td>id_towaru</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator towaru</td>
     </tr>
      <tr>
         <td>ilość</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>liczba całkowita określająca ilość towaru</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">uprawnienia_stanowiska</th>
@@ -1318,21 +1318,21 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator tabeli uprawnienia-stanowiska</td>
     </tr>
      <tr>
         <td>id_uprawnienia</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator uprawnień</td>
     </tr>
     <tr>
         <td>id_stanowiska</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator stanowiska</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">towary_datki</th>
@@ -1342,20 +1342,20 @@
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td></td>
+        <td>identyfikator tabeli towary-datki</td>
     </tr>
     <tr>
         <td>id_towary</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator towaru</td>
     </tr>
     <tr>
         <td>id_datki</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>nie</td>
-        <td></td>
+        <td>identyfikator datku</td>
     </tr>
 </table>
