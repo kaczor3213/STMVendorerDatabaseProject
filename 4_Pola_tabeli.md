@@ -762,10 +762,10 @@
     </tr>
     <tr>
         <td>stawka_vat</td>
-        <td>całkowity</td>
+        <td>decymalny</td>
         <td>tak</td>
         <td>nie</td>
-        <td>liczba określająca wielkość stawki vat'u</td>
+        <td>liczba zmiennoprzecinkowa określająca wielkość stawki vat'u</td>
     </tr>
     <tr>
         <td>data_wystawienia</td>
