@@ -46,26 +46,26 @@
     </tr>
     <tr>
        <td text-align: center>towary_towary_przesunięcia</td> 
-       <td text-align: center>ustawienie wartości false</td> 
+       <td text-align: center>usuwanie kaskadowe</td> 
     </tr>
     <tr>
-       <td text-align: center>hurtownie_pracownicy</td> 
-       <td text-align: center>ustawienie wartości `false` dla atrybutu `status` w tabeli `pracownicy`</td>
+       <td text-align: center>hurtownie_przesunięcie_magazynowe</td> 
+       <td text-align: center>usuwanie kaskadowe</td>
     </tr>
     <tr>
-       <td text-align: center>pracownicy_przesunięcia_magazynowe</td> 
-       <td text-align: center>brak zmian</td> 
+       <td text-align: center>towary_stany_magazynowe</td> 
+       <td text-align: center>usuwanie_kaskadowe</td>
     </tr>
     <tr>
-       <td text-align: center>pracownicy_faktury</td> 
-       <td text-align: center>brak zmian</td> 
+       <td text-align: center>towary_towary_sprzedaże</td> 
+       <td text-align: center>usuwanie_kaskadowe</td> 
     </tr>
     <tr>
-       <td text-align: center>pracownicy_zamówienia</td> 
-       <td text-align: center>brak zmian</td> 
+       <td text-align: center>towary_towary_kategorie_towarów</td> 
+       <td text-align: center>usuwanie kaskadowe</td> 
     </tr>
     <tr>
-       <td text-align: center>hurtownie_pracownicy</td> 
+       <td text-align: center>kategorie_towaru_towary_kategorie_towaru</td> 
        <td text-align: center>ustawienie wartości `false` dla atrybutu `status` w tabeli `pracownicy`</td>
     </tr> 
     <tr>
