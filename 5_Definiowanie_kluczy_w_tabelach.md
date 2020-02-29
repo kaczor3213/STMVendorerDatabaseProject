@@ -4,7 +4,7 @@
 
 klucze kandydujące:
 
-* id_kategorii_towaru
+* id_kategorii
 
 ### Tabela: `punkty_sprzedaży`
 

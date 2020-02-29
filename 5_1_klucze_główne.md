@@ -4,9 +4,9 @@
         <th text-align: center>Nazwa klucza głównego</th>
     </tr>
     <tr>
-       <td text-align: center>kategorie_towarów
+       <td text-align: center>kategorie
 </td> 
-       <td text-align: center>id_kategorii_towaru</td> 
+       <td text-align: center>id_kategorii</td> 
     </tr>
     <tr>
        <td text-align: center>punkty_sprzedaży

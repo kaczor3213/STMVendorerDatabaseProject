@@ -111,6 +111,13 @@
         <td>ciąg znakowy określający email</td>
     </tr>
     <tr>
+        <td>status</td>
+        <td>bool'owski</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td>zmienna określająca czy punkt sprzedaży dalej istnieje, tak czy nie</td>
+    </tr>
+    <tr>
         <th style="text-align: center;" colspan="5">dostawcy</th>
     </tr>
     <tr>
@@ -270,6 +277,13 @@
         <td>nie</td>
         <td>ciąg znakowy określający gminę, o długości 6</td>
     </tr>
+    <tr>
+        <td>status</td>
+        <td>bool'owski</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td>zmienna określająca czy hurtownia dalej istnieje</td>
+    </tr>
      <tr>
         <th style="text-align: center;" colspan="5">płatności</th>
     </tr>
@@ -286,6 +300,13 @@
         <td>tak</td>
         <td>tak</td>
         <td>ciąg znakowy określający rodzaj płatności</td>
+    </tr>
+    <tr>
+        <td>dostępność</td>
+        <td>bool'owski</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td>zmienna określająca czy dany rodzaj płatności jest dalej możliwy</td>
     </tr>
      <tr>
         <th style="text-align: center;" colspan="5">sprzedaże</th>
@@ -404,6 +425,13 @@
         <td>tak</td>
         <td>nie</td>
         <td>liczba zmiennoprzecinkowa określająca wielkość stawki vat'u</td>
+    </tr>
+    <tr>
+        <td>status</td>
+        <td>bool'owski</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td>zmienna określająca czy towar jest dalej sprzedowany, tak czy nie</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">przesunięcia_magazynowe</th>
@@ -1092,7 +1120,7 @@
     <tr>
         <td>id_stanowiska</td>
         <td>całkowity</td>
-        <td>tak</td>
+        <td>nie</td>
         <td>nie</td>
         <td>identyfikator stanowiska</td>
     </tr>
