@@ -61,7 +61,7 @@
        <td text-align: center>usuwanie_kaskadowe</td> 
     </tr>
     <tr>
-       <td text-align: center>towary_towary_kategorie_towarów</td> 
+       <td text-align: center>towary_towary_kategorie</td> 
        <td text-align: center>usuwanie kaskadowe</td> 
     </tr>
     <tr>
