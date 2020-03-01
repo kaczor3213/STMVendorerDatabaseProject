@@ -20,7 +20,7 @@ datki
 dane przedsiębiorstw
 
 Użytkowicy:
-pracownicy(szerokopojęte pojęcie)
+pracownicy
 
 Pośredniczące:
 stan magazynowy
