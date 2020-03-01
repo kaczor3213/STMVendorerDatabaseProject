@@ -2422,3 +2422,6 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
 
 We wcześniejszych krokach projektowych został rozwiązany problem relacji typu n:m
 
+## 8. Diagram ERD
+
+<img src="STMVendorerDatabaseProject.jpg"/>
