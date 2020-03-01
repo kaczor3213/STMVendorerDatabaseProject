@@ -2416,8 +2416,9 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     <td text-align: center></td>   
     <td text-align: center></td>   
 </tr>
+</table>
 
 ## 7. Identyfikowanie problematycznych relacji wiele do wielu
 
-W cześniejszych krokach projektowych został rozwiązany problem relacji typu n:m
+We wcześniejszych krokach projektowych został rozwiązany problem relacji typu n:m
 
