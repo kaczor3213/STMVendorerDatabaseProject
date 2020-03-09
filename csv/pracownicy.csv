@@ -1,0 +1,21 @@
+pk;fk_umowy;fk_stanowiska;fk_hurtownia;imie;nazwisko;miejscowosc;ulica;pesel;numer_mieszkania;kod_pocztowy;nip;numer_telefonu;drugie_imie;nazwa_uzytkownika;hashowane_haslo;zatrudnienie
+1;1;8;1;Tomił;Malczka;Bielsko-Biała;ul. Rowerowa;92061816678;141;85-796;906-377-85-96;+352 730541599;Domamir;nyko3aj7lus4qakop;AF18D800CBF20FA9357EA41964E953E9;1
+2;6;7;1;Sylwiusz;Wiksycz;Jelenia Góra;ul. Azalii;04251617215;253;09-230;641-421-52-89;+472 826-114-463;Bazyliusz;g05erihysadygig5lekutuxapodyjadizugegar;C857C8627F3D7A4E41276717D22167E2;1
+3;17;5;1;Urlyk;Aner;Gdańsk;ul. Nowoosiedlowa;89060708336;27;58-533;177-61-27-442;681 465 743 350;Dobromierz;9ovylar3cagukydiz2joperepyvysawoq;E9B86B287CCDC2EAF0237B0B137CF929;1
+4;18;5;1;Dobiemiest;Jerzowski;Lipie;ul. Warszawska;19301506384;127;09-450;333-92-78-960;556077064;Jordan;f5bet1notodiwyxovibenuki9isonyz;D565B8CABCDF1A55B4277F2DE53BFD48;1
+5;4;10;1;Władysław;Wratacz;Gadów;ul. Mazowiecka;89022415087;149;16-001;134-95-55-259;137 702274515;Bertrand;qecokiqeve2ube3yfig3;33F08D9899B00C5595BAC2D201FAE51D;1
+6;7;6;1;Lech;Awtomonow;Sośninka;ul. Fiołków;03211710047;50;89-240;234-498-87-41;839 711194749;Rudolf;n5waqicaqi85zy;C2BFE9A9DBBC52D4CD5206B3922F2F22;1
+7;5;2;1;Marian;Lokota;Warszawa;ul. Doktora Judyma;92120405133;164;44-282;201-22-63-6710;+103 347162366;Toligniew;tyrosejyguk1zawuruvukorysodib9vagacaxypog2fynagyh;728F0C6ACA5DB13BBD56823564AC778E;1
+8;11;9;1;Borzymir;Połgrabski;Kozienice;ul. Pogodna;97041111813;26;14-520;928-87-36-165;114 763 156 073;Jaropełk;0y8ysefa5u;066BFB8E13DC6E803B9CA73067300373;1
+9;19;3;1;Zdzibor;Szymaczak;Warszawa;ul. Galla Anonima;20303001593;265;38-200;749-776-35-58;395 501828019;Modest;zubojidoca7ivibyjys0midabygyho2ala;F47D411EF691FAFE048992AF8E1087DF;1
+10;12;2;1;Sylweriusz;Ferberger;Tarnowskie Góry;ul. Heweliusza Jana;88092102622;86;98-355;614-85-31-562;847 314 729 549;Iwo;miwanahocanu0exyj3b8kowatohumo;4B0DB652697C64E76D219909E99A4324;1
+11;;2;1;Korneliusz;Ciamarczak;Warszawa;ul. Borkowskich Józefa i Stanisława;96072423197;57;65-140;699-911-64-81;970-035-937;Częstogniew;0efoqoloh2ku3irob;9B367B3CC7A9FF15B26552308033B520;1
+12;;7;1;Seweryn;Kłaszkowska;Ostrołęka;ul. Złotej Rybki;97081108750;123;98-300;546-616-61-60;776 275 689;Miłowit;1imoz8juku4ydojygilaj;7C3959468CB969E7E368EBC0AC7BCCF5;1
+13;;8;1;Morzysław;Bonzel;Leszno Górne;ul. Strumieńska;05252509442;139;07-405;291-229-71-66;924106690;Cieszygor;loraryhafodojo7ebydosofy2orybuvolep1p;9A32B8136F7F25ABFFA1A4E49AEB2DF0;1
+14;;6;1;Cyprian;Honczo;Kałużna;ul. Dębowa;81082305773;266;63-400;487-95-49-328;+819 270-352-741;Nadmir;2y049ag87yx36u2el42esen266;591A61BB9224DFA06F9DB4B74B7DBF8A;1
+15;;3;1;Jarogniew;Chyba;Krzynka;ul. Skowrońskiego Władysława;93111319640;289;16-130;522-23-38-7210;+677 549-563-748;Krzesisław;coguzehunul8x3jixapow2h;3867E150543C859DF616FF14593578DB;1
+16;;6;1;Cecyl;Kożemiaczenko;Suwałki;ul. Szkolna;95122709403;129;11-520;307-29-86-213;201-600-887;Sieciech;gyzikevujify4ajys79y;99D1BB16AF3E671F1D1028C3D35147D0;1
+17;;6;1;Borysław;Mastylarz;Radom;ul. Monte Cassino;80030405114;188;21-523;269-36-82-213;875 596972460;Floryn;jehixubuwedigihagyji4em2hikerasir2;DDF8B95DA93B42DE93F5E7FB358DA16D;1
+18;;11;1;Eustachiusz;Rejmantowska;Nowy Karolew;ul. Kisielewskiego Stefana;13231802600;190;40-759;974-248-13-76;867-758-103;Waldemar;47maw718058u7as61537k6p1b377c7k5;166E66843D0D7B3081C7BAA35D672F85;1
+19;;2;1;Siemisław;Szery;Mistrzewice;ul. Miodowa;82080307866;132;04-230;323-525-79-44;843 179-679-098;Długosz;vuj1resevocituzozy9yfavyfyjuqewa2onoje;33335C99AEDAE824E4B87C1206CFC9F5;1
+20;;6;1;Feliks;Korosiak;Rzeszów;ul. Poprzeczna;10281015727;268;60-192;743-51-89-494;150 891614010;Godfryd;g3mulege21;311D3699462DFEBC98F5366CB74602F4;1
