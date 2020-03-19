@@ -1,0 +1,11 @@
+pk;miejscowosc;ulica;numer_mieszkania;kod_pocztowy;gmina;powiat;województwo;nazwa;nip;login;hashowane_haslo
+1;CiuŚlice;ul. Bukowa;14;61-351;Stromiec;bydgoski;kujawsko-pomorskie;MAB;752-28-21-395;a.a;2A07ACD279420112446BF3D551303E22
+2;Siedlce;ul. Portowa;91;43-100;M. st. Warszawa;m. Gdynia;łódzkie;HAQ;162-67-85-563;a-a;97F9434D5A092460387115CB2FAF9146
+3;Głêboczek;ul. Dąbrowskiego Henryka (Generała Henryka Dąbrowskiego);95;41-506;M. Łódź;m. st. Warszawa;podlaskie;XIX;814-48-38-744;a;B2CB8B3726A67D10522B3CBC33497014
+4;Wewierz;ul. Anny;8;48-321;Jasieniec;leszczyński;wielkopolskie;SEX;868-56-23-618;a1a2a3a4a5a6a7a8a9a10aaaaaaaaaaa;F5938E8E687C0E3438F0AC3BCEF00916
+5;Kamienna;ul. Środkowa;182;48-300;Niemodlin;koniński;mazowieckie;SEN;118-97-84-665;a;F6D27E5E8823BD11A6339AF21D306153
+6;Kartuzy;ul. Piotrkowska;132;07-300;Kock;krotoszyński;Śląskie;XIV;241-54-94-935;a-a;0FBDAB11FEE9C2DAB833E53200FA3FE6
+7;Bronisze;ul. Drzymały Wojciecha;36;05-084;Kadzidło;milicki;wielkopolskie;BUW;507-32-19-758;a.a;B813DD9A8C64F32021451D13D26C5D74
+8;Kamień Mały;ul. Jodłowa;213;62-834;M. st. Warszawa;m. Łódź;Śląskie;MAN;372-15-87-511;a-a;F182BD08D04759F8793B5100017D52B3
+9;Budy Łańcuckie;ul. Parkowa;255;43-316;M. Kraków;makowski;mazowieckie;DIH;139-72-76-896;a.a;9B22A42E63C8564FD7E30FD5A2CC89C2
+10;Kêbłowo;ul. Owczarska;271;62-304;M. Jaworzno;m. Wrocław;łódzkie;TIQ;545-78-16-635;a1a2a3a4a5a6a7a8a9a10aaaaaaaaaaa;E8D544292304B53663BE7356E64CC494
