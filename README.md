@@ -279,8 +279,8 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         <td>ciąg znakowy określający gminę, o długości 2</td>
     </tr>
     <tr>
-        <td>numer_telefou</td>
-        <td>znakowe(11)</td>
+        <td>numer_telefonu</td>
+        <td>znakowe(16)</td>
         <td>tak</td>
         <td>nie</td>
         <td>ciąg znakowy określający numer telefonu</td>
@@ -930,7 +930,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>numer_telefonu_nabywcy</td>
-        <td>znakowy(11)</td>
+        <td>znakowy(16)</td>
         <td>nie</td>
         <td>nie</td>
         <td>ciąg znaków określający numer telefonu nabywcy</td>
@@ -1045,10 +1045,10 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>numer_telefonu</td>
-        <td>znakowy(11)</td>
+        <td>znakowy(16)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znaków określający numer telefon fundacji, o długości 11 bądź 9</td>
+        <td>ciąg znaków określający numer telefon fundacji</td>
     </tr>
     <tr>
         <td>email</td>
@@ -1150,6 +1150,13 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         <td>tak</td>
         <td>tak</td>
         <td>ciag znaków określający numer regon o długości 14 bądź 9, start up'u</td>
+    </tr>
+    <tr>
+        <td>numer_telefonu</td>
+        <td>znakowy(16)</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>ciag znaków określający numer telefonu, start up'u</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">stanowiska</th>
@@ -1255,7 +1262,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         <td>ciąg znakowy określający gminę, na którym znajduje się przedsiębiorstwo, o długości 6</td>
     </tr>
     <tr>
-        <td>emial</td>
+        <td>email</td>
         <td>znakowe(80)</td>
         <td>tak</td>
         <td>tak</td>
@@ -1295,6 +1302,13 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         <td>tak</td>
         <td>tak</td>
         <td>ciag cyfr określający numer regon długości 14 bądź 9, przedsiębiorstwa</td>
+    </tr>
+    <tr>
+        <td>numer_telefonu</td>
+        <td>znakowy(16)</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>ciag cyfr określający numer telefonu, przedsiębiorstwa</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">pracownicy</th>
@@ -1406,7 +1420,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>numer_telefonu</td>
-        <td>znakowy(9 min 11 max)</td>
+        <td>znakowy(16)</td>
         <td>tak</td>
         <td>tak</td>
         <td>ciąg znaków określający numer telefonu pracownika</td>
