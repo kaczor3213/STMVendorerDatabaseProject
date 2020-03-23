@@ -1,0 +1,11 @@
+pk;fk_sprzedaż;fk_dostawca;fk_przesunięcie_magazynowe;data_wystawienia;data_przyjęcia_do_przewozu;sposób_pakowania;waga;rodzaj_towaru;koszt_wysyłki_netto;koszt_wysyłki_brutto
+1;1;1;NULL;03.02.2020;03.02.2020;folia;100kg;podzespoły elektroniczne;100zł;123zł
+2;2;2;NULL;16.02.2020;16.02.2020;folia;100kg;podzespoły elektroniczne;100zł;123zł
+3;3;3;NULL;17.02.2020;17.02.2020;folia;100kg;podzespoły elektroniczne;100zł;123zł
+4;4;4;NULL;21.02.2020;21.02.2020;folia;100kg;podzespoły elektroniczne;100zł;123zł
+5;5;5;NULL;03.03.2020;03.03.2020;folia;100kg;podzespoły elektroniczne;100zł;123zł
+6;NULL;6;1;"";"";folia;100kg;podzespoły elektroniczne;100zł;123zł
+7;NULL;7;2;"";"";folia;100kg;podzespoły elektroniczne;100zł;123zł
+8;NULL;8;3;"";"";folia;100kg;podzespoły elektroniczne;100zł;123zł
+9;NULL;1;4;"";"";folia;100kg;podzespoły elektroniczne;100zł;123zł
+10;NULL;2;5;"";"";folia;100kg;podzespoły elektroniczne;100zł;123zł
