@@ -772,55 +772,6 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         <td>identyfiaktor przesunięcia magazynowego</td>
     </tr>
     <tr>
-        <td>województwo_odbiorcy</td>
-        <td>znakowe(2)</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td>ciąg określający województwo, w którym jest odbiorca, o długości 2</td>
-    </tr>
-    <tr>
-        <td>powiat_odbiorcy</td>
-        <td>znakowe(20 max)</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td>ciąg określający powiat, w którym jest odbiorca, o długości 4</td>
-    </tr>
-    <tr>
-        <td>gmina_odbiorcy</td>
-        <td>znakowe(20 max)</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td>ciąg określający gminę, w której jest odbiorca, o długości 6</td>
-    </tr>
-    <tr>
-        <td>miejscowość_odbiorcy</td>
-        <td>znakowe(35 max)</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td>ciąg określający miejscowosć, w której jest odbiorca</td>
-    </tr>
-    <tr>
-        <td>ulica_odbiorcy</td>
-        <td>znakowe(80 max)</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td>ciąg określający nazwę ulicy, na której jest odbiorca</td>
-    </tr>
-    <tr>
-        <td>numer_mieszkania_odbiorcy</td>
-        <td>znakowe(6 max)</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td>ciąg określający numer mieszkania, odbiorcy</td>
-    </tr>
-    <tr>
-        <td>kod_pocztowy_odbiorcy</td>
-        <td>znakowe(6)</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td>ciąg 6 znaków określający kod pocztowy miejscowości, w której znajduje się odbiorca</td>
-    </tr>
-    <tr>
         <td>data_wystawienia</td>
         <td>timestamp</td>
         <td>tak</td>
@@ -880,6 +831,27 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         <td>identyfikator faktury</td>
     </tr>
     <tr>
+        <td>id_pracownik</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>identyfikator pracownika</td>
+    </tr>
+    <tr>
+        <td>id_sprzedaż</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>identyfikator sprzedaży</td>
+    </tr>
+    <tr>
+        <td>id_dane_przedsiębiorstw</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>identyfikator danego przedsiębiorstwa</td>
+    </tr>
+    <tr>
         <td>imię_nabywcy</td>
         <td>znakowy(255 max)</td>
         <td>nie</td>
@@ -892,41 +864,6 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         <td>nie</td>
         <td>nie</td>_
         <td>ciąg znakowy określający nazwisko nabywcy</td>
-    </tr>
-    <tr>
-        <td>nazwa_nabywcy</td>
-        <td>znakowy(255 max)</td>
-        <td>nie</td>
-        <td>nie</td>
-        <td>ciąg znakowy określający nazwę nabywcy</td>
-    </tr>
-    <tr>
-        <td>ulica_nabywcy</td>
-        <td>znakowe(80 max)</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td>ciąg znakowy określający ulicę, na której znajduje się nabywca</td>
-    </tr>
-    <tr>
-        <td>numer_mieszkania_nabywcy</td>
-        <td>znakowe(6 max)</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td>ciąg znakowy określający numer mieszkania nabywcy</td>
-    </tr>
-    <tr>
-        <td>kod_pocztowy_nabywcy</td>
-        <td>znakowe(6)</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td>ciąg 6 znaków określający kod pocztowy miejscowości, w której znajduje się nabywca</td>
-    </tr>
-    <tr>
-        <td>miejscowość_nabywcy</td>
-        <td>znakowe(35 max)</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td>ciąg znakowy określający miejscowość, w której znajduje się nabywca</td>
     </tr>
     <tr>
         <td>numer_telefonu_nabywcy</td>
@@ -969,13 +906,6 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         <td>tak</td>
         <td>nie</td>
         <td>data wystawienia faktury</td>
-    </tr>
-    <tr>
-        <td>nip</td>
-        <td>znakowy(10)</td>
-        <td>tak</td>
-        <td>nie</td>
-        <td>ciąg znakowy określający numer nip nabywcy, o długości 10</td>
     </tr>
     <tr>
         <th style="text-align: center;" colspan="5">fundacje</th>
@@ -1955,6 +1885,10 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         <td>pracownicy</td>
         <td>id_pracownik</td>
     </tr>
+    <tr>
+        <td>dane_przedsiębiorstw</td>
+        <td>id_dane_przedsiębiorstw</td>
+    </tr>
 </table>
 
 ## 6. Identyfikowanie relacji tabel
@@ -2244,7 +2178,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     <td text-align: center></td>
     <td text-align: center></td>
     <td text-align: center></td>
-    <td text-align: center></td>
+    <td text-align: center>1:n</td>
     <td text-align: center>1:1</td>
     <td text-align: center></td>
     <td text-align: center></td>  
@@ -2336,7 +2270,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     <td text-align: center></td>
     <td text-align: center></td>
     <td text-align: center></td>
-    <td text-align: center></td>
+    <td text-align: center>1:n</td>
     <td text-align: center></td>
     <td text-align: center></td>
     <td text-align: center></td>
