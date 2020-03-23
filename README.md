@@ -1526,6 +1526,13 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         <td>identyfikator sprzedaży</td>
     </tr>
     <tr>
+        <td>ilość</td>
+        <td>całkowity</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td>liczba opisująca liczebność danego towaru</td>
+    </tr>
+    <tr>
         <th style="text-align: center;" colspan="5">towary_kategorie_towarów</th>
     </tr>
     <tr>
@@ -1550,7 +1557,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         <td>identyfikator kategorii</td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">towary_zamówienia</th>
+        <th style="text-align: center;" colspan="5">zamówienia_towary</th>
     </tr>
     <tr>
         <td>id_towary_sprzedaże</td>
@@ -1574,11 +1581,18 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         <td>identyfikator zamówienia</td>
     </tr>
     <tr>
-        <td>cena_jednostkowa</td>
+        <td>cena_jednostkowa_netto</td>
         <td>decymalny</td>
         <td>tak</td>
         <td>nie</td>
-        <td>liczba zmiennoprzecinkowa określająca cenę jednostkową towaru</td>
+        <td>liczba zmiennoprzecinkowa określająca cenę jednostkową towaru netto</td>
+    </tr>
+    <tr>
+        <td>cena_jednostkowa_brutto</td>
+        <td>decymalny</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td>liczba zmiennoprzecinkowa określająca cenę jednostkową towaru brutto</td>
     </tr>
     <tr>
         <td>ilość</td>
