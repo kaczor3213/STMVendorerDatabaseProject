@@ -9,7 +9,3 @@ pk;fk_sprzedaż;fk_dostawca;fk_przesunięcie_magazynowe;data_wystawienia;data_pr
 8;NULL;8;3;2020-02-12 07:30:41;2020-02-12 12:11:32;folia;303kg;podzespoły elektroniczne;100zł;123zł
 9;NULL;1;4;2018-12-07 04:56:20;2018-12-07 12:14:17;folia;402kg;podzespoły elektroniczne;100zł;123zł
 10;NULL;2;5;2020-12-09 15:20:58;2020-12-10 12:13:19;folia;290kg;podzespoły elektroniczne;100zł;123zł
-
-
-
-
