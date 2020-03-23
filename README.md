@@ -259,10 +259,10 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>województwo</td>
-        <td>znakowe(6)</td>
+        <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający województwo, o długości 6</td>
+        <td>ciąg znakowy określający województwo, o długości 20</td>
     </tr>
     <tr>
         <td>powiat</td>
@@ -346,10 +346,10 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>województwo</td>
-        <td>znakowe(2)</td>
+        <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający województwo, o długości 2</td>
+        <td>ciąg znakowy określający województwo, o długości 20</td>
     </tr>
     <tr>
         <td>kod_pocztowy</td>
@@ -440,10 +440,10 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>województwo</td>
-        <td>znakowe(2</td>
+        <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający województwo, o długości 2</td>
+        <td>ciąg znakowy określający województwo, o długości 20</td>
     </tr>
     <tr>
         <td>kod_pocztowy</td>
@@ -933,10 +933,10 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>województwo</td>
-        <td>znakowe(2)</td>
+        <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający województwo, w którym znajduje się fundacja, o długości 2</td>
+        <td>ciąg znakowy określający województwo, w którym znajduje się fundacja, o długości 20</td>
     </tr>
     <tr>
         <td>powiat</td>
@@ -1041,10 +1041,10 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
    <tr>
         <td>województwo</td>
-        <td>znakowe(2)</td>
+        <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający województwo, w którym znajduje się start up, o długości 2</td>
+        <td>ciąg znakowy określający województwo, w którym znajduje się start up, o długości 20</td>
     </tr>
     <tr>
         <td>powiat</td>
@@ -1172,10 +1172,10 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>województwo</td>
-        <td>znakowe(2)</td>
+        <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający województwo, w którym znajduje się przedsiębiorstwo, o długości 2</td>
+        <td>ciąg znakowy określający województwo, w którym znajduje się przedsiębiorstwo, o długości 20</td>
     </tr>
     <tr>
         <td>powiat</td>
@@ -1329,10 +1329,10 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>województwo</td>
-        <td>znakowe(2)</td>
+        <td>znakowe(20 max)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający województwo, w którym mieszka pracownik, o długości 2</td>
+        <td>ciąg znakowy określający województwo, w którym mieszka pracownik, o długości 20</td>
     </tr>
     <tr>
         <td>powiat</td>
