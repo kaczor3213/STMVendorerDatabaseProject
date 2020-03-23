@@ -793,7 +793,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         <td>ciąg znakowy określający sposób zapokowania towaru</td>
     </tr>
     <tr>
-        <td>waga</td>
+        <td>waga_kg</td>
         <td>decymalny</td>
         <td>tak</td>
         <td>nie</td>
