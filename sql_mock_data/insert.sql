@@ -1,12 +1,28 @@
-INSERT INTO `towary` VALUES
-(1,'STM32 microkontroler F401RD','STM32F401RD','High-performance access line\,  ARM Cortex-M4 core with DSP and FPU\,  384 Kbytes Flash\,  84 MHz CPU\,  ART Accelerator',true,50,61.5,0.23,true),
-(2,'STM32 microkontroler F4071G','STM32F4071G','High-performance foundation line\,  ARM Cortex-M4 core with DSP and FPU\,  1 Mbyte Flash\,  168 MHz CPU\,  ART Accelerator\,  Ethernet\,  FSMC',true,60,73.8,0.23,true),
-(3,'STM32 microkontroler F412VG','STM32F412VG','STM32 Dynamic Efficiency MCU with BAM\,  High-performance and DSP with FPU\,  ARM Cortex-M4 MCU with 1 Mbyte Flash\,  100 MHz CPU\,  Art Accelerator\,  DFSDM',true,70,86.1,0.23,true),
-(4,'STM32 microkontroler F412ZE','STM32F412ZE','STM32 Dynamic Efficiency MCU with BAM\,  High-performance and DSP with FPU\,  ARM Cortex-M4 MCU with 512 Kbytes Flash\,  100 MHz CPU\,  Art Accelerator\,  DFSDM',true,80,98.4,0.23,true),
-(5,'STM32 microkontroler F412ZG','STM32F412ZG','STM32 Dynamic Efficiency MCU with BAM\,  High-performance and DSP with FPU\,  ARM Cortex-M4 MCU with 1 Mbyte Flash\,  100 MHz CPU\,  Art Accelerator\,  DFSDM',true,90,110.7,0.23,true),
-(6,'sterownik silnika bezszczotkowego L6229','L6229','DMOS driver for three-phase brushless DC motor',true,55,67.65,0.23,true),
-(7,'sterownik silnika bezszczotkowego L6234','L6234','Three phase motor driver',true,65,79.95,0.23,true),
-(8,'sterownik silnika bezszczotkowego L6235','L6235','DMOS driver for 3-phase brushless DC motor',true,75,92.25,0.23,true);
+INSERT INTO `dostawcy` VALUES
+(1,'Ciuślice','ul. Bukowa',14,'61-351','Stromiec','bydgoski','kujawsko-pomorskie','MAB','752-28-21-395','afwefewa','2A07ACD279420112446BF3D551303E22'),
+(2,'Siedlce','ul. Portowa',91,'43-100','M. st. Warszawa','m. Gdynia','łódzkie','HAQ','162-67-85-563','aesfga','97F9434D5A092460387115CB2FAF9146'),
+(3,'Głęboczek','ul. Dąbrowskiego',95,'41-506','M. Łódź','m. st. Warszawa','podlaskie','XIX','814-48-38-744','dgfdswe','B2CB8B3726A67D10522B3CBC33497014'),
+(4,'Wewierz','ul. Anny',8,'48-321','Jasieniec','leszczyński','wielkopolskie','SEX','868-56-23-618','a1a9a10aaaaaaaaaaa','F5938E8E687C0E3438F0AC3BCEF00916'),
+(5,'Kamienna','ul. Środkowa',182,'48-300','Niemodlin','koniński','mazowieckie','SEN','118-97-84-665','hgfherwfa','F6D27E5E8823BD11A6339AF21D306153'),
+(6,'Kartuzy','ul. Piotrkowska',132,'07-300','Kock','krotoszyński','Śląskie','XIV','241-54-94-935','hgfretsd','0FBDAB11FEE9C2DAB833E53200FA3FE6'),
+(7,'Bronisze','ul. Drzymały Wojciecha',36,'05-084','Kadzidło','milicki','wielkopolskie','BUW','507-32-19-758','fwef2g','B813DD9A8C64F32021451D13D26C5D74'),
+(8,'Kamień Mały','ul. Jodłowa',213,'62-834','M. st. Warszawa','m. Łódź','Śląskie','MAN','372-15-87-511','a-a','F182BD08D04759F8793B5100017D52B3'),
+(9,'Budy Łańcuckie','ul. Parkowa',255,'43-316','M. Kraków','makowski','mazowieckie','DIH','139-72-76-896','a.a','9B22A42E63C8564FD7E30FD5A2CC89C2'),
+(10,'Kębłowo','ul. Owczarska',271,'62-304','M. Jaworzno','m. Wrocław','łódzkie','TIQ','545-78-16-635','a1a2a3a4a5a6a7a8a9a10aaaaaaaaaaa','E8D544292304B53663BE7356E64CC494');
+
+INSERT INTO `stanowiska` VALUES
+(1,'administrator'),
+(2,'magazynier'),
+(3,'menadżer'),
+(4,'dyrektor'),
+(5,'przedstawiciel handlowy'),
+(6,'kierowca'),
+(7,'sprzątacz'),
+(8,'stróż'),
+(9,'sekretarz'),
+(10,'księgowy'),
+(11,'konserwator budynku');
+
 
 INSERT INTO `uprawnienia` VALUES
 (1,'edycja danych w bazie'),
@@ -25,6 +41,7 @@ INSERT INTO `uprawnienia` VALUES
 (14,'głos w zarządzie firmy'),
 (15,'dostęp do systemu informatycznego'),
 (16,'dostęp do danych wrażliwych w bazie');
+
 
 INSERT INTO `umowy` VALUES
 (1,'umowa o pracę',NULL),
@@ -148,49 +165,7 @@ INSERT INTO `umowy` VALUES
 (119,'b2b',NULL),
 (120,'umowa o pracę',NULL);
 
-INSERT INTO `dane_przedsiębiorstw` VALUES
-(1,'Gołębiów','ul. Majkowskiego Aleksandra (Doktora Aleksandra Majkowskiego)',174,'42-360','608-895-98-84','498 581 962 122','nuderunokifatavuzu1otynaxugomiqo@t0fe5idip.pl',656636362,'Medcom','opolskie','lipnowski','Siewierz'),
-(2,'Rutkowice','ul. Świętego Brata Alberta',233,'86-307','121-65-91-210','417034652','nyjezele9uha1yhowyvimajyfaxuzegi@qodozomek4jozaq2q3sywofiz9k0rude.pl',294835373,'Metalwork Inc','mazowieckie','lubiński','Cewice'),
-(3,'Przewłoka','ul. Marmurowa',82,'13-220','557-43-73-1710','194 481867236','my@6u6uwyvesywykitomocekitihikefovybijibozesyjorabuxavy.pl',784066207,'FastCode','wielkopolskie','m. Tychy','M. Lublin'),
-(4,'Nieborzyn','ul. Kacza',286,'98-290','628-479-51-95','322 363 191 103','zoc71@xevyfutif0kucyf.pl',247169207,'Metal and Steel Inc','kujawsko-pomorskie','m. Szczecin','Strachówka'),
-(5,'Mochle','ul. Konarskiego Stanisława',193,'05-077','835-91-29-415','146 504 119','bo.ytarepyqela7ezap5sizyve7oluk@cife1e.pl',50309116842741,'LubMat','mazowieckie','m. st. Warszawa','M. Bydgoszcz'),
-(6,'Opinogóra Górna','ul. Moniuszki Stanisława',39,'41-800','117-353-66-63','+678 535180025','kavovu3yp0duhidimasov6@wyruhyra3ibovetujysykoge4osihuz6quq5.pl',562628407,'WarMarkt','dolnośląskie','koniński','M. Rzeszów'),
-(7,'Brodowa Góra','ul. Rokitniańska',120,'81-919','915-14-47-620','+304 823 168 340','hamutazacudiwud05a4ylodig@lasepawiny7utyf2xezorihuto8omo2ifijiqetos2.pl',76478303452374,'Dynamo','mazowieckie','polkowicki','M. Łódź'),
-(8,'Bydgoszcz','ul. Miarki Karola',26,'72-221','195-132-28-38','+176 850964957','sak7hajycobobegapocizyzu@botyjosekekywozonekun3hu7uc1qowifu8ive9a56gavuzeruzopyvonup.pl',188225130,'FastAssembler','łódzkie','m. Lublin','Mykanów'),
-(9,'Józefów','ul. Z. Kościńskiego',95,'58-562','624-17-19-339','696 392 060','nak2joga@qohevoriqopasyhyvyzunemu6ehudu08q5jycewixuky.pl',185161818,'ExtraCodeWorkers','kujawsko-pomorskie','Średzki','Chorzele');
 
-INSERT INTO `datki` VALUES
-(1,1,NULL,1,20000),
-(2,NULL,1,0,20000),
-(3,2,NULL,1,10000),
-(4,NULL,2,0,15000),
-(5,3,NULL,1,20000);
-
-INSERT INTO `dostawcy` VALUES
-(1,'Ciuślice','ul. Bukowa',14,'61-351','Stromiec','bydgoski','kujawsko-pomorskie','MAB','752-28-21-395','afwefewa','2A07ACD279420112446BF3D551303E22'),
-(2,'Siedlce','ul. Portowa',91,'43-100','M. st. Warszawa','m. Gdynia','łódzkie','HAQ','162-67-85-563','aesfga','97F9434D5A092460387115CB2FAF9146'),
-(3,'Głęboczek','ul. Dąbrowskiego',95,'41-506','M. Łódź','m. st. Warszawa','podlaskie','XIX','814-48-38-744','dgfdswe','B2CB8B3726A67D10522B3CBC33497014'),
-(4,'Wewierz','ul. Anny',8,'48-321','Jasieniec','leszczyński','wielkopolskie','SEX','868-56-23-618','a1a9a10aaaaaaaaaaa','F5938E8E687C0E3438F0AC3BCEF00916'),
-(5,'Kamienna','ul. Środkowa',182,'48-300','Niemodlin','koniński','mazowieckie','SEN','118-97-84-665','hgfherwfa','F6D27E5E8823BD11A6339AF21D306153'),
-(6,'Kartuzy','ul. Piotrkowska',132,'07-300','Kock','krotoszyński','Śląskie','XIV','241-54-94-935','hgfretsd','0FBDAB11FEE9C2DAB833E53200FA3FE6'),
-(7,'Bronisze','ul. Drzymały Wojciecha',36,'05-084','Kadzidło','milicki','wielkopolskie','BUW','507-32-19-758','fwef2g','B813DD9A8C64F32021451D13D26C5D74'),
-(8,'Kamień Mały','ul. Jodłowa',213,'62-834','M. st. Warszawa','m. Łódź','Śląskie','MAN','372-15-87-511','a-a','F182BD08D04759F8793B5100017D52B3'),
-(9,'Budy Łańcuckie','ul. Parkowa',255,'43-316','M. Kraków','makowski','mazowieckie','DIH','139-72-76-896','a.a','9B22A42E63C8564FD7E30FD5A2CC89C2'),
-(10,'Kębłowo','ul. Owczarska',271,'62-304','M. Jaworzno','m. Wrocław','łódzkie','TIQ','545-78-16-635','a1a2a3a4a5a6a7a8a9a10aaaaaaaaaaa','E8D544292304B53663BE7356E64CC494');
-
-INSERT INTO `faktury` VALUES
-(1,3,1,1,'Artur','Królikowski','498 581 962 122','nuderunokifatavuzu1otynaxugomiqo@t0fe5idip.pl',0.23,'2020.02.02 10:00:00'),
-(2,4,2,2,'Karol','Nowak','417034652','nyjezele9uha1yhowyvimajyfaxuzegi@qodozomek4jozaq2q3sywofiz9k0rude.pl',0.23,'2020.02.16 10:05:11'),
-(3,23,3,3,'Mateusz','Podlaski','194 481867236','my@6u6uwyvesywykitomocekitihikefovybijibozesyjorabuxavy.pl',0.23,'2020.02.17 10:11:30'),
-(4,24,4,4,'Alicja','Zielińska','322 363 191 103','zoc71@xevyfutif0kucyf.pl',0.23,'2020.02.21 10:15:35'),
-(5,29,5,5,'Joanna','Marczak','146 504 119','bo.ytarepyqela7ezap5sizyve7oluk@cife1e.pl',0.23,'2020.03.02 10:00:59');
-
-INSERT INTO `fundacje` VALUES
-(1,'Maciejów','ul. Pana Tadeusza',177,'09-500','834-52-23-4310','+927 512134565','wyrokufubewis0kyposuha@pymosiwu4ymynuzipojamyl-pi3omixagiposegijyxexize6awewiten.pl',114160595,'Fundacja Batorego','małopolskie','sejneński','Słupia (Konecka)'),
-(2,'Warszawa','ul. Wańkowicza Melchiora',208,'85-790','314-814-85-31','599-126-988','hon1gow@guwo1ajukoxum2he2ody3imituj66ibymyqako.pl',10388198139241,'Fundacja im. Jana Kochanowskiego','mazowieckie','łaski','Gryfice'),
-(3,'Stradlice','ul. Brzechowska',105,'20-355','818-82-97-171','203 239-213-402','detufocu@z3byp3xazula0up7xugyfuqugeqaqun0c7lahyse6okid650hebugoj.pl',866389251,'Fundacja ST','zachodniopomorskie','nowomiejski','Biała'),
-(4,'Galowice','ul. Świerkowa',72,'46-022','962-79-41-667','275 750556747','fyze@gyrejoq.pl',84006729340530,'Fundacja im. Jana Pawła II','małopolskie','mikołowski','Zblewo'),
-(5,'Warszawa','ul. Tuwima Juliana',23,'05-170','461-43-42-643','656 425 410','sovido7iwykecuwixeb36u8apu0i@seqahoti.pl',01443767731041,'Fundacja im. Marii Skłodowskiej-Curie','wielkopolskie','włoszczowski','Kamieniec Ząbkowicki');
 
 INSERT INTO `hurtownie` VALUES
 (1,'G4KAD2','Dąbrówka','ul. Jana z Kolna',176,'62-400','M. Rzeszów','piaseczyński','podlaskie'),
@@ -200,26 +175,16 @@ INSERT INTO `hurtownie` VALUES
 (5,'TO1U6A','Mirkowice','ul. Leśna',89,'31-564','M. st. Warszawa','biłgorajski','świętokrzyskie'),
 (6,'XUV2Z5','Ruda Śląska','ul. Ogrodowa',220,'39-200','Kobiele Wielkie','m. Gdańsk','zachodniopomorskie');
 
-INSERT INTO `kategorie` VALUES
-(1,'mikrokontroler','NULL'),
-(2,'mikroprocesor','NULL'),
-(3,'sterownik silnika bezszczotkowego','NULL'),
-(4,'wzmaczniacz dźwięku','NULL'),
-(5,'zegary i timery','NULL');
 
-INSERT INTO `płatności` VALUES
-(1,'gotowka'),
-(2,'przelew paypal'),
-(3,'przelewy24.pl'),
-(4,'tradycyjny przelew bankowy'),
-(5,'blik');
-
-INSERT INTO `start_upy` VALUES
-(1,'Leszkowice','ul. Szkolna',183,'80-603','308-52-94-380','219 892 191 430','sozax@tizovehaxetaqyc5lapihafuvizipirajiwotaxybe-ylalozufyh-t.pl',22201615927019,'CodeStarter','zachodniopomorskie','Świdnicki','Zbrosławice'),
-(2,'Warszawa','ul. Jara',241,'78-220','255-87-48-282','905 814-290-618','retyhawesa@safinile7odeleryjive2y0uh38am83ejifygadonywiwuhadifofuk3bo.pl',64636236356608,'FotoWorkers','śląskie','m. Koszalin','M. Radom'),
-(3,'Piaski','ul. Wiejska',41,'73-220','108-69-73-780','+546 910 683 762','n4lyzilyvosa0ycaxywesanypiqov@nekaxige0u2ymu3ilenuqoso6oz2z.pl',50653607598885,'MachineMastering','warmiñsko-mazurskie','m. Płock','Dębno'),
-(4,'Dąbrowa Górnicza','ul. Różana',300,'42-226','332-715-93-33','685 462576884','0iqigipu7i5yxybasicokysevow6@wyve8ocyjeri9yweg3coco0.pl',808496584,'STMStarter','łódzkie','m. Szczecin','M. st. Warszawa'),
-(5,'Wrocław','ul. Witosa Wincentego',292,'78-630','258-236-38-64','+661 793-179-190','4.p2kosoxicyj-jof6c8qinolivun@xul7.pl',031987030,'MicroChip','śląskie','starogardzki','M. Kraków');
+INSERT INTO `towary` VALUES
+(1,'STM32 microkontroler F401RD','STM32F401RD','High-performance access line\,  ARM Cortex-M4 core with DSP and FPU\,  384 Kbytes Flash\,  84 MHz CPU\,  ART Accelerator',true,50,61.5,0.23,true),
+(2,'STM32 microkontroler F4071G','STM32F4071G','High-performance foundation line\,  ARM Cortex-M4 core with DSP and FPU\,  1 Mbyte Flash\,  168 MHz CPU\,  ART Accelerator\,  Ethernet\,  FSMC',true,60,73.8,0.23,true),
+(3,'STM32 microkontroler F412VG','STM32F412VG','STM32 Dynamic Efficiency MCU with BAM\,  High-performance and DSP with FPU\,  ARM Cortex-M4 MCU with 1 Mbyte Flash\,  100 MHz CPU\,  Art Accelerator\,  DFSDM',true,70,86.1,0.23,true),
+(4,'STM32 microkontroler F412ZE','STM32F412ZE','STM32 Dynamic Efficiency MCU with BAM\,  High-performance and DSP with FPU\,  ARM Cortex-M4 MCU with 512 Kbytes Flash\,  100 MHz CPU\,  Art Accelerator\,  DFSDM',true,80,98.4,0.23,true),
+(5,'STM32 microkontroler F412ZG','STM32F412ZG','STM32 Dynamic Efficiency MCU with BAM\,  High-performance and DSP with FPU\,  ARM Cortex-M4 MCU with 1 Mbyte Flash\,  100 MHz CPU\,  Art Accelerator\,  DFSDM',true,90,110.7,0.23,true),
+(6,'sterownik silnika bezszczotkowego L6229','L6229','DMOS driver for three-phase brushless DC motor',true,55,67.65,0.23,true),
+(7,'sterownik silnika bezszczotkowego L6234','L6234','Three phase motor driver',true,65,79.95,0.23,true),
+(8,'sterownik silnika bezszczotkowego L6235','L6235','DMOS driver for 3-phase brushless DC motor',true,75,92.25,0.23,true);
 
 INSERT INTO `pracownicy` VALUES
 (1,1,8,1,'Tomił','Malczka','Bielsko-Biała','ul. Rowerowa',92061816678,141,'85-796','NULL','902-533-382','Domamir','nyko3aj7lus4qakop','AF18D800CBF20FA9357EA41964E953E9',true),
@@ -343,18 +308,7 @@ INSERT INTO `pracownicy` VALUES
 (119,110,2,6,'Herakles','Towalewski','Warszawa','ul. Działkowa',77021225367,210,'31-958','NULL','456-602-498','Leopold','boligagaluzoqisex5pojytol9goh2qiwimyk','87D0C57A32D34242383115049C64CE62',true),
 (120,120,6,6,'Lubomir','Olewnik','Gdynia','ul. Nadrzeczna',75080215053,229,'62-541','NULL','255-791-075','Przedbor','ly1ilu55vumi','B60751F0CB2AF2DFBAFA0B30091843BD',true);
 
-INSERT INTO `stanowiska` VALUES
-(1,'administrator'),
-(2,'magazynier'),
-(3,'menadżer'),
-(4,'dyrektor'),
-(5,'przedstawiciel handlowy'),
-(6,'kierowca'),
-(7,'sprzątacz'),
-(8,'stróż'),
-(9,'sekretarz'),
-(10,'księgowy'),
-(11,'konserwator budynku');
+
 
 INSERT INTO `przesunięcia_magazynowe` VALUES
 (1,5,6,95,'2019-06-20 13:17:34','2019-06-29 09:12:15','2019-07-04 13:52:58'),
@@ -362,6 +316,45 @@ INSERT INTO `przesunięcia_magazynowe` VALUES
 (3,4,2,69,'2020-02-06 12:53:02','2020-02-12 07:30:41','2020-02-17 05:25:21'),
 (4,2,1,30,'2018-12-05 09:47:29','2018-12-07 04:56:20','2018-12-12 23:41:40'),
 (5,3,5,49,'2019-12-02 08:11:07','2020-12-09 15:20:58','2019-12-14 11:03:36');
+
+
+INSERT INTO `zamówienia` VALUES
+(1,6,2,109,'2019-08-15 13:17:34','2019-08-18 09:12:15',62250,76567.5),
+(2,3,5,50,'2018-09-16 14:28:09','2018-09-20 23:13:03',79220,97440.6‬),
+(3,2,6,35,'2020-01-17 12:53:02','2020-01-21 07:30:41',165597.5,203684.93),
+(4,1,7,10,'2018-10-30 09:47:29','2018-11-05 04:56:20',110485‬,135896.55),
+(5,5,10,89,'2019-11-28 08:11:07','2020-01-02 15:20:58',75712.5,‬93126.38);
+
+
+
+INSERT INTO `start_upy` VALUES
+(1,'Leszkowice','ul. Szkolna',183,'80-603','308-52-94-380','219 892 191 430','sozax@tizovehaxetaqyc5lapihafuvizipirajiwotaxybe-ylalozufyh-t.pl',22201615927019,'CodeStarter','zachodniopomorskie','Świdnicki','Zbrosławice'),
+(2,'Warszawa','ul. Jara',241,'78-220','255-87-48-282','905 814-290-618','retyhawesa@safinile7odeleryjive2y0uh38am83ejifygadonywiwuhadifofuk3bo.pl',64636236356608,'FotoWorkers','śląskie','m. Koszalin','M. Radom'),
+(3,'Piaski','ul. Wiejska',41,'73-220','108-69-73-780','+546 910 683 762','n4lyzilyvosa0ycaxywesanypiqov@nekaxige0u2ymu3ilenuqoso6oz2z.pl',50653607598885,'MachineMastering','warmiñsko-mazurskie','m. Płock','Dębno'),
+(4,'Dąbrowa Górnicza','ul. Różana',300,'42-226','332-715-93-33','685 462576884','0iqigipu7i5yxybasicokysevow6@wyve8ocyjeri9yweg3coco0.pl',808496584,'STMStarter','łódzkie','m. Szczecin','M. st. Warszawa'),
+(5,'Wrocław','ul. Witosa Wincentego',292,'78-630','258-236-38-64','+661 793-179-190','4.p2kosoxicyj-jof6c8qinolivun@xul7.pl',031987030,'MicroChip','śląskie','starogardzki','M. Kraków');
+
+
+
+INSERT INTO `fundacje` VALUES
+(1,'Maciejów','ul. Pana Tadeusza',177,'09-500','834-52-23-4310','+927 512134565','wyrokufubewis0kyposuha@pymosiwu4ymynuzipojamyl-pi3omixagiposegijyxexize6awewiten.pl',114160595,'Fundacja Batorego','małopolskie','sejneński','Słupia (Konecka)'),
+(2,'Warszawa','ul. Wańkowicza Melchiora',208,'85-790','314-814-85-31','599-126-988','hon1gow@guwo1ajukoxum2he2ody3imituj66ibymyqako.pl',10388198139241,'Fundacja im. Jana Kochanowskiego','mazowieckie','łaski','Gryfice'),
+(3,'Stradlice','ul. Brzechowska',105,'20-355','818-82-97-171','203 239-213-402','detufocu@z3byp3xazula0up7xugyfuqugeqaqun0c7lahyse6okid650hebugoj.pl',866389251,'Fundacja ST','zachodniopomorskie','nowomiejski','Biała'),
+(4,'Galowice','ul. Świerkowa',72,'46-022','962-79-41-667','275 750556747','fyze@gyrejoq.pl',84006729340530,'Fundacja im. Jana Pawła II','małopolskie','mikołowski','Zblewo'),
+(5,'Warszawa','ul. Tuwima Juliana',23,'05-170','461-43-42-643','656 425 410','sovido7iwykecuwixeb36u8apu0i@seqahoti.pl',01443767731041,'Fundacja im. Marii Skłodowskiej-Curie','wielkopolskie','włoszczowski','Kamieniec Ząbkowicki');
+
+
+INSERT INTO `dane_przedsiębiorstw` VALUES
+(1,'Gołębiów','ul. Majkowskiego Aleksandra (Doktora Aleksandra Majkowskiego)',174,'42-360','608-895-98-84','498 581 962 122','nuderunokifatavuzu1otynaxugomiqo@t0fe5idip.pl',656636362,'Medcom','opolskie','lipnowski','Siewierz'),
+(2,'Rutkowice','ul. Świętego Brata Alberta',233,'86-307','121-65-91-210','417034652','nyjezele9uha1yhowyvimajyfaxuzegi@qodozomek4jozaq2q3sywofiz9k0rude.pl',294835373,'Metalwork Inc','mazowieckie','lubiński','Cewice'),
+(3,'Przewłoka','ul. Marmurowa',82,'13-220','557-43-73-1710','194 481867236','my@6u6uwyvesywykitomocekitihikefovybijibozesyjorabuxavy.pl',784066207,'FastCode','wielkopolskie','m. Tychy','M. Lublin'),
+(4,'Nieborzyn','ul. Kacza',286,'98-290','628-479-51-95','322 363 191 103','zoc71@xevyfutif0kucyf.pl',247169207,'Metal and Steel Inc','kujawsko-pomorskie','m. Szczecin','Strachówka'),
+(5,'Mochle','ul. Konarskiego Stanisława',193,'05-077','835-91-29-415','146 504 119','bo.ytarepyqela7ezap5sizyve7oluk@cife1e.pl',50309116842741,'LubMat','mazowieckie','m. st. Warszawa','M. Bydgoszcz'),
+(6,'Opinogóra Górna','ul. Moniuszki Stanisława',39,'41-800','117-353-66-63','+678 535180025','kavovu3yp0duhidimasov6@wyruhyra3ibovetujysykoge4osihuz6quq5.pl',562628407,'WarMarkt','dolnośląskie','koniński','M. Rzeszów'),
+(7,'Brodowa Góra','ul. Rokitniańska',120,'81-919','915-14-47-620','+304 823 168 340','hamutazacudiwud05a4ylodig@lasepawiny7utyf2xezorihuto8omo2ifijiqetos2.pl',76478303452374,'Dynamo','mazowieckie','polkowicki','M. Łódź'),
+(8,'Bydgoszcz','ul. Miarki Karola',26,'72-221','195-132-28-38','+176 850964957','sak7hajycobobegapocizyzu@botyjosekekywozonekun3hu7uc1qowifu8ive9a56gavuzeruzopyvonup.pl',188225130,'FastAssembler','łódzkie','m. Lublin','Mykanów'),
+(9,'Józefów','ul. Z. Kościńskiego',95,'58-562','624-17-19-339','696 392 060','nak2joga@qohevoriqopasyhyvyzunemu6ehudu08q5jycewixuky.pl',185161818,'ExtraCodeWorkers','kujawsko-pomorskie','Średzki','Chorzele');
+
 
 INSERT INTO `punkty_sprzedaży` VALUES
 (1,1,'Gołębiów','ul. Majkowskiego Aleksandra (Doktora Aleksandra Majkowskiego)',174,'42-360','608-895-98-84','498 581 962 122','nuderunokifatavuzu1otynaxugomiqo@t0fe5idip.pl',656636362,'opolskie','lipnowski','Siewierz'),
@@ -385,6 +378,24 @@ INSERT INTO `punkty_sprzedaży` VALUES
 (19,9,'Jasieniec Solecki','ul. Zaciszna',156,'02-760','151-28-88-348','162 014 095','relerudugojozod9rav@jyd7k75ytesedyzy3umyjalupyryso.pl',88180738331385,'warmińsko-mazurskie','m. Grudziądz','M. Bielsko-Biała'),
 (20,8,'Kozielsko','ul. Nasypowa',3,'45-527','245-43-97-449','842-384-242','ne1imocuz5toky@ci5yl0s1k4bukejisi9i0acyzany.pl',271714851,'mazowieckie','zawierciański','M. Kraków');
 
+
+INSERT INTO `kategorie` VALUES
+(1,'mikrokontroler','NULL'),
+(2,'mikroprocesor','NULL'),
+(3,'sterownik silnika bezszczotkowego','NULL'),
+(4,'wzmaczniacz dźwięku','NULL'),
+(5,'zegary i timery','NULL');
+
+
+
+
+INSERT INTO `płatności` VALUES
+(1,'gotowka'),
+(2,'przelew paypal'),
+(3,'przelewy24.pl'),
+(4,'tradycyjny przelew bankowy'),
+(5,'blik');
+
 INSERT INTO `sprzedaże` VALUES
 (1,1,1,'02.02.2020','03.02.2020','‭667 500‬','‭821 025‬',0.2),
 (2,4,5,'15.02.2020','16.02.2020','‭494 200‬','‭607 866‬',0),
@@ -392,12 +403,26 @@ INSERT INTO `sprzedaże` VALUES
 (4,4,15,'20.02.2020','21.02.2020','‭691 050‬','‭849 991.5',0.2),
 (5,1,13,'02.03.2020','03.03.2020','‭805 300‬','‭990 519‬',0.3);
 
-INSERT INTO `zamówienia` VALUES
-(1,6,2,109,'2019-08-15 13:17:34','2019-08-18 09:12:15',62250,76567.5),
-(2,3,5,50,'2018-09-16 14:28:09','2018-09-20 23:13:03',79220,97440.6‬),
-(3,2,6,35,'2020-01-17 12:53:02','2020-01-21 07:30:41',165597.5,203684.93),
-(4,1,7,10,'2018-10-30 09:47:29','2018-11-05 04:56:20',110485‬,135896.55),
-(5,5,10,89,'2019-11-28 08:11:07','2020-01-02 15:20:58',75712.5,‬93126.38);
+INSERT INTO `datki` VALUES
+(1,1,NULL,1,20000),
+(2,NULL,1,0,20000),
+(3,2,NULL,1,10000),
+(4,NULL,2,0,15000),
+(5,3,NULL,1,20000);
+
+
+
+
+INSERT INTO `faktury` VALUES
+(1,3,1,1,'Artur','Królikowski','498 581 962 122','nuderunokifatavuzu1otynaxugomiqo@t0fe5idip.pl',0.23,'2020.02.02 10:00:00'),
+(2,4,2,2,'Karol','Nowak','417034652','nyjezele9uha1yhowyvimajyfaxuzegi@qodozomek4jozaq2q3sywofiz9k0rude.pl',0.23,'2020.02.16 10:05:11'),
+(3,23,3,3,'Mateusz','Podlaski','194 481867236','my@6u6uwyvesywykitomocekitihikefovybijibozesyjorabuxavy.pl',0.23,'2020.02.17 10:11:30'),
+(4,24,4,4,'Alicja','Zielińska','322 363 191 103','zoc71@xevyfutif0kucyf.pl',0.23,'2020.02.21 10:15:35'),
+(5,29,5,5,'Joanna','Marczak','146 504 119','bo.ytarepyqela7ezap5sizyve7oluk@cife1e.pl',0.23,'2020.03.02 10:00:59');
+
+
+
+
 
 INSERT INTO stanowiska_uprawnienia VALUES
 (1,1,1),
