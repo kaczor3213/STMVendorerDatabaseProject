@@ -203,10 +203,10 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         <th>opis</th>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">kategorie_towarów</th>
+        <th style="text-align: center;" colspan="5">kategorie</th>
     </tr>
     <tr>
-        <td>id_kategorii_towaru</td>
+        <td>id_kategorii</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
@@ -1463,14 +1463,14 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         <td>liczba opisująca liczebność danego towaru</td>
     </tr>
     <tr>
-        <th style="text-align: center;" colspan="5">towary_kategorie_towarów</th>
+        <th style="text-align: center;" colspan="5">towary_kategorie</th>
     </tr>
     <tr>
-        <td>id_towary_kategorie_towarów</td>
+        <td>id_towary_kategorie</td>
         <td>całkowity</td>
         <td>tak</td>
         <td>tak</td>
-        <td>identyfikator tabeli towary-kategorie towarów</td>
+        <td>identyfikator tabeli towary-kategorie </td>
     </tr>
     <tr>
         <td>id_towary</td>
@@ -1719,7 +1719,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
 
 <table>
     <tr>
-        <th style="text-align: center;" colspan="5">kategorie_towarów</th>
+        <th style="text-align: center;" colspan="5">kategorie</th>
     </tr>
     <tr>
         <th>Nazwa tabeli pierwotnej </th>
@@ -1896,7 +1896,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
 <table>
 <tr>
     <th text-align: center></th>
-    <th text-align: center>kategorie_towarów</th>
+    <th text-align: center>kategorie</th>
     <th text-align: center>punkty_sprzedaży</th>
     <th text-align: center>dostawcy</th>
     <th text-align: center>hurtownie</th>
@@ -1921,7 +1921,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         
 </tr>
 <tr>
-    <th text-align: center>kategorie_towarów</th>
+    <th text-align: center>kategorie</th>
     <td text-align: center>1:n</td>
     <td text-align: center></td>
     <td text-align: center></td>
