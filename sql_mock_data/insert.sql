@@ -163,8 +163,6 @@ INSERT INTO `umowy` VALUES
 (119,'b2b'),
 (120,'umowa o pracę');
 
-
-
 INSERT INTO `hurtownie` VALUES
 (1,'G4KAD2','Dąbrówka','ul. Jana z Kolna',176,'62-400','M. Rzeszów','piaseczyński','podlaskie'),
 (2,'8YH8DE','Panistruga','ul. Heliotropów',257,'86-300','Psary','m. st. Warszawa','śląskie'),
@@ -172,7 +170,6 @@ INSERT INTO `hurtownie` VALUES
 (4,'M5K5KU','Bielsko-Biała','ul. Seledynowa',276,'05-800','Nysa','m. Poznań','podlaskie'),
 (5,'TO1U6A','Mirkowice','ul. Leśna',89,'31-564','M. st. Warszawa','biłgorajski','świętokrzyskie'),
 (6,'XUV2Z5','Ruda Śląska','ul. Ogrodowa',220,'39-200','Kobiele Wielkie','m. Gdańsk','zachodniopomorskie');
-
 
 INSERT INTO `towary` VALUES
 (1,'STM32 microkontroler F401RD','STM32F401RD','High-performance access line\,  ARM Cortex-M4 core with DSP and FPU\,  384 Kbytes Flash\,  84 MHz CPU\,  ART Accelerator',true,50,61.5,0.23,true),
