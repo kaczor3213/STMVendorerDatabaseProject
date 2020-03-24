@@ -1,3 +1,5 @@
+START TRANSACTION; 
+
 INSERT INTO `dostawcy` (pk,miejscowosc,ulica,numer_mieszkania,kod_pocztowy,gmina,powiat,województwo,nazwa,nip,login,hashowane_haslo) VALUES
 (1,'Ciuślice','ul. Bukowa',14,'61-351','Stromiec','bydgoski','kujawsko-pomorskie','MAB','752-28-21-395','afwefewa','2A07ACD279420112446BF3D551303E22'),
 (2,'Siedlce','ul. Portowa',91,'43-100','M. st. Warszawa','m. Gdynia','łódzkie','HAQ','162-67-85-563','aesfga','97F9434D5A092460387115CB2FAF9146'),
@@ -41,7 +43,7 @@ INSERT INTO `uprawnienia` (pk,rodzaj) VALUES
 (15,'dostęp do systemu informatycznego'),
 (16,'dostęp do danych wrażliwych w bazie');
 
-INSERT INTO `umowy` (pk,rodzaj,dokument) VALUES
+INSERT INTO `umowy` (pk,rodzaj) VALUES
 (1,'umowa o pracę'),
 (2,'umowa o pracę'),
 (3,'umowa o pracę'),
@@ -182,12 +184,16 @@ INSERT INTO `towary` (pk,nazwa,kod_producenta,opis,dostepnosc,cena_jedn_netto,ce
 (7,'sterownik silnika bezszczotkowego L6234','L6234','Three phase motor driver',true,65,79.95,0.23,true),
 (8,'sterownik silnika bezszczotkowego L6235','L6235','DMOS driver for 3-phase brushless DC motor',true,75,92.25,0.23,true);
 
+COMMIT;
+
+START TRANSACTION;
+
 INSERT INTO `pracownicy` (pk,fk_umowy,fk_stanowiska,fk_hurtownia,imie,nazwisko,miejscowosc,ulica,pesel,numer_mieszkania,kod_pocztowy,nip,numer_telefonu,drugie_imie,nazwa_uzytkownika,hashowane_haslo,zatrudnienie)
  VALUES
 (1,1,8,1,'Tomił','Malczka','Bielsko-Biała','ul. Rowerowa',92061816678,141,'85-796',NULL,'902-533-382','Domamir','nyko3aj7lus4qakop','AF18D800CBF20FA9357EA41964E953E9',true),
 (2,6,7,1,'Sylwiusz','Wiksycz','Jelenia Góra','ul. Azalii',04251617215,253,'09-230',NULL,'240-945-842','Bazyliusz','g05erihysadygig5lekutuxapodyjadizugegar','C857C8627F3D7A4E41276717D22167E2',true),
 (3,17,5,1,'Urlyk','Aner','Gdańsk','ul. Nowoosiedlowa',89060708336,27,'58-533','177-61-27-442','204-759-687','Dobromierz','9ovylar3cagukydiz2joperepyvysawoq','E9B86B287CCDC2EAF0237B0B137CF929',true),
-(4,18,5,1,'Dobiemiest','Jerzowski','Lipie','ul. Warszawska',19301506384,127,'09-450','333-92-78-960','772-535-847','Jordan','f5bet1notodiwyxovibenuki9isonyz','D565B8CABCDF1A55B4277F2DE53BFD48',true),
+(4,16,5,1,'Dobiemiest','Jerzowski','Lipie','ul. Warszawska',19301506384,127,'09-450','333-92-78-960','772-535-847','Jordan','f5bet1notodiwyxovibenuki9isonyz','D565B8CABCDF1A55B4277F2DE53BFD48',true),
 (5,4,10,1,'Władysław','Wratacz','Gadów','ul. Mazowiecka',89022415087,149,'16-001',NULL,'749-324-834','Bertrand','qecokiqeve2ube3yfig3','33F08D9899B00C5595BAC2D201FAE51D',true),
 (6,7,6,1,'Lech','Awtomonow','Sośninka','ul. Fiołków',03211710047,50,'89-240',NULL,'483-101-388','Rudolf','n5waqicaqi85zy','C2BFE9A9DBBC52D4CD5206B3922F2F22',true),
 (7,5,2,1,'Marian','Lokota','Warszawa','ul. Doktora Judyma',92120405133,164,'44-282',NULL,'766-228-167','Toligniew','tyrosejyguk1zawuruvukorysodib9vagacaxypog2fynagyh','728F0C6ACA5DB13BBD56823564AC778E',true),
@@ -207,7 +213,7 @@ INSERT INTO `pracownicy` (pk,fk_umowy,fk_stanowiska,fk_hurtownia,imie,nazwisko,m
 (21,21,8,2,'Damazy','Boryski','Brzóza Królewska','ul. Herberta Zbigniewa',92082416565,13,'68-343',NULL,'816-854-435','Ubysław','mywiluny59pyweg9mukiw','5DA888523071016EC924C0FCEB0581E4',true),
 (22,26,7,2,'Benicjusz','Melkner','Sępólno Krajeńskie','ul. Chałubińskiego Tytusa',73051103381,116,'96-124',NULL,'834-096-458','Długosz','kiluty067it','0AA95DB6FCBC3315838BE91B30BCB90D',true),
 (23,37,5,2,'Jan Gwalbert','Ciesielkiewicz','Wierzchowiny','ul. Osiedlowa',86052606661,212,'33-170','505-486-91-94','853-762-646','Eulogiusz','xicer7fukyq4k9simyvafalyvubytomyx','4112A7B292340A947631607D741AA734',true),
-(24,38,5,2,'Władymir','Hildobrandt','Olsztyn','ul. Polna',87122707932,297,'07-410','543-545-65-66','717-198-352','Kandyd','jegizyty9oheruka7iqexidadujaryr8xydemitulif','5F068365E0F4921A49A9A2D395C7878A',true),
+(24,36,5,2,'Władymir','Hildobrandt','Olsztyn','ul. Polna',87122707932,297,'07-410','543-545-65-66','717-198-352','Kandyd','jegizyty9oheruka7iqexidadujaryr8xydemitulif','5F068365E0F4921A49A9A2D395C7878A',true),
 (25,24,10,2,'Wodzisław','Perrony','Wałbrzych','ul. Nowofolwarczna',98110623033,6,'26-120',NULL,'416-413-422','Adalbert','hifim872qykufemyf','420D05FF97B351916E1AAAEF5DD158E5',true),
 (26,27,6,2,'Ramon','Jaromoń','Bodzanów','ul. Żylewicza Józefa',99050213719,180,'62-660',NULL,'904-939-640','Gerard','sadyteme20xucefaterab7qanerofemaxe','A82ABE9C2789E0E49D85B13F91865D5F',true),
 (27,25,2,2,'Achacy','Jachimeczko','Bielsko-Biała','ul. Staszica Stanisława',85020314922,263,'27-415',NULL,'707-986-669','Pękosław','q9fehidysuzave5yjiviga0yjuxuxu','96B8D7861E9C5821483FAEACAF4E2AD5',true),
@@ -227,7 +233,7 @@ INSERT INTO `pracownicy` (pk,fk_umowy,fk_stanowiska,fk_hurtownia,imie,nazwisko,m
 (41,41,8,3,'Radomysł','Kanorska','Michałowo','ul. Fabryczna',92071218228,4,'00-268',NULL,'211-750-141','Sewer','juw5z0zu9omojacanyle','D42B751118F4176D4FD0A52B2615E2BC',true),
 (42,46,7,3,'Emeryk','Ołata','Bierwiecka Wola','ul. Orzeszkowej Elizy',99050120910,161,'07-106',NULL,'668-538-440','Domasław','c7gy7efoc8j','15DBB1DF1C56203C6F2771C11277BEDF',true),
 (43,57,5,3,'Biernat','Horbst','Czeladź','ul. Dębowa',71071409409,216,'88-200','558-841-82-92','160-254-816','Wespazjan','mygydufizor3tol61imasatixyfifuvutyc','AB6A390DD0902FDDC0DC883CAA73F0EB',true),
-(44,58,5,3,'Aron','Kiember','Łódź','ul. Fredry Aleksandra',88091017716,24,'08-304','746-569-32-14','513-041-002','Sebald','pygylado7eh2ribifilifocevamovuj5vavobazire','2DD8AB1F2E53C2511C27FE6C7428824B',true),
+(44,56,5,3,'Aron','Kiember','Łódź','ul. Fredry Aleksandra',88091017716,24,'08-304','746-569-32-14','513-041-002','Sebald','pygylado7eh2ribifilifocevamovuj5vavobazire','2DD8AB1F2E53C2511C27FE6C7428824B',true),
 (45,44,10,3,'Mamert','Bulak','Kobylnica','ul. Bławatkowa',87110722552,70,'44-100',NULL,'220-393-707','Kalasanty','zabisopabujolijonicamefikixo5ylan4ked2b','63EF7C86514B5500BD57BBED98AD5CAA',true),
 (46,47,6,3,'Strzeżywoj','Chwołka','Rąpice','ul. Polska',93103003319,204,'93-479',NULL,'348-679-661','Chociesław','bura6yw6qek7pet','E879976510399D6C81C756F9A1181485',true),
 (47,45,2,3,'Żyrosław','Kodran','Kraków','ul. Papiernicza',81040502574,14,'26-920',NULL,'268-310-495','Jordan','qynafubododaty8egoquxysyjoxu7ulyxape9yzoze','8BAA44B43C32C941FE83B5B8FEBC7475',true),
@@ -247,7 +253,7 @@ INSERT INTO `pracownicy` (pk,fk_umowy,fk_stanowiska,fk_hurtownia,imie,nazwisko,m
 (61,61,8,4,'Niemir','Potasiewicz','Bielsko-Biała','ul. Jaskółcza',77021210321,259,'43-600',NULL,'908-259-929','Karol','socarol3viby8ikanysiviluwyzuqoxihugikasony0us','657BE786C900386237450771FB818A9D',true),
 (62,66,7,4,'Leonard','Zammerfeld','Niemiecka Wieś','ul. Obrońców Helu',92050922667,160,'42-100',NULL,'522-916-743','Burchard','caxapifup5vazige7ihonitynotibubyruqyj9xury','D5E4DAA216EF01A47F584CB68535CB8F',true),
 (63,77,5,4,'Goliat','Potażek','Katowice','ul. Krzywa',71121503354,130,'27-350','386-194-61-710','811-807-738','Ziemowit','keq1mi4ym7luhocyx','8A42A7B8C0D5701F900E8AAC6A651DCE',true),
-(64,78,5,4,'Filip','Żebrakowski','Ruda śląska','ul. Kościuszki Tadeusza',85011517231,112,'86-010','881-851-24-51','569-698-802','Julian','mevamigeb3nukaretalodetototur8gagosuz9','6D530C185831285944682646C6D955E1',true),
+(64,76,5,4,'Filip','Żebrakowski','Ruda śląska','ul. Kościuszki Tadeusza',85011517231,112,'86-010','881-851-24-51','569-698-802','Julian','mevamigeb3nukaretalodetototur8gagosuz9','6D530C185831285944682646C6D955E1',true),
 (65,74,10,4,'Chrystian','Malejonek','Gnatowo','ul. Mylna',80062617343,163,'05-802',NULL,'310-156-663','Innocenty','hylezoca6urekarewezaq69ej','2E075BFAF68483FC0166824BC4549DEE',true),
 (66,67,6,4,'Odyseusz','Mirułowski','Rudziska','ul. Junaków',86032214242,236,'36-245',NULL,'600-771-675','Eberhard','tijekus6b1ryle2isow','33980C5CC4AEBF4476DE86A049A80E5F',true),
 (67,65,2,4,'Bertrand','Łędzich','Rzeszów','ul. Orzeszkowej Elizy',71061416064,30,'38-441',NULL,'447-498-740','Alf','toxuwakohubikucy1ofefepib1mipy9y','7A883FDA71F4B2968D478B7998B880D5',true),
@@ -256,7 +262,7 @@ INSERT INTO `pracownicy` (pk,fk_umowy,fk_stanowiska,fk_hurtownia,imie,nazwisko,m
 (70,72,4,4,'Symeon','Dziemierowicz','Opole','ul. Niecała',84110210513,98,'95-011',NULL,'114-274-017','Auksencjusz','zid0hyp9fafovyq3bicydu','EB12C9114FAC1F2FA5CF9BC73E61B2D2',true),
 (71,73,2,4,'Oktawiusz','Wytt','Rzeszów','ul. Szklarniana',79062508645,165,'39-400',NULL,'870-804-412','Kewin','losufyb9dalybeqahyvepokyz2purojimipezovovetebic0z','0E1CA402536DADCD2A8F743DCF8C9109',true),
 (72,75,7,4,'Marcin','Meszyński','Koszalin','ul. Bielskiego Marcina',87091423808,264,'88-100',NULL,'745-665-757','Bonifacy','nujutuh2nyvolagimufa3itur9sy','6CFA390611C99ECDCBCDDE997D73A4D2',true),
-(73,74,8,4,'Witomir','Puzerowski','Wola Gruszowska','ul. Snycerska',79101308816,213,'26-400',NULL,'955-782-022','Mamert','wafese2okev8wyq7','E2AD8E565F5095D5EC6A2FF4C6DD6573',true),
+(73,64,8,4,'Witomir','Puzerowski','Wola Gruszowska','ul. Snycerska',79101308816,213,'26-400',NULL,'955-782-022','Mamert','wafese2okev8wyq7','E2AD8E565F5095D5EC6A2FF4C6DD6573',true),
 (74,63,6,4,'Będzimir','Bałgan','Szczytniki','ul. Obrońców Helu',74082022678,164,'38-300',NULL,'710-161-189','Pafnucy','demysoniwebunuzo17kecofijesuzozup9gocolus','D85EA4B394D80F807054A9FE88FFAE80',true),
 (75,78,3,4,'Cyrus','Zyglicki','Czaplinek','ul. Lipinka',77042225580,222,'60-480','702-68-53-420','592-607-641','Ewelin','fitypeg5jeg6dygyq0bi','F8AE6FC6DF223434064460830E440E16',true),
 (76,68,6,4,'Unisław','Muchl','Wieliczka','ul. Tatarkiewicza Władysława',78011304073,166,'64-700',NULL,'634-424-288','Bartłomiej','h1juvor8jivyja3arubo','7A8CE962167C4AC9831DC2D9ADBC08CF',true),
@@ -267,7 +273,7 @@ INSERT INTO `pracownicy` (pk,fk_umowy,fk_stanowiska,fk_hurtownia,imie,nazwisko,m
 (81,81,8,5,'Bazyli','Libus','Warszawa','ul. Źródlana',95010523964,100,'66-615',NULL,'193-979-814','Dzierżykraj','f9r6sebom8','820AA8B5568CB5BBACA27CA7D6219B51',true),
 (82,86,7,5,'Budzimir','Spiołek','świerże','ul. Jesienna',97043007169,231,'05-320',NULL,'563-123-613','Galezy','foz3racowoderydanygelyqobucikomevi9eqot7jymos','78D1F626D3F47E100DE10A763D2138AE',true),
 (83,97,5,5,'Natan','Wells','Opole','ul. Plebiscytowa',83022613353,23,'00-654','421-277-67-30','947-464-204','Zdobysław','mi8ujozenoxehifiqyviciqadisi2agemebyjyzulin1','DB31ADDC156A73A9D12D5A8548EDE7C1',true),
-(84,98,5,5,'Mieczysław','Szawiała','Jasło','ul. Reymonta Władysława',82052324239,296,'06-121','231-617-48-31','237-260-339','Prochor','zipujuj6fofycame48xyfofynebitefahamuhego','DAE2043013B0945D9EC2162FCA342261',true),
+(84,96,5,5,'Mieczysław','Szawiała','Jasło','ul. Reymonta Władysława',82052324239,296,'06-121','231-617-48-31','237-260-339','Prochor','zipujuj6fofycame48xyfofynebitefahamuhego','DAE2043013B0945D9EC2162FCA342261',true),
 (85,84,10,5,'Strzeżywoj','Maszner','Grodzisk Mazowiecki','ul. Bonifraterska',94080808964,79,'39-230',NULL,'613-588-935','Zygfryd','617u44si913u75t70333622o3ah35uveg576967686m070','ECA1D8A3DD63B648270088E660FCD065',true),
 (86,87,6,5,'Siemirad','Gieroni','Bielsko-Biała','ul. Pielęgniarek',88111102093,288,'01-678',NULL,'348-477-643','Tymoteusz','g0siwotekamubenixuno5ic1docag','AB36BF74278BC6C5F09E7A4A1117AD94',true),
 (87,85,2,5,'Niemir','Sierzań','Warszawa','ul. Rudnickiego Mikołaja',75032221215,103,'78-100',NULL,'997-613-689','Bertram','5ibyc3l2rivu','BC4AAA7CB67382018E432374CE9D098B',true),
@@ -287,7 +293,7 @@ INSERT INTO `pracownicy` (pk,fk_umowy,fk_stanowiska,fk_hurtownia,imie,nazwisko,m
 (101,101,8,6,'Demetriusz','Rakaszewska','Koszarsko','ul. Moniuszki Stanisława',78081013682,33,'08-110',NULL,'109-501-577','Cecylian','limomyzen2copojekek8fonaf5no','B41A7099EE4CEB1BA8352BB517527CD8',true),
 (102,106,7,6,'Tomasz','Perelson','Warszawa','ul. Leszków',86101514282,30,'98-240',NULL,'639-062-387','Tyburcjusz','ramikyhyke2ugano6eqihur6nefyt','4F12D26928C5A7CDF706DF02CB54E7C0',true),
 (103,117,5,6,'Renat','Medau','Skupowo','ul. Szczepowa',83033114151,230,'43-430','921-154-83-20','451-115-321','Wielisław','majobuhyluda3oxodysohijon63enohe','731B8DE96F0DEF6D7744D043A31D92C2',true),
-(104,118,5,6,'Beatus','Sopoński','Rawka','ul. Częstochowska',82090801712,177,'62-010','743-41-56-995','213-121-024','Tristan','fyg4zikosigorupyzuwuzulifo14qepybuqadotodasoryg','4A8C6A19AD17487A7C19C9DCE951DB99',true),
+(104,116,5,6,'Beatus','Sopoński','Rawka','ul. Częstochowska',82090801712,177,'62-010','743-41-56-995','213-121-024','Tristan','fyg4zikosigorupyzuwuzulifo14qepybuqadotodasoryg','4A8C6A19AD17487A7C19C9DCE951DB99',true),
 (105,104,10,6,'Tezeusz','Wojkszun','Ignacewo','ul. Jaśminowa',87051005734,249,'07-410',NULL,'718-905-239','Borzysław','sikidumi3uxibit4laguvoqokaj1dew','EA69AE988B3A6844BC456447A5321D40',true),
 (106,107,6,6,'światozar','Konakow','Jelenia Góra','ul. Ternicka',79021118494,156,'37-400',NULL,'591-986-331','Julian','fa4anirutex5ce1','37AD0307E0E4F51F5765D32E0B11093E',true),
 (107,105,2,6,'Beniamin','Bartsik','Opole','ul. Kasztelańska',93021811119,229,'25-633',NULL,'703-012-369','Arnold','3168900866144305224200531620738593','B14160CB6CD5C9AC5307560D2BA8FEB0',true),
@@ -304,6 +310,10 @@ INSERT INTO `pracownicy` (pk,fk_umowy,fk_stanowiska,fk_hurtownia,imie,nazwisko,m
 (118,102,11,6,'Dersław','Inszo','Sianowo Leśne','ul. Tartaczna',86060624187,108,'29-105',NULL,'350-396-890','Salezy','kela9ijyzuzy5o7ifob','745D8003A61D21D161351B56398115B8',true),
 (119,110,2,6,'Herakles','Towalewski','Warszawa','ul. Działkowa',77021225367,210,'31-958',NULL,'456-602-498','Leopold','boligagaluzoqisex5pojytol9goh2qiwimyk','87D0C57A32D34242383115049C64CE62',true),
 (120,120,6,6,'Lubomir','Olewnik','Gdynia','ul. Nadrzeczna',75080215053,229,'62-541',NULL,'255-791-075','Przedbor','ly1ilu55vumi','B60751F0CB2AF2DFBAFA0B30091843BD',true);
+
+COMMIT;
+
+START TRANSACTION;
 
 INSERT INTO `przesunięcia_magazynowe` (pk,fk_hurtownia_źródłowa,fk_hurtownia_docelowa,fk_pracownik,data_zlecenia,data_realizacji,data_odbioru_końcowego) VALUES
 (1,5,6,95,'2019-06-20 13:17:34','2019-06-29 09:12:15','2019-07-04 13:52:58'),
@@ -345,6 +355,10 @@ INSERT INTO `dane_przedsiębiorstw` (pk,miejscowosc,ulica,numer_mieszkania,kod_p
 (9,'Józefów','ul. Z. Kościńskiego',95,'58-562','624-17-19-339','798-707-024','nak2joga@qohevoriqopasyhyvyzunemu6ehudu08q5jycewixuky.pl',185161818,'ExtraCodeWorkers','kujawsko-pomorskie','Średzki','Chorzele'),
 (10,'Władysławowo','ul. Staffa Leopolda',168,'05-085','781-882-18-84','683-455-810','8ybohe2ejeryrofy@mapopu3emirejon.pl',359093795,'PHPService','wielkopolskie','dębicki','Radomin');
 
+COMMIT; 
+
+START TRANSACTION;
+
 INSERT INTO `punkty_sprzedaży` (pk,fk_dane_przedsiębiorstw,miejscowosc,ulica,numer_mieszkania,kod_pocztowy,nip,numer_telefonu,email,regon,województwo,powiat,gmina) VALUES
 (1,1,'Gołębiów','ul. Majkowskiego Aleksandra (Doktora Aleksandra Majkowskiego)',174,'42-360','608-895-98-84','453-981-686','nuderunokifatavuzu1otynaxugomiqo@t0fe5idip.pl',656636362,'opolskie','lipnowski','Siewierz'),
 (2,2,'Rutkowice','ul. Świętego Brata Alberta',233,'86-307','121-65-91-210','267-429-560','nyjezele9uha1yhowyvimajyfaxuzegi@qodozomek4jozaq2q3sywofiz9k0rude.pl',294835373,'mazowieckie','lubiński','Cewice'),
@@ -381,12 +395,20 @@ INSERT INTO `płatności` (pk,rodzaj_płatności) VALUES
 (4,'tradycyjny przelew bankowy'),
 (5,'blik');
 
+COMMIT;
+
+START TRANSACTION;
+
 INSERT INTO `sprzedaże` (pk,fk_płatności,fk_punkt_sprzedaży,data_zlecenia_sprzedaży,data_zaksięgowania_płatności,cena_sum_netto,cena_sum_brutto,rabat) VALUES
 (1,1,1,'02.02.2020','03.02.2020','‭667 500‬','‭821 025‬',0.2),
 (2,4,5,'15.02.2020','16.02.2020','‭494 200‬','‭607 866‬',0),
 (3,4,10,'16.02.2020','17.02.2020','‭571 400‬','‭702 822‬',0.1),
 (4,4,15,'20.02.2020','21.02.2020','‭691 050‬','‭849 991.5',0.2),
 (5,1,13,'02.03.2020','03.03.2020','‭805 300‬','‭990 519‬',0.3);
+
+COMMIT;
+
+START TRANSACTION;
 
 INSERT INTO `datki` (pk,fk_fundacja,fk_start_up,forma,kwota) VALUES
 (1,1,NULL,1,20000),
@@ -600,3 +622,5 @@ INSERT INTO `zamówienia_towary` (pk,fk_zamówienia,fk_towary,cena_jedn_netto,ce
 (23,5,8,37.5,46.13,475),
 (24,5,7,32.5,39.98,484),
 (25,5,3,35,43.05‬,462);
+
+COMMIT;
