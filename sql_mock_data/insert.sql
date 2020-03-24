@@ -163,8 +163,6 @@ INSERT INTO `umowy` (pk,rodzaj,dokument) VALUES
 (119,'b2b'),
 (120,'umowa o pracę');
 
-
-
 INSERT INTO `hurtownie` (pk,kod_hurtowni,miejscowosc,ulica,numer_mieszkania,kod_pocztowy,gmina,powiat,województwo) VALUES
 (1,'G4KAD2','Dąbrówka','ul. Jana z Kolna',176,'62-400','M. Rzeszów','piaseczyński','podlaskie'),
 (2,'8YH8DE','Panistruga','ul. Heliotropów',257,'86-300','Psary','m. st. Warszawa','śląskie'),
