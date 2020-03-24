@@ -1,4 +1,4 @@
-INSERT INTO `dostawcy` VALUES
+INSERT INTO `dostawcy` (pk,miejscowosc,ulica,numer_mieszkania,kod_pocztowy,gmina,powiat,województwo,nazwa,nip,login,hashowane_haslo) VALUES
 (1,'Ciuślice','ul. Bukowa',14,'61-351','Stromiec','bydgoski','kujawsko-pomorskie','MAB','752-28-21-395','afwefewa','2A07ACD279420112446BF3D551303E22'),
 (2,'Siedlce','ul. Portowa',91,'43-100','M. st. Warszawa','m. Gdynia','łódzkie','HAQ','162-67-85-563','aesfga','97F9434D5A092460387115CB2FAF9146'),
 (3,'Głęboczek','ul. Dąbrowskiego',95,'41-506','M. Łódź','m. st. Warszawa','podlaskie','XIX','814-48-38-744','dgfdswe','B2CB8B3726A67D10522B3CBC33497014'),
@@ -10,7 +10,7 @@ INSERT INTO `dostawcy` VALUES
 (9,'Budy Łańcuckie','ul. Parkowa',255,'43-316','M. Kraków','makowski','mazowieckie','DIH','139-72-76-896','a.a','9B22A42E63C8564FD7E30FD5A2CC89C2'),
 (10,'Kębłowo','ul. Owczarska',271,'62-304','M. Jaworzno','m. Wrocław','łódzkie','TIQ','545-78-16-635','a1a2a3a4a5a6a7a8a9a10aaaaaaaaaaa','E8D544292304B53663BE7356E64CC494');
 
-INSERT INTO `stanowiska` VALUES
+INSERT INTO `stanowiska` (pk,nazwa) VALUES
 (1,'administrator'),
 (2,'magazynier'),
 (3,'menadżer'),
@@ -23,7 +23,7 @@ INSERT INTO `stanowiska` VALUES
 (10,'księgowy'),
 (11,'konserwator budynku');
 
-INSERT INTO `uprawnienia` VALUES
+INSERT INTO `uprawnienia` (pk,rodzaj) VALUES
 (1,'edycja danych w bazie'),
 (2,'wystawianie faktur'),
 (3,'dostęp do hurtowni'),
@@ -41,7 +41,7 @@ INSERT INTO `uprawnienia` VALUES
 (15,'dostęp do systemu informatycznego'),
 (16,'dostęp do danych wrażliwych w bazie');
 
-INSERT INTO `umowy` VALUES
+INSERT INTO `umowy` (pk,rodzaj,dokument) VALUES
 (1,'umowa o pracę'),
 (2,'umowa o pracę'),
 (3,'umowa o pracę'),
@@ -165,7 +165,7 @@ INSERT INTO `umowy` VALUES
 
 
 
-INSERT INTO `hurtownie` VALUES
+INSERT INTO `hurtownie` (pk,kod_hurtowni,miejscowosc,ulica,numer_mieszkania,kod_pocztowy,gmina,powiat,województwo) VALUES
 (1,'G4KAD2','Dąbrówka','ul. Jana z Kolna',176,'62-400','M. Rzeszów','piaseczyński','podlaskie'),
 (2,'8YH8DE','Panistruga','ul. Heliotropów',257,'86-300','Psary','m. st. Warszawa','śląskie'),
 (3,'G69ELE','Warszawa','ul. Deotymy',275,'09-401','M. Lublin','m. Jelenia Góra','lubelskie'),
@@ -174,7 +174,7 @@ INSERT INTO `hurtownie` VALUES
 (6,'XUV2Z5','Ruda Śląska','ul. Ogrodowa',220,'39-200','Kobiele Wielkie','m. Gdańsk','zachodniopomorskie');
 
 
-INSERT INTO `towary` VALUES
+INSERT INTO `towary` (pk,nazwa,kod_producenta,opis,dostepnosc,cena_jedn_netto,cena_jedn_butto,stawka_vat,status) VALUES
 (1,'STM32 microkontroler F401RD','STM32F401RD','High-performance access line\,  ARM Cortex-M4 core with DSP and FPU\,  384 Kbytes Flash\,  84 MHz CPU\,  ART Accelerator',true,50,61.5,0.23,true),
 (2,'STM32 microkontroler F4071G','STM32F4071G','High-performance foundation line\,  ARM Cortex-M4 core with DSP and FPU\,  1 Mbyte Flash\,  168 MHz CPU\,  ART Accelerator\,  Ethernet\,  FSMC',true,60,73.8,0.23,true),
 (3,'STM32 microkontroler F412VG','STM32F412VG','STM32 Dynamic Efficiency MCU with BAM\,  High-performance and DSP with FPU\,  ARM Cortex-M4 MCU with 1 Mbyte Flash\,  100 MHz CPU\,  Art Accelerator\,  DFSDM',true,70,86.1,0.23,true),
@@ -184,7 +184,8 @@ INSERT INTO `towary` VALUES
 (7,'sterownik silnika bezszczotkowego L6234','L6234','Three phase motor driver',true,65,79.95,0.23,true),
 (8,'sterownik silnika bezszczotkowego L6235','L6235','DMOS driver for 3-phase brushless DC motor',true,75,92.25,0.23,true);
 
-INSERT INTO `pracownicy` VALUES
+INSERT INTO `pracownicy` (pk,fk_umowy,fk_stanowiska,fk_hurtownia,imie,nazwisko,miejscowosc,ulica,pesel,numer_mieszkania,kod_pocztowy,nip,numer_telefonu,drugie_imie,nazwa_uzytkownika,hashowane_haslo,zatrudnienie)
+ VALUES
 (1,1,8,1,'Tomił','Malczka','Bielsko-Biała','ul. Rowerowa',92061816678,141,'85-796',NULL,'902-533-382','Domamir','nyko3aj7lus4qakop','AF18D800CBF20FA9357EA41964E953E9',true),
 (2,6,7,1,'Sylwiusz','Wiksycz','Jelenia Góra','ul. Azalii',04251617215,253,'09-230',NULL,'240-945-842','Bazyliusz','g05erihysadygig5lekutuxapodyjadizugegar','C857C8627F3D7A4E41276717D22167E2',true),
 (3,17,5,1,'Urlyk','Aner','Gdańsk','ul. Nowoosiedlowa',89060708336,27,'58-533','177-61-27-442','204-759-687','Dobromierz','9ovylar3cagukydiz2joperepyvysawoq','E9B86B287CCDC2EAF0237B0B137CF929',true),
@@ -306,35 +307,35 @@ INSERT INTO `pracownicy` VALUES
 (119,110,2,6,'Herakles','Towalewski','Warszawa','ul. Działkowa',77021225367,210,'31-958',NULL,'456-602-498','Leopold','boligagaluzoqisex5pojytol9goh2qiwimyk','87D0C57A32D34242383115049C64CE62',true),
 (120,120,6,6,'Lubomir','Olewnik','Gdynia','ul. Nadrzeczna',75080215053,229,'62-541',NULL,'255-791-075','Przedbor','ly1ilu55vumi','B60751F0CB2AF2DFBAFA0B30091843BD',true);
 
-INSERT INTO `przesunięcia_magazynowe` VALUES
+INSERT INTO `przesunięcia_magazynowe` (pk,fk_hurtownia_źródłowa,fk_hurtownia_docelowa,fk_pracownik,data_zlecenia,data_realizacji,data_odbioru_końcowego) VALUES
 (1,5,6,95,'2019-06-20 13:17:34','2019-06-29 09:12:15','2019-07-04 13:52:58'),
 (2,4,3,70,'2018-07-30 14:28:09','2018-08-08 23:13:03','2018-08-13 18:49:59'),
 (3,4,2,69,'2020-02-06 12:53:02','2020-02-12 07:30:41','2020-02-17 05:25:21'),
 (4,2,1,30,'2018-12-05 09:47:29','2018-12-07 04:56:20','2018-12-12 23:41:40'),
 (5,3,5,49,'2019-12-02 08:11:07','2020-12-09 15:20:58','2019-12-14 11:03:36');
 
-INSERT INTO `zamówienia` VALUES
+INSERT INTO `zamówienia` (pk,rodzaj) VALUES
 (1,6,2,109,'2019-08-15 13:17:34','2019-08-18 09:12:15',62250,76567.5),
 (2,3,5,50,'2018-09-16 14:28:09','2018-09-20 23:13:03',79220,97440.6‬),
 (3,2,6,35,'2020-01-17 12:53:02','2020-01-21 07:30:41',165597.5,203684.93),
 (4,1,7,10,'2018-10-30 09:47:29','2018-11-05 04:56:20',110485‬,135896.55),
 (5,5,10,89,'2019-11-28 08:11:07','2020-01-02 15:20:58',75712.5,‬93126.38);
 
-INSERT INTO `start_upy` VALUES
+INSERT INTO `start_upy` (pk,miejscowosc,ulica,numer_mieszkania,kod_pocztowy,nip,numer_telefonu,email,regon,nazwa,województwo,powiat,gmina) VALUES
 (1,'Leszkowice','ul. Szkolna',183,'80-603','308-52-94-380','603-485-192','sozax@tizovehaxetaqyc5lapihafuvizipirajiwotaxybe-ylalozufyh-t.pl',22201615927019,'CodeStarter','zachodniopomorskie','Świdnicki','Zbrosławice'),
 (2,'Warszawa','ul. Jara',241,'78-220','255-87-48-282','351-927-298','retyhawesa@safinile7odeleryjive2y0uh38am83ejifygadonywiwuhadifofuk3bo.pl',64636236356608,'FotoWorkers','śląskie','m. Koszalin','M. Radom'),
 (3,'Piaski','ul. Wiejska',41,'73-220','108-69-73-780','856-791-613','n4lyzilyvosa0ycaxywesanypiqov@nekaxige0u2ymu3ilenuqoso6oz2z.pl',50653607598885,'MachineMastering','warmiñsko-mazurskie','m. Płock','Dębno'),
 (4,'Dąbrowa Górnicza','ul. Różana',300,'42-226','332-715-93-33','468-311-887','0iqigipu7i5yxybasicokysevow6@wyve8ocyjeri9yweg3coco0.pl',808496584,'STMStarter','łódzkie','m. Szczecin','M. st. Warszawa'),
 (5,'Wrocław','ul. Witosa Wincentego',292,'78-630','258-236-38-64','387-242-181','4.p2kosoxicyj-jof6c8qinolivun@xul7.pl',031987030,'MicroChip','śląskie','starogardzki','M. Kraków');
 
-INSERT INTO `fundacje` VALUES
+INSERT INTO `fundacje` (pk,miejscowosc,ulica,numer_mieszkania,kod_pocztowy,nip,numer_telefonu,email,regon,nazwa,województwo,powiat,gmina) VALUES
 (1,'Maciejów','ul. Pana Tadeusza',177,'09-500','834-52-23-4310','570-220-638','wyrokufubewis0kyposuha@pymosiwu4ymynuzipojamyl-pi3omixagiposegijyxexize6awewiten.pl',114160595,'Fundacja Batorego','małopolskie','sejneński','Słupia (Konecka)'),
 (2,'Warszawa','ul. Wańkowicza Melchiora',208,'85-790','314-814-85-31','780-078-026','hon1gow@guwo1ajukoxum2he2ody3imituj66ibymyqako.pl',10388198139241,'Fundacja im. Jana Kochanowskiego','mazowieckie','łaski','Gryfice'),
 (3,'Stradlice','ul. Brzechowska',105,'20-355','818-82-97-171','763-885-700','detufocu@z3byp3xazula0up7xugyfuqugeqaqun0c7lahyse6okid650hebugoj.pl',866389251,'Fundacja ST','zachodniopomorskie','nowomiejski','Biała'),
 (4,'Galowice','ul. Świerkowa',72,'46-022','962-79-41-667','110-982-714','fyze@gyrejoq.pl',84006729340530,'Fundacja im. Jana Pawła II','małopolskie','mikołowski','Zblewo'),
 (5,'Warszawa','ul. Tuwima Juliana',23,'05-170','461-43-42-643','853-057-384','sovido7iwykecuwixeb36u8apu0i@seqahoti.pl',01443767731041,'Fundacja im. Marii Skłodowskiej-Curie','wielkopolskie','włoszczowski','Kamieniec Ząbkowicki');
 
-INSERT INTO `dane_przedsiębiorstw` VALUES
+INSERT INTO `dane_przedsiębiorstw` (pk,miejscowosc,ulica,numer_mieszkania,kod_pocztowy,nip,numer_telefonu,email,regon,nazwa_przedsiebiorstwa,województwo,powiat,gmina) VALUES
 (1,'Gołębiów','ul. Majkowskiego Aleksandra (Doktora Aleksandra Majkowskiego)',174,'42-360','608-895-98-84','507-244-204','nuderunokifatavuzu1otynaxugomiqo@t0fe5idip.pl',656636362,'Medcom','opolskie','lipnowski','Siewierz'),
 (2,'Rutkowice','ul. Świętego Brata Alberta',233,'86-307','121-65-91-210','621-651-020','nyjezele9uha1yhowyvimajyfaxuzegi@qodozomek4jozaq2q3sywofiz9k0rude.pl',294835373,'Metalwork Inc','mazowieckie','lubiński','Cewice'),
 (3,'Przewłoka','ul. Marmurowa',82,'13-220','557-43-73-1710','907-034-109','my@6u6uwyvesywykitomocekitihikefovybijibozesyjorabuxavy.pl',784066207,'FastCode','wielkopolskie','m. Tychy','M. Lublin'),
@@ -346,7 +347,7 @@ INSERT INTO `dane_przedsiębiorstw` VALUES
 (9,'Józefów','ul. Z. Kościńskiego',95,'58-562','624-17-19-339','798-707-024','nak2joga@qohevoriqopasyhyvyzunemu6ehudu08q5jycewixuky.pl',185161818,'ExtraCodeWorkers','kujawsko-pomorskie','Średzki','Chorzele'),
 (10,'Władysławowo','ul. Staffa Leopolda',168,'05-085','781-882-18-84','683-455-810','8ybohe2ejeryrofy@mapopu3emirejon.pl',359093795,'PHPService','wielkopolskie','dębicki','Radomin');
 
-INSERT INTO `punkty_sprzedaży` VALUES
+INSERT INTO `punkty_sprzedaży` (pk,fk_dane_przedsiębiorstw,miejscowosc,ulica,numer_mieszkania,kod_pocztowy,nip,numer_telefonu,email,regon,województwo,powiat,gmina) VALUES
 (1,1,'Gołębiów','ul. Majkowskiego Aleksandra (Doktora Aleksandra Majkowskiego)',174,'42-360','608-895-98-84','453-981-686','nuderunokifatavuzu1otynaxugomiqo@t0fe5idip.pl',656636362,'opolskie','lipnowski','Siewierz'),
 (2,2,'Rutkowice','ul. Świętego Brata Alberta',233,'86-307','121-65-91-210','267-429-560','nyjezele9uha1yhowyvimajyfaxuzegi@qodozomek4jozaq2q3sywofiz9k0rude.pl',294835373,'mazowieckie','lubiński','Cewice'),
 (3,3,'Przewłoka','ul. Marmurowa',82,'13-220','557-43-73-1710','146-966-693','my@6u6uwyvesywykitomocekitihikefovybijibozesyjorabuxavy.pl',784066207,'wielkopolskie','m. Tychy','M. Lublin'),
@@ -368,42 +369,42 @@ INSERT INTO `punkty_sprzedaży` VALUES
 (19,9,'Jasieniec Solecki','ul. Zaciszna',156,'02-760','151-28-88-348','474-808-310','relerudugojozod9rav@jyd7k75ytesedyzy3umyjalupyryso.pl',88180738331385,'warmińsko-mazurskie','m. Grudziądz','M. Bielsko-Biała'),
 (20,8,'Kozielsko','ul. Nasypowa',3,'45-527','245-43-97-449','195-933-932','ne1imocuz5toky@ci5yl0s1k4bukejisi9i0acyzany.pl',271714851,'mazowieckie','zawierciański','M. Kraków');
 
-INSERT INTO `kategorie` VALUES
+INSERT INTO `kategorie` (pk,kategoria,id_podkategorii) VALUES
 (1,'mikrokontroler',NULL),
 (2,'mikroprocesor',NULL),
 (3,'sterownik silnika bezszczotkowego',NULL),
 (4,'wzmaczniacz dźwięku',NULL),
 (5,'zegary i timery',NULL);
 
-INSERT INTO `płatności` VALUES
+INSERT INTO `płatności` (pk,rodzaj_płatności) VALUES
 (1,'gotowka'),
 (2,'przelew paypal'),
 (3,'przelewy24.pl'),
 (4,'tradycyjny przelew bankowy'),
 (5,'blik');
 
-INSERT INTO `sprzedaże` VALUES
+INSERT INTO `sprzedaże` (pk,fk_płatności,fk_punkt_sprzedaży,data_zlecenia_sprzedaży,data_zaksięgowania_płatności,cena_sum_netto,cena_sum_brutto,rabat) VALUES
 (1,1,1,'02.02.2020','03.02.2020','‭667 500‬','‭821 025‬',0.2),
 (2,4,5,'15.02.2020','16.02.2020','‭494 200‬','‭607 866‬',0),
 (3,4,10,'16.02.2020','17.02.2020','‭571 400‬','‭702 822‬',0.1),
 (4,4,15,'20.02.2020','21.02.2020','‭691 050‬','‭849 991.5',0.2),
 (5,1,13,'02.03.2020','03.03.2020','‭805 300‬','‭990 519‬',0.3);
 
-INSERT INTO `datki` VALUES
+INSERT INTO `datki` (pk,fk_fundacja,fk_start_up,forma,kwota) VALUES
 (1,1,NULL,1,20000),
 (2,NULL,1,0,20000),
 (3,2,NULL,1,10000),
 (4,NULL,2,0,15000),
 (5,3,NULL,1,20000);
 
-INSERT INTO data VALUES
+INSERT INTO `faktury` (pk,fk_pracownik,fk_sprzedaż,fk_dane_przedsiębiorstw,imię_nabywcy,nazwisko_nabywcy,numer_telefonu_nabywcy,email_nabywcy,stawka_vat,data_wystawienia) VALUES
 (1,3,1,1,'Artur','Królikowski','390-166-456','nuderunokifatavuzu1otynaxugomiqo@t0fe5idip.pl',0.23,'2020.02.02 10:00:00'),
 (2,4,2,2,'Karol','Nowak','958-734-211','nyjezele9uha1yhowyvimajyfaxuzegi@qodozomek4jozaq2q3sywofiz9k0rude.pl',0.23,'2020.02.16 10:05:11'),
 (3,23,3,3,'Mateusz','Podlaski','362-439-241','my@6u6uwyvesywykitomocekitihikefovybijibozesyjorabuxavy.pl',0.23,'2020.02.17 10:11:30'),
 (4,24,4,4,'Alicja','Zielińska','168-814-657','zoc71@xevyfutif0kucyf.pl',0.23,'2020.02.21 10:15:35'),
 (5,29,5,5,'Joanna','Marczak','163-204-456','bo.ytarepyqela7ezap5sizyve7oluk@cife1e.pl',0.23,'2020.03.02 10:00:59');
 
-INSERT INTO stanowiska_uprawnienia VALUES
+INSERT INTO `stanowiska_uprawnienia` (pk,fk_stanowisko,fk_uprawnienia) VALUES
 (1,1,1),
 (2,1,3),
 (3,1,7),
@@ -469,7 +470,7 @@ INSERT INTO stanowiska_uprawnienia VALUES
 (67,10,15),
 (68,10,16);
 
-INSERT INTO `listy_przewozowe` VALUES
+INSERT INTO `listy_przewozowe` (pk,fk_sprzedaż,fk_dostawca,fk_przesunięcie_magazynowe,data_wystawienia,data_przyjęcia_do_przewozu,sposób_pakowania,waga,rodzaj_towaru,koszt_wysyłki_netto,koszt_wysyłki_brutto) VALUES
 (1,1,1,NULL,'2020.02.02 10:00:00','2020.02.02 12:08:00','folia',100,'podzespoły elektroniczne',100,123),
 (2,2,2,NULL,'2020.02.16 10:05:11','2020.02.16 12:05:11','folia',100,'podzespoły elektroniczne',100,123),
 (3,3,3,NULL,'2020.02.17 10:11:30','2020.02.17 12:11:30','folia',100,'podzespoły elektroniczne',100,123),
@@ -481,7 +482,7 @@ INSERT INTO `listy_przewozowe` VALUES
 (9,NULL,1,4,'2018-12-07 04:56:20','2018-12-07 12:14:17','folia',402,'podzespoły elektroniczne',100,123),
 (10,NULL,2,5,'2020-12-09 15:20:58','2020-12-10 12:13:19','folia',290,'podzespoły elektroniczne',100,123);
 
-INSERT INTO `stany_magazynowe` VALUES
+INSERT INTO `stany_magazynowe` (pk,fk_hurtownie,fk_towary,ilość) VALUES
 (1,1,2,2500),
 (2,1,3,3500),
 (3,1,5,6000),
@@ -503,14 +504,14 @@ INSERT INTO `stany_magazynowe` VALUES
 (19,6,5,1500),
 (20,6,8,1000);
 
-INSERT INTO `towary_datki` VALUES
+INSERT INTO `towary_datki` (pk,fk_datki,fk_towary,ilość) VALUES
 (1,1,1,100),
 (2,2,1,200),
 (3,3,1,150),
 (4,4,2,100),
 (5,5,2,100);
 
-INSERT INTO `towary_kategorie` VALUES
+INSERT INTO `towary_kategorie` (pk,id_towary,id_kategorie_towaru) VALUES
 (1,1,1),
 (2,2,1),
 (3,3,1),
@@ -520,7 +521,7 @@ INSERT INTO `towary_kategorie` VALUES
 (7,7,3),
 (8,8,3);
 
-INSERT INTO `towary_przesunięcia` VALUES
+INSERT INTO `towary_przesunięcia` (pk,fk_towary,fk_przesunięcia_magazynowe,ilość) VALUES
 (1,1,1,1650),
 (2,2,1,1670),
 (3,3,1,1110),
@@ -548,7 +549,7 @@ INSERT INTO `towary_przesunięcia` VALUES
 (25,6,5,1030);
 
 
-INSERT INTO `towary_sprzedaże` VALUES
+INSERT INTO `towary_sprzedaże` (pk,fk_towary,fk_sprzedaże,ilość) VALUES
 (1,1,1,1000),
 (2,2,1,2000),
 (3,3,1,1250),
@@ -575,7 +576,7 @@ INSERT INTO `towary_sprzedaże` VALUES
 (24,5,5,2600),
 (25,6,5,2700);
 
-INSERT INTO `zamówienia_towary` VALUES
+INSERT INTO `zamówienia_towary` (pk,fk_zamówienia,fk_towary,cena_jedn_netto,cena_jedn_brutto,ilość) VALUES
 (1,1,1,25,30.75,100),
 (2,1,3,35,43.05‬,200),
 (3,1,5,45,55.35‬,300),
