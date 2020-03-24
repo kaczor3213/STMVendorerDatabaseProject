@@ -1100,7 +1100,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>nazwa</td>
-        <td>znakowy(50 max)</td>
+        <td>znakowy(30 max)</td>
         <td>tak</td>
         <td>tak</td>
         <td>ciąg znaków określający nazwę stanowiska</td>
