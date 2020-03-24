@@ -1,3 +1,244 @@
+CREATE TABLE datki (
+  pk          SERIAL NOT NULL, 
+  fk_fundacja int4, 
+  fk_start_up int4, 
+  forma       bool NOT NULL, 
+  kwota       numeric(19, 2), 
+  PRIMARY KEY (pk));
+CREATE TABLE start_upy (
+  pk               SERIAL NOT NULL, 
+  nazwa            varchar(255) NOT NULL UNIQUE, 
+  email            varchar(255) NOT NULL UNIQUE, 
+  gmina            char(6) NOT NULL, 
+  kod_pocztowy     char(6) NOT NULL, 
+  miejscowość      varchar(35) NOT NULL, 
+  nip              char(10) UNIQUE, 
+  numer_mieszkania varchar(6) NOT NULL, 
+  numer_telefonu   varchar(11) NOT NULL, 
+  powiat           char(4) NOT NULL, 
+  regon            varchar(14) NOT NULL UNIQUE, 
+  ulica            varchar(80) NOT NULL, 
+  województwo      char(2) NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE fundacje (
+  pk               SERIAL NOT NULL, 
+  email            varchar(255) NOT NULL UNIQUE, 
+  gmina            char(6) NOT NULL, 
+  kod_pocztowy     char(6) NOT NULL, 
+  miejscowość      varchar(35) NOT NULL, 
+  nazwa            varchar(255) NOT NULL UNIQUE, 
+  nip              char(10) NOT NULL UNIQUE, 
+  numer_mieszkania varchar(6) NOT NULL, 
+  numer_telefonu   varchar(11) NOT NULL, 
+  powiat           char(4) NOT NULL, 
+  regon            varchar(14) NOT NULL UNIQUE, 
+  ulica            varchar(80) NOT NULL, 
+  województwo      char(2) NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE towary (
+  pk               SERIAL NOT NULL, 
+  nazwa            varchar(255) NOT NULL, 
+  kod_producenta   varchar(10) NOT NULL, 
+  opis             varchar(1000) NOT NULL, 
+  dostępność       bool NOT NULL, 
+  cena_jedn_netto  numeric(19, 2) NOT NULL, 
+  cena_jedn_brutto numeric(19, 2) NOT NULL, 
+  stawka_vat       numeric(1, 2) NOT NULL, 
+  status           bool NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE towary_datki (
+  pk        SERIAL NOT NULL, 
+  fk_datki  int4 NOT NULL, 
+  fk_towary int4 NOT NULL, 
+  ilość     int4 NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE sprzedaże (
+  pk                           SERIAL NOT NULL, 
+  fk_płatności                 int4 NOT NULL, 
+  fk_punkt_sprzedaży           int4 NOT NULL, 
+  data_zlecenia_sprzedaży      timestamp NOT NULL, 
+  data_zaksięgowania_płatności timestamp, 
+  cena_sum_netto               numeric(19, 2) NOT NULL, 
+  cena_sum_brutto              numeric(19, 2) NOT NULL, 
+  rabat                        numeric(1, 2) NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE towary_sprzedaże (
+  pk           SERIAL NOT NULL, 
+  fk_towary    int4 NOT NULL, 
+  fk_sprzedaże int4 NOT NULL, 
+  ilość        int4 NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE płatności (
+  pk               SERIAL NOT NULL, 
+  rodzaj_płatności varchar(255) NOT NULL UNIQUE, 
+  PRIMARY KEY (pk));
+CREATE TABLE punkty_sprzedaży (
+  pk                      SERIAL NOT NULL, 
+  fk_dane_przedsiębiorstw int4 NOT NULL, 
+  województwo             char(2) NOT NULL, 
+  powiat                  char(4) NOT NULL, 
+  gmina                   char(6) NOT NULL, 
+  kod_pocztowy            char(6) NOT NULL, 
+  miejscowość             varchar(35) NOT NULL, 
+  ulica                   varchar(80) NOT NULL, 
+  numer_mieszkania        varchar(6) NOT NULL, 
+  numer_telefonu          varchar(11) NOT NULL, 
+  email                   varchar(255) NOT NULL, 
+  status                  bool NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE dane_przedsiębiorstw (
+  pk                     SERIAL NOT NULL, 
+  województwo            char(2) NOT NULL, 
+  powiat                 char(4) NOT NULL, 
+  gmina                  char(6) NOT NULL, 
+  kod_pocztowy           char(6) NOT NULL, 
+  miejscowość            varchar(35) NOT NULL, 
+  ulica                  varchar(80) NOT NULL, 
+  numer_mieszkania       varchar(6) NOT NULL, 
+  nazwa_przedsiębiorstwa varchar(255) NOT NULL UNIQUE, 
+  nip                    char(10) NOT NULL UNIQUE, 
+  regon                  varchar(14) NOT NULL UNIQUE, 
+  numer_telefonu         varchar(11) NOT NULL, 
+  email                  varchar(255) NOT NULL UNIQUE, 
+  PRIMARY KEY (pk));
+CREATE TABLE hurtownie (
+  pk               SERIAL NOT NULL, 
+  kod_hurtowni     char(6) NOT NULL UNIQUE, 
+  gmina            char(6) NOT NULL, 
+  kod_pocztowy     char(6) NOT NULL, 
+  miejscowość      varchar(35) NOT NULL, 
+  numer_mieszkania varchar(6) NOT NULL, 
+  powiat           char(4) NOT NULL, 
+  ulica            varchar(80) NOT NULL, 
+  województwo      char(2) NOT NULL, 
+  status           bool NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE stany_magazynowe (
+  pk           SERIAL NOT NULL, 
+  fk_hurtownie int4 NOT NULL, 
+  fk_towary    int4 NOT NULL, 
+  ilość        int4 NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE zamówienia (
+  pk              SERIAL NOT NULL, 
+  fk_hurtownie    int4 NOT NULL, 
+  fk_dostawcy     int4 NOT NULL, 
+  fk_pracownicy   int4 NOT NULL, 
+  data_zlecenia   timestamp NOT NULL, 
+  data_odbioru    timestamp NOT NULL, 
+  cena_sum_netto  numeric(19, 2) NOT NULL, 
+  cena_sum_brutto numeric(19, 2) NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE zamówienia_towary (
+  pk               SERIAL NOT NULL, 
+  fk_zamówienia    int4 NOT NULL, 
+  fk_towary        int4 NOT NULL, 
+  cena_jedn_netto  numeric(19, 2) NOT NULL, 
+  cena_jedn_brutto numeric(19, 2) NOT NULL, 
+  ilość            int4 NOT NULL, 
+  towarypk         int4 NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE dostawcy (
+  pk               SERIAL NOT NULL, 
+  nazwa            varchar(255) NOT NULL, 
+  login            varchar(50) NOT NULL, 
+  hashowane_haslo  varchar(64) NOT NULL, 
+  gmina            char(6) NOT NULL, 
+  kod_pocztowy     char(6) NOT NULL, 
+  miejscowość      varchar(35) NOT NULL, 
+  nip              char(10) NOT NULL UNIQUE, 
+  numer_mieszkania varchar(6) NOT NULL, 
+  ulica            varchar(80) NOT NULL, 
+  województwo      char(2) NOT NULL, 
+  powiat           char(4) NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE pracownicy (
+  pk                SERIAL NOT NULL, 
+  fk_stanowiska     int4, 
+  fk_umowy          int4 NOT NULL UNIQUE, 
+  fk_hurtownie      int4 NOT NULL, 
+  imię              varchar(50) NOT NULL, 
+  nazwisko          varchar(50) NOT NULL, 
+  miejscowość       varchar(35) NOT NULL, 
+  ulica             varchar(80) NOT NULL, 
+  pesel             char(11) NOT NULL UNIQUE, 
+  numer_mieszkania  varchar(6) NOT NULL, 
+  kod_pocztowy      char(6) NOT NULL, 
+  nip               char(10) UNIQUE, 
+  numer_telefonu    varchar(11) NOT NULL UNIQUE, 
+  drugie_imię       varchar(50) NOT NULL, 
+  nazwa_użytkownika varchar(50) NOT NULL, 
+  hashowane_hasło   varchar(64) NOT NULL, 
+  zatrudnienie      bool, 
+  PRIMARY KEY (pk));
+CREATE TABLE stanowiska (
+  pk    SERIAL NOT NULL, 
+  nazwa varchar(20) NOT NULL UNIQUE, 
+  PRIMARY KEY (pk));
+CREATE TABLE stanowiska_uprawnienia (
+  pk             SERIAL NOT NULL, 
+  fk_stanowiska  int4 NOT NULL, 
+  fk_uprawnienia int4 NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE uprawnienia (
+  pk     SERIAL NOT NULL, 
+  rodzaj varchar(100) NOT NULL UNIQUE, 
+  PRIMARY KEY (pk));
+CREATE TABLE umowy (
+  pk     SERIAL NOT NULL, 
+  rodzaj varchar(20) NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE przesunięcia_magazynowe (
+  pk                     SERIAL NOT NULL, 
+  fk_hurtownia_źródłowa  int4 NOT NULL, 
+  fk_hurtownia_docelowa  int4 NOT NULL, 
+  fk_pracownik           int4 NOT NULL, 
+  data_zlecenia          timestamp NOT NULL, 
+  data_realizacji        timestamp, 
+  data_odbioru_końcowego timestamp, 
+  PRIMARY KEY (pk));
+CREATE TABLE towary_przesunięcia (
+  pk                         SERIAL NOT NULL, 
+  fk_przesunięcia_magazynowe int4 NOT NULL, 
+  fk_towary                  int4 NOT NULL, 
+  ilość                      int4 NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE faktury (
+  pk                      SERIAL NOT NULL, 
+  fk_pracownik            int4 NOT NULL, 
+  fk_sprzedaż             int4 NOT NULL, 
+  imię_nabywcy            varchar(255), 
+  nazwisko_nabywcy        varchar(255), 
+  numer_telefonu_nabywcy  varchar(11), 
+  email_nabywcy           varchar(255), 
+  stawka_vat              char(2) NOT NULL, 
+  data_wystawienia        timestamp NOT NULL, 
+  fk_dane_przedsiębiorstw int4 NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE listy_przewozowe (
+  pk                         SERIAL NOT NULL, 
+  fk_sprzedaż                int4, 
+  fk_dostawca                int4 NOT NULL, 
+  fk_przesunięcie_magazynowe int4, 
+  data_wystawienia           timestamp NOT NULL, 
+  data_przyjęcia_do_przewozu timestamp, 
+  sposób_pakowania           varchar(255) NOT NULL, 
+  waga                       numeric(10, 3) NOT NULL, 
+  rodzaj_towaru              varchar(255) NOT NULL, 
+  koszt_wysyłki_netto        numeric(19, 2) NOT NULL, 
+  koszt_wysyłki_brutto       numeric(19, 2) NOT NULL, 
+  PRIMARY KEY (pk));
+CREATE TABLE kategorie (
+  pk             SERIAL NOT NULL, 
+  kategoria      varchar(30) NOT NULL UNIQUE, 
+  id_pokategorii int4 UNIQUE, 
+  PRIMARY KEY (pk));
+CREATE TABLE towary_kategorie (
+  pk                  SERIAL NOT NULL, 
+  id_towary           int4 NOT NULL, 
+  id_kategorie_towaru int4 NOT NULL, 
+  PRIMARY KEY (pk));
+
 INSERT INTO `dostawcy` VALUES
 (1,'Ciuślice','ul. Bukowa',14,'61-351','Stromiec','bydgoski','kujawsko-pomorskie','MAB','752-28-21-395','afwefewa','2A07ACD279420112446BF3D551303E22'),
 (2,'Siedlce','ul. Portowa',91,'43-100','M. st. Warszawa','m. Gdynia','łódzkie','HAQ','162-67-85-563','aesfga','97F9434D5A092460387115CB2FAF9146'),
@@ -23,7 +264,6 @@ INSERT INTO `stanowiska` VALUES
 (10,'księgowy'),
 (11,'konserwator budynku');
 
-
 INSERT INTO `uprawnienia` VALUES
 (1,'edycja danych w bazie'),
 (2,'wystawianie faktur'),
@@ -42,128 +282,127 @@ INSERT INTO `uprawnienia` VALUES
 (15,'dostęp do systemu informatycznego'),
 (16,'dostęp do danych wrażliwych w bazie');
 
-
 INSERT INTO `umowy` VALUES
-(1,'umowa o pracę',NULL),
-(2,'umowa o pracę',NULL),
-(3,'umowa o pracę',NULL),
-(4,'umowa o pracę',NULL),
-(5,'umowa o pracę',NULL),
-(6,'umowa zlecenia',NULL),
-(7,'umowa zlecenia',NULL),
-(8,'umowa zlecenia',NULL),
-(9,'umowa zlecenia',NULL),
-(10,'umowa zlecenia',NULL),
-(11,'umowa o pracę',NULL),
-(12,'umowa o pracę',NULL),
-(13,'umowa o pracę',NULL),
-(14,'umowa o pracę',NULL),
-(15,'umowa zlecenia',NULL),
-(16,'umowa zlecenia',NULL),
-(17,'b2b',NULL),
-(18,'b2b',NULL),
-(19,'b2b',NULL),
-(20,'umowa o pracę',NULL),
-(21,'umowa o pracę',NULL),
-(22,'umowa o pracę',NULL),
-(23,'umowa o pracę',NULL),
-(24,'umowa o pracę',NULL),
-(25,'umowa o pracę',NULL),
-(26,'umowa zlecenia',NULL),
-(27,'umowa zlecenia',NULL),
-(28,'umowa zlecenia',NULL),
-(29,'umowa zlecenia',NULL),
-(30,'umowa zlecenia',NULL),
-(31,'umowa o pracę',NULL),
-(32,'umowa o pracę',NULL),
-(33,'umowa o pracę',NULL),
-(34,'umowa o pracę',NULL),
-(35,'umowa zlecenia',NULL),
-(36,'umowa zlecenia',NULL),
-(37,'b2b',NULL),
-(38,'b2b',NULL),
-(39,'b2b',NULL),
-(40,'umowa o pracę',NULL),
-(41,'umowa o pracę',NULL),
-(42,'umowa o pracę',NULL),
-(43,'umowa o pracę',NULL),
-(44,'umowa o pracę',NULL),
-(45,'umowa o pracę',NULL),
-(46,'umowa zlecenia',NULL),
-(47,'umowa zlecenia',NULL),
-(48,'umowa zlecenia',NULL),
-(49,'umowa zlecenia',NULL),
-(50,'umowa zlecenia',NULL),
-(51,'umowa o pracę',NULL),
-(52,'umowa o pracę',NULL),
-(53,'umowa o pracę',NULL),
-(54,'umowa o pracę',NULL),
-(55,'umowa zlecenia',NULL),
-(56,'umowa zlecenia',NULL),
-(57,'b2b',NULL),
-(58,'b2b',NULL),
-(59,'b2b',NULL),
-(60,'umowa o pracę',NULL),
-(61,'umowa o pracę',NULL),
-(62,'umowa o pracę',NULL),
-(63,'umowa o pracę',NULL),
-(64,'umowa o pracę',NULL),
-(65,'umowa o pracę',NULL),
-(66,'umowa zlecenia',NULL),
-(67,'umowa zlecenia',NULL),
-(68,'umowa zlecenia',NULL),
-(69,'umowa zlecenia',NULL),
-(70,'umowa zlecenia',NULL),
-(71,'umowa o pracę',NULL),
-(72,'umowa o pracę',NULL),
-(73,'umowa o pracę',NULL),
-(74,'umowa o pracę',NULL),
-(75,'umowa zlecenia',NULL),
-(76,'umowa zlecenia',NULL),
-(77,'b2b',NULL),
-(78,'b2b',NULL),
-(79,'b2b',NULL),
-(80,'umowa o pracę',NULL),
-(81,'umowa o pracę',NULL),
-(82,'umowa o pracę',NULL),
-(83,'umowa o pracę',NULL),
-(84,'umowa o pracę',NULL),
-(85,'umowa o pracę',NULL),
-(86,'umowa zlecenia',NULL),
-(87,'umowa zlecenia',NULL),
-(88,'umowa zlecenia',NULL),
-(89,'umowa zlecenia',NULL),
-(90,'umowa zlecenia',NULL),
-(91,'umowa o pracę',NULL),
-(92,'umowa o pracę',NULL),
-(93,'umowa o pracę',NULL),
-(94,'umowa o pracę',NULL),
-(95,'umowa zlecenia',NULL),
-(96,'umowa zlecenia',NULL),
-(97,'b2b',NULL),
-(98,'b2b',NULL),
-(99,'b2b',NULL),
-(100,'umowa o pracę',NULL),
-(101,'umowa o pracę',NULL),
-(102,'umowa o pracę',NULL),
-(103,'umowa o pracę',NULL),
-(104,'umowa o pracę',NULL),
-(105,'umowa o pracę',NULL),
-(106,'umowa zlecenia',NULL),
-(107,'umowa zlecenia',NULL),
-(108,'umowa zlecenia',NULL),
-(109,'umowa zlecenia',NULL),
-(110,'umowa zlecenia',NULL),
-(111,'umowa o pracę',NULL),
-(112,'umowa o pracę',NULL),
-(113,'umowa o pracę',NULL),
-(114,'umowa o pracę',NULL),
-(115,'umowa zlecenia',NULL),
-(116,'umowa zlecenia',NULL),
-(117,'b2b',NULL),
-(118,'b2b',NULL),
-(119,'b2b',NULL),
-(120,'umowa o pracę',NULL);
+(1,'umowa o pracę'),
+(2,'umowa o pracę'),
+(3,'umowa o pracę'),
+(4,'umowa o pracę'),
+(5,'umowa o pracę'),
+(6,'umowa zlecenia'),
+(7,'umowa zlecenia'),
+(8,'umowa zlecenia'),
+(9,'umowa zlecenia'),
+(10,'umowa zlecenia'),
+(11,'umowa o pracę'),
+(12,'umowa o pracę'),
+(13,'umowa o pracę'),
+(14,'umowa o pracę'),
+(15,'umowa zlecenia'),
+(16,'umowa zlecenia'),
+(17,'b2b'),
+(18,'b2b'),
+(19,'b2b'),
+(20,'umowa o pracę'),
+(21,'umowa o pracę'),
+(22,'umowa o pracę'),
+(23,'umowa o pracę'),
+(24,'umowa o pracę'),
+(25,'umowa o pracę'),
+(26,'umowa zlecenia'),
+(27,'umowa zlecenia'),
+(28,'umowa zlecenia'),
+(29,'umowa zlecenia'),
+(30,'umowa zlecenia'),
+(31,'umowa o pracę'),
+(32,'umowa o pracę'),
+(33,'umowa o pracę'),
+(34,'umowa o pracę'),
+(35,'umowa zlecenia'),
+(36,'umowa zlecenia'),
+(37,'b2b'),
+(38,'b2b'),
+(39,'b2b'),
+(40,'umowa o pracę'),
+(41,'umowa o pracę'),
+(42,'umowa o pracę'),
+(43,'umowa o pracę'),
+(44,'umowa o pracę'),
+(45,'umowa o pracę'),
+(46,'umowa zlecenia'),
+(47,'umowa zlecenia'),
+(48,'umowa zlecenia'),
+(49,'umowa zlecenia'),
+(50,'umowa zlecenia'),
+(51,'umowa o pracę'),
+(52,'umowa o pracę'),
+(53,'umowa o pracę'),
+(54,'umowa o pracę'),
+(55,'umowa zlecenia'),
+(56,'umowa zlecenia'),
+(57,'b2b'),
+(58,'b2b'),
+(59,'b2b'),
+(60,'umowa o pracę'),
+(61,'umowa o pracę'),
+(62,'umowa o pracę'),
+(63,'umowa o pracę'),
+(64,'umowa o pracę'),
+(65,'umowa o pracę'),
+(66,'umowa zlecenia'),
+(67,'umowa zlecenia'),
+(68,'umowa zlecenia'),
+(69,'umowa zlecenia'),
+(70,'umowa zlecenia'),
+(71,'umowa o pracę'),
+(72,'umowa o pracę'),
+(73,'umowa o pracę'),
+(74,'umowa o pracę'),
+(75,'umowa zlecenia'),
+(76,'umowa zlecenia'),
+(77,'b2b'),
+(78,'b2b'),
+(79,'b2b'),
+(80,'umowa o pracę'),
+(81,'umowa o pracę'),
+(82,'umowa o pracę'),
+(83,'umowa o pracę'),
+(84,'umowa o pracę'),
+(85,'umowa o pracę'),
+(86,'umowa zlecenia'),
+(87,'umowa zlecenia'),
+(88,'umowa zlecenia'),
+(89,'umowa zlecenia'),
+(90,'umowa zlecenia'),
+(91,'umowa o pracę'),
+(92,'umowa o pracę'),
+(93,'umowa o pracę'),
+(94,'umowa o pracę'),
+(95,'umowa zlecenia'),
+(96,'umowa zlecenia'),
+(97,'b2b'),
+(98,'b2b'),
+(99,'b2b'),
+(100,'umowa o pracę'),
+(101,'umowa o pracę'),
+(102,'umowa o pracę'),
+(103,'umowa o pracę'),
+(104,'umowa o pracę'),
+(105,'umowa o pracę'),
+(106,'umowa zlecenia'),
+(107,'umowa zlecenia'),
+(108,'umowa zlecenia'),
+(109,'umowa zlecenia'),
+(110,'umowa zlecenia'),
+(111,'umowa o pracę'),
+(112,'umowa o pracę'),
+(113,'umowa o pracę'),
+(114,'umowa o pracę'),
+(115,'umowa zlecenia'),
+(116,'umowa zlecenia'),
+(117,'b2b'),
+(118,'b2b'),
+(119,'b2b'),
+(120,'umowa o pracę');
 
 
 
@@ -308,8 +547,6 @@ INSERT INTO `pracownicy` VALUES
 (119,110,2,6,'Herakles','Towalewski','Warszawa','ul. Działkowa',77021225367,210,'31-958',NULL,'456-602-498','Leopold','boligagaluzoqisex5pojytol9goh2qiwimyk','87D0C57A32D34242383115049C64CE62',true),
 (120,120,6,6,'Lubomir','Olewnik','Gdynia','ul. Nadrzeczna',75080215053,229,'62-541',NULL,'255-791-075','Przedbor','ly1ilu55vumi','B60751F0CB2AF2DFBAFA0B30091843BD',true);
 
-
-
 INSERT INTO `przesunięcia_magazynowe` VALUES
 (1,5,6,95,'2019-06-20 13:17:34','2019-06-29 09:12:15','2019-07-04 13:52:58'),
 (2,4,3,70,'2018-07-30 14:28:09','2018-08-08 23:13:03','2018-08-13 18:49:59'),
@@ -317,15 +554,12 @@ INSERT INTO `przesunięcia_magazynowe` VALUES
 (4,2,1,30,'2018-12-05 09:47:29','2018-12-07 04:56:20','2018-12-12 23:41:40'),
 (5,3,5,49,'2019-12-02 08:11:07','2020-12-09 15:20:58','2019-12-14 11:03:36');
 
-
 INSERT INTO `zamówienia` VALUES
 (1,6,2,109,'2019-08-15 13:17:34','2019-08-18 09:12:15',62250,76567.5),
 (2,3,5,50,'2018-09-16 14:28:09','2018-09-20 23:13:03',79220,97440.6‬),
 (3,2,6,35,'2020-01-17 12:53:02','2020-01-21 07:30:41',165597.5,203684.93),
 (4,1,7,10,'2018-10-30 09:47:29','2018-11-05 04:56:20',110485‬,135896.55),
 (5,5,10,89,'2019-11-28 08:11:07','2020-01-02 15:20:58',75712.5,‬93126.38);
-
-
 
 INSERT INTO `start_upy` VALUES
 (1,'Leszkowice','ul. Szkolna',183,'80-603','308-52-94-380','603-485-192','sozax@tizovehaxetaqyc5lapihafuvizipirajiwotaxybe-ylalozufyh-t.pl',22201615927019,'CodeStarter','zachodniopomorskie','Świdnicki','Zbrosławice'),
@@ -608,3 +842,39 @@ INSERT INTO `zamówienia_towary` VALUES
 (23,5,8,37.5,46.13,475),
 (24,5,7,32.5,39.98,484),
 (25,5,3,35,43.05‬,462);
+
+ALTER TABLE datki ADD CONSTRAINT fundacje_datki FOREIGN KEY (fk_fundacja) REFERENCES fundacje (pk);
+ALTER TABLE datki ADD CONSTRAINT start_upy_datki FOREIGN KEY (fk_start_up) REFERENCES start_upy (pk);
+ALTER TABLE towary_datki ADD CONSTRAINT FKtowary_dat174827 FOREIGN KEY (fk_datki) REFERENCES datki (pk);
+ALTER TABLE towary_datki ADD CONSTRAINT towary_datki FOREIGN KEY (fk_towary) REFERENCES towary (pk);
+ALTER TABLE towary_sprzedaże ADD CONSTRAINT towary_towary_sprzedaże FOREIGN KEY (fk_towary) REFERENCES towary (pk);
+ALTER TABLE towary_sprzedaże ADD CONSTRAINT FKtowary_spr256522 FOREIGN KEY (fk_sprzedaże) REFERENCES sprzedaże (pk);
+ALTER TABLE sprzedaże ADD CONSTRAINT płatności_sprzedaże FOREIGN KEY (fk_płatności) REFERENCES płatności (pk);
+ALTER TABLE sprzedaże ADD CONSTRAINT punkty_sprzedaży_sprzedaże FOREIGN KEY (fk_punkt_sprzedaży) REFERENCES punkty_sprzedaży (pk);
+ALTER TABLE punkty_sprzedaży ADD CONSTRAINT dane_przedsiębiorstw_punkty_sprzedaży FOREIGN KEY (fk_dane_przedsiębiorstw) REFERENCES dane_przedsiębiorstw (pk);
+ALTER TABLE stany_magazynowe ADD CONSTRAINT hurtownie_towary_stany_magazynowe FOREIGN KEY (fk_hurtownie) REFERENCES hurtownie (pk);
+ALTER TABLE stany_magazynowe ADD CONSTRAINT towary_stany_magazynowe FOREIGN KEY (fk_towary) REFERENCES towary (pk);
+ALTER TABLE zamówienia ADD CONSTRAINT hurtownie_zamówienia FOREIGN KEY (fk_hurtownie) REFERENCES hurtownie (pk);
+ALTER TABLE zamówienia_towary ADD CONSTRAINT zamówienia_towary_sprzedaże FOREIGN KEY (fk_zamówienia) REFERENCES zamówienia (pk);
+ALTER TABLE zamówienia ADD CONSTRAINT dostawcy_zamówienia FOREIGN KEY (fk_dostawcy) REFERENCES dostawcy (pk);
+ALTER TABLE pracownicy ADD CONSTRAINT stanowiska_pracownicy FOREIGN KEY (fk_stanowiska) REFERENCES stanowiska (pk);
+ALTER TABLE stanowiska_uprawnienia ADD CONSTRAINT stanowiska_stanowiska_uprawnienia FOREIGN KEY (fk_stanowiska) REFERENCES stanowiska (pk);
+ALTER TABLE stanowiska_uprawnienia ADD CONSTRAINT uprawnienia_stanowiska_uprawnienia FOREIGN KEY (fk_uprawnienia) REFERENCES uprawnienia (pk);
+ALTER TABLE pracownicy ADD CONSTRAINT pracownicy_umowy FOREIGN KEY (fk_umowy) REFERENCES umowy (pk);
+ALTER TABLE pracownicy ADD CONSTRAINT hurtownie_pracownicy FOREIGN KEY (fk_hurtownie) REFERENCES hurtownie (pk);
+ALTER TABLE zamówienia ADD CONSTRAINT pracownicy_zamówienia FOREIGN KEY (fk_pracownicy) REFERENCES pracownicy (pk);
+ALTER TABLE przesunięcia_magazynowe ADD CONSTRAINT hurtownie_przesunięcie_magazynowe_d FOREIGN KEY (fk_hurtownia_źródłowa) REFERENCES hurtownie (pk);
+ALTER TABLE przesunięcia_magazynowe ADD CONSTRAINT hurtownie_przesunięcie_magazynowe_ź FOREIGN KEY (fk_hurtownia_docelowa) REFERENCES hurtownie (pk);
+ALTER TABLE przesunięcia_magazynowe ADD CONSTRAINT prawcownicy_przesunięcia_magazynowe FOREIGN KEY (fk_pracownik) REFERENCES pracownicy (pk);
+ALTER TABLE towary_przesunięcia ADD CONSTRAINT przesunięcia_magazynowe_towary_przesunięcia FOREIGN KEY (fk_przesunięcia_magazynowe) REFERENCES przesunięcia_magazynowe (pk);
+ALTER TABLE towary_przesunięcia ADD CONSTRAINT towary_towary_przesunięcia FOREIGN KEY (fk_towary) REFERENCES towary (pk);
+ALTER TABLE faktury ADD CONSTRAINT pracownicy_faktury FOREIGN KEY (fk_pracownik) REFERENCES pracownicy (pk);
+ALTER TABLE faktury ADD CONSTRAINT sprzedaże_faktury FOREIGN KEY (fk_sprzedaż) REFERENCES sprzedaże (pk);
+ALTER TABLE listy_przewozowe ADD CONSTRAINT sprzedaże_listy_przewozowe FOREIGN KEY (fk_sprzedaż) REFERENCES sprzedaże (pk);
+ALTER TABLE listy_przewozowe ADD CONSTRAINT dostawcy_faktury FOREIGN KEY (fk_dostawca) REFERENCES dostawcy (pk);
+ALTER TABLE listy_przewozowe ADD CONSTRAINT przesunięcia_magazynowe_listy_przewozowe FOREIGN KEY (fk_przesunięcie_magazynowe) REFERENCES przesunięcia_magazynowe (pk);
+ALTER TABLE kategorie ADD CONSTRAINT kategorie_kategorie FOREIGN KEY (id_pokategorii) REFERENCES kategorie (pk);
+ALTER TABLE towary_kategorie ADD CONSTRAINT towary_towary_kategorie FOREIGN KEY (id_towary) REFERENCES towary (pk);
+ALTER TABLE towary_kategorie ADD CONSTRAINT kategorie_towary_kategorie FOREIGN KEY (id_kategorie_towaru) REFERENCES kategorie (pk);
+ALTER TABLE zamówienia_towary ADD CONSTRAINT zamówienia_towary_towary FOREIGN KEY (towarypk) REFERENCES towary (pk);
+ALTER TABLE faktury ADD CONSTRAINT dane_przedsiębiorstw FOREIGN KEY (fk_dane_przedsiębiorstw) REFERENCES dane_przedsiębiorstw (pk);
