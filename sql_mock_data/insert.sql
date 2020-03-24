@@ -328,55 +328,52 @@ INSERT INTO `zamówienia` VALUES
 
 
 INSERT INTO `start_upy` VALUES
-(1,'Leszkowice','ul. Szkolna',183,'80-603','308-52-94-380','219 892 191 430','sozax@tizovehaxetaqyc5lapihafuvizipirajiwotaxybe-ylalozufyh-t.pl',22201615927019,'CodeStarter','zachodniopomorskie','Świdnicki','Zbrosławice'),
-(2,'Warszawa','ul. Jara',241,'78-220','255-87-48-282','905 814-290-618','retyhawesa@safinile7odeleryjive2y0uh38am83ejifygadonywiwuhadifofuk3bo.pl',64636236356608,'FotoWorkers','śląskie','m. Koszalin','M. Radom'),
-(3,'Piaski','ul. Wiejska',41,'73-220','108-69-73-780','+546 910 683 762','n4lyzilyvosa0ycaxywesanypiqov@nekaxige0u2ymu3ilenuqoso6oz2z.pl',50653607598885,'MachineMastering','warmiñsko-mazurskie','m. Płock','Dębno'),
-(4,'Dąbrowa Górnicza','ul. Różana',300,'42-226','332-715-93-33','685 462576884','0iqigipu7i5yxybasicokysevow6@wyve8ocyjeri9yweg3coco0.pl',808496584,'STMStarter','łódzkie','m. Szczecin','M. st. Warszawa'),
-(5,'Wrocław','ul. Witosa Wincentego',292,'78-630','258-236-38-64','+661 793-179-190','4.p2kosoxicyj-jof6c8qinolivun@xul7.pl',031987030,'MicroChip','śląskie','starogardzki','M. Kraków');
-
-
+(1,'Leszkowice','ul. Szkolna',183,'80-603','308-52-94-380','603-485-192','sozax@tizovehaxetaqyc5lapihafuvizipirajiwotaxybe-ylalozufyh-t.pl',22201615927019,'CodeStarter','zachodniopomorskie','Świdnicki','Zbrosławice'),
+(2,'Warszawa','ul. Jara',241,'78-220','255-87-48-282','351-927-298','retyhawesa@safinile7odeleryjive2y0uh38am83ejifygadonywiwuhadifofuk3bo.pl',64636236356608,'FotoWorkers','śląskie','m. Koszalin','M. Radom'),
+(3,'Piaski','ul. Wiejska',41,'73-220','108-69-73-780','856-791-613','n4lyzilyvosa0ycaxywesanypiqov@nekaxige0u2ymu3ilenuqoso6oz2z.pl',50653607598885,'MachineMastering','warmiñsko-mazurskie','m. Płock','Dębno'),
+(4,'Dąbrowa Górnicza','ul. Różana',300,'42-226','332-715-93-33','468-311-887','0iqigipu7i5yxybasicokysevow6@wyve8ocyjeri9yweg3coco0.pl',808496584,'STMStarter','łódzkie','m. Szczecin','M. st. Warszawa'),
+(5,'Wrocław','ul. Witosa Wincentego',292,'78-630','258-236-38-64','387-242-181','4.p2kosoxicyj-jof6c8qinolivun@xul7.pl',031987030,'MicroChip','śląskie','starogardzki','M. Kraków');
 
 INSERT INTO `fundacje` VALUES
-(1,'Maciejów','ul. Pana Tadeusza',177,'09-500','834-52-23-4310','+927 512134565','wyrokufubewis0kyposuha@pymosiwu4ymynuzipojamyl-pi3omixagiposegijyxexize6awewiten.pl',114160595,'Fundacja Batorego','małopolskie','sejneński','Słupia (Konecka)'),
-(2,'Warszawa','ul. Wańkowicza Melchiora',208,'85-790','314-814-85-31','599-126-988','hon1gow@guwo1ajukoxum2he2ody3imituj66ibymyqako.pl',10388198139241,'Fundacja im. Jana Kochanowskiego','mazowieckie','łaski','Gryfice'),
-(3,'Stradlice','ul. Brzechowska',105,'20-355','818-82-97-171','203 239-213-402','detufocu@z3byp3xazula0up7xugyfuqugeqaqun0c7lahyse6okid650hebugoj.pl',866389251,'Fundacja ST','zachodniopomorskie','nowomiejski','Biała'),
-(4,'Galowice','ul. Świerkowa',72,'46-022','962-79-41-667','275 750556747','fyze@gyrejoq.pl',84006729340530,'Fundacja im. Jana Pawła II','małopolskie','mikołowski','Zblewo'),
-(5,'Warszawa','ul. Tuwima Juliana',23,'05-170','461-43-42-643','656 425 410','sovido7iwykecuwixeb36u8apu0i@seqahoti.pl',01443767731041,'Fundacja im. Marii Skłodowskiej-Curie','wielkopolskie','włoszczowski','Kamieniec Ząbkowicki');
-
+(1,'Maciejów','ul. Pana Tadeusza',177,'09-500','834-52-23-4310','570-220-638','wyrokufubewis0kyposuha@pymosiwu4ymynuzipojamyl-pi3omixagiposegijyxexize6awewiten.pl',114160595,'Fundacja Batorego','małopolskie','sejneński','Słupia (Konecka)'),
+(2,'Warszawa','ul. Wańkowicza Melchiora',208,'85-790','314-814-85-31','780-078-026','hon1gow@guwo1ajukoxum2he2ody3imituj66ibymyqako.pl',10388198139241,'Fundacja im. Jana Kochanowskiego','mazowieckie','łaski','Gryfice'),
+(3,'Stradlice','ul. Brzechowska',105,'20-355','818-82-97-171','763-885-700','detufocu@z3byp3xazula0up7xugyfuqugeqaqun0c7lahyse6okid650hebugoj.pl',866389251,'Fundacja ST','zachodniopomorskie','nowomiejski','Biała'),
+(4,'Galowice','ul. Świerkowa',72,'46-022','962-79-41-667','110-982-714','fyze@gyrejoq.pl',84006729340530,'Fundacja im. Jana Pawła II','małopolskie','mikołowski','Zblewo'),
+(5,'Warszawa','ul. Tuwima Juliana',23,'05-170','461-43-42-643','853-057-384','sovido7iwykecuwixeb36u8apu0i@seqahoti.pl',01443767731041,'Fundacja im. Marii Skłodowskiej-Curie','wielkopolskie','włoszczowski','Kamieniec Ząbkowicki');
 
 INSERT INTO `dane_przedsiębiorstw` VALUES
-(1,'Gołębiów','ul. Majkowskiego Aleksandra (Doktora Aleksandra Majkowskiego)',174,'42-360','608-895-98-84','498 581 962 122','nuderunokifatavuzu1otynaxugomiqo@t0fe5idip.pl',656636362,'Medcom','opolskie','lipnowski','Siewierz'),
-(2,'Rutkowice','ul. Świętego Brata Alberta',233,'86-307','121-65-91-210','417034652','nyjezele9uha1yhowyvimajyfaxuzegi@qodozomek4jozaq2q3sywofiz9k0rude.pl',294835373,'Metalwork Inc','mazowieckie','lubiński','Cewice'),
-(3,'Przewłoka','ul. Marmurowa',82,'13-220','557-43-73-1710','194 481867236','my@6u6uwyvesywykitomocekitihikefovybijibozesyjorabuxavy.pl',784066207,'FastCode','wielkopolskie','m. Tychy','M. Lublin'),
-(4,'Nieborzyn','ul. Kacza',286,'98-290','628-479-51-95','322 363 191 103','zoc71@xevyfutif0kucyf.pl',247169207,'Metal and Steel Inc','kujawsko-pomorskie','m. Szczecin','Strachówka'),
-(5,'Mochle','ul. Konarskiego Stanisława',193,'05-077','835-91-29-415','146 504 119','bo.ytarepyqela7ezap5sizyve7oluk@cife1e.pl',50309116842741,'LubMat','mazowieckie','m. st. Warszawa','M. Bydgoszcz'),
-(6,'Opinogóra Górna','ul. Moniuszki Stanisława',39,'41-800','117-353-66-63','+678 535180025','kavovu3yp0duhidimasov6@wyruhyra3ibovetujysykoge4osihuz6quq5.pl',562628407,'WarMarkt','dolnośląskie','koniński','M. Rzeszów'),
-(7,'Brodowa Góra','ul. Rokitniańska',120,'81-919','915-14-47-620','+304 823 168 340','hamutazacudiwud05a4ylodig@lasepawiny7utyf2xezorihuto8omo2ifijiqetos2.pl',76478303452374,'Dynamo','mazowieckie','polkowicki','M. Łódź'),
-(8,'Bydgoszcz','ul. Miarki Karola',26,'72-221','195-132-28-38','+176 850964957','sak7hajycobobegapocizyzu@botyjosekekywozonekun3hu7uc1qowifu8ive9a56gavuzeruzopyvonup.pl',188225130,'FastAssembler','łódzkie','m. Lublin','Mykanów'),
-(9,'Józefów','ul. Z. Kościńskiego',95,'58-562','624-17-19-339','696 392 060','nak2joga@qohevoriqopasyhyvyzunemu6ehudu08q5jycewixuky.pl',185161818,'ExtraCodeWorkers','kujawsko-pomorskie','Średzki','Chorzele');
-
+(1,'Gołębiów','ul. Majkowskiego Aleksandra (Doktora Aleksandra Majkowskiego)',174,'42-360','608-895-98-84','507-244-204','nuderunokifatavuzu1otynaxugomiqo@t0fe5idip.pl',656636362,'Medcom','opolskie','lipnowski','Siewierz'),
+(2,'Rutkowice','ul. Świętego Brata Alberta',233,'86-307','121-65-91-210','621-651-020','nyjezele9uha1yhowyvimajyfaxuzegi@qodozomek4jozaq2q3sywofiz9k0rude.pl',294835373,'Metalwork Inc','mazowieckie','lubiński','Cewice'),
+(3,'Przewłoka','ul. Marmurowa',82,'13-220','557-43-73-1710','907-034-109','my@6u6uwyvesywykitomocekitihikefovybijibozesyjorabuxavy.pl',784066207,'FastCode','wielkopolskie','m. Tychy','M. Lublin'),
+(4,'Nieborzyn','ul. Kacza',286,'98-290','628-479-51-95','737-011-412','zoc71@xevyfutif0kucyf.pl',247169207,'Metal and Steel Inc','kujawsko-pomorskie','m. Szczecin','Strachówka'),
+(5,'Mochle','ul. Konarskiego Stanisława',193,'05-077','835-91-29-415','273-059-001','bo.ytarepyqela7ezap5sizyve7oluk@cife1e.pl',50309116842741,'LubMat','mazowieckie','m. st. Warszawa','M. Bydgoszcz'),
+(6,'Opinogóra Górna','ul. Moniuszki Stanisława',39,'41-800','117-353-66-63','108-707-554','kavovu3yp0duhidimasov6@wyruhyra3ibovetujysykoge4osihuz6quq5.pl',562628407,'WarMarkt','dolnośląskie','koniński','M. Rzeszów'),
+(7,'Brodowa Góra','ul. Rokitniańska',120,'81-919','915-14-47-620','634-732-618','hamutazacudiwud05a4ylodig@lasepawiny7utyf2xezorihuto8omo2ifijiqetos2.pl',76478303452374,'Dynamo','mazowieckie','polkowicki','M. Łódź'),
+(8,'Bydgoszcz','ul. Miarki Karola',26,'72-221','195-132-28-38','718-047-247','sak7hajycobobegapocizyzu@botyjosekekywozonekun3hu7uc1qowifu8ive9a56gavuzeruzopyvonup.pl',188225130,'FastAssembler','łódzkie','m. Lublin','Mykanów'),
+(9,'Józefów','ul. Z. Kościńskiego',95,'58-562','624-17-19-339','798-707-024','nak2joga@qohevoriqopasyhyvyzunemu6ehudu08q5jycewixuky.pl',185161818,'ExtraCodeWorkers','kujawsko-pomorskie','Średzki','Chorzele'),
+(10,'Władysławowo','ul. Staffa Leopolda',168,'05-085','781-882-18-84','683-455-810','8ybohe2ejeryrofy@mapopu3emirejon.pl',359093795,'PHPService','wielkopolskie','dębicki','Radomin');
 
 INSERT INTO `punkty_sprzedaży` VALUES
-(1,1,'Gołębiów','ul. Majkowskiego Aleksandra (Doktora Aleksandra Majkowskiego)',174,'42-360','608-895-98-84','498 581 962 122','nuderunokifatavuzu1otynaxugomiqo@t0fe5idip.pl',656636362,'opolskie','lipnowski','Siewierz'),
-(2,2,'Rutkowice','ul. Świętego Brata Alberta',233,'86-307','121-65-91-210','417034652','nyjezele9uha1yhowyvimajyfaxuzegi@qodozomek4jozaq2q3sywofiz9k0rude.pl',294835373,'mazowieckie','lubiński','Cewice'),
-(3,3,'Przewłoka','ul. Marmurowa',82,'13-220','557-43-73-1710','194 481867236','my@6u6uwyvesywykitomocekitihikefovybijibozesyjorabuxavy.pl',784066207,'wielkopolskie','m. Tychy','M. Lublin'),
-(4,4,'Nieborzyn','ul. Kacza',286,'98-290','628-479-51-95','322 363 191 103','zoc71@xevyfutif0kucyf.pl',247169207,'kujawsko-pomorskie','m. Szczecin','Strachówka'),
-(5,5,'Mochle','ul. Konarskiego Stanisława',193,'05-077','835-91-29-415','146 504 119','bo.ytarepyqela7ezap5sizyve7oluk@cife1e.pl',50309116842741,'mazowieckie','m. st. Warszawa','M. Bydgoszcz'),
-(6,6,'Opinogóra Górna','ul. Moniuszki Stanisława',39,'41-800','117-353-66-63','+678 535180025','kavovu3yp0duhidimasov6@wyruhyra3ibovetujysykoge4osihuz6quq5.pl',562628407,'dolnoŚląskie','koniński','M. Rzeszów'),
-(7,7,'Brodowa Góra','ul. Rokitniańska',120,'81-919','915-14-47-620','+304 823 168 340','hamutazacudiwud05a4ylodig@lasepawiny7utyf2xezorihuto8omo2ifijiqetos2.pl',76478303452374,'mazowieckie','polkowicki','M. Łódź'),
-(8,8,'Bydgoszcz','ul. Miarki Karola',26,'72-221','195-132-28-38','+176 850964957','sak7hajycobobegapocizyzu@botyjosekekywozonekun3hu7uc1qowifu8ive9a56gavuzeruzopyvonup.pl',188225130,'łódzkie','m. Lublin','Mykanów'),
-(9,9,'Józefów','ul. Z. Kościńskiego',95,'58-562','624-17-19-339','696 392 060','nak2joga@qohevoriqopasyhyvyzunemu6ehudu08q5jycewixuky.pl',185161818,'kujawsko-pomorskie','Średzki','Chorzele'),
-(10,10,'Władysławowo','ul. Staffa Leopolda',168,'05-085','781-882-18-84','702 941-022-296','8ybohe2ejeryrofy@mapopu3emirejon.pl',359093795,'wielkopolskie','dębicki','Radomin'),
-(11,1,'Modryń-Kolonia','ul. Zaciszna',35,'85-001','374-214-85-15','+469 497-428-903','serovyfelirumicufynuxu@3az5liraz.pl',95619930560063,'warmińsko-mazurskie','tomaszowski','M. st. Warszawa'),
-(12,1,'Olsztyn','ul. Rabatki',280,'74-120','258-179-49-78','827093021','1i5azyhujiji01wotudesa@4a.pl',52597403127730,'dolnośląskie','m. Katowice','Brańsk'),
-(13,2,'Goruszów','ul. Kaliska',247,'03-578','109-26-59-232','+601 778960230','seno2oluhip5gucimec9sohuvys@6onylikaxe0ori5e-afupiqetyluwilabu-erez39ocetypimykihito.pl',436018507,'wielkopolskie','czêstochowski','Przerośl'),
-(14,2,'Poznań','ul. Toruńska',96,'86-105','421-61-93-617','507-248-990','1osazad.jusisymomasi3ahize@6ejepuhizepe8e4ujuvodu-emad6kekymi.pl',64152464317452,'śląskie','sochaczewski','M. Bielsko-Biała'),
-(15,4,'Wałbrzych','ul. Staszica Stanisława',183,'02-203','747-66-92-632','169 303 057','ficixa2osegolodacu@1ozimaposydyhun2jynapuw0lukumysuxy8irypeh8c1zojaquz.pl',290070451,'mazowieckie','pleszewski','Wilamowice'),
-(16,5,'Jaworzno','ul. Poziomkowa',240,'61-441','306-65-31-1310','184 363 456 591','bypebesetywis5de@nelogosiqafanugufuly41we.pl',225425440,'mazowieckie','pabianicki','Bobolice'),
-(17,5,'Rybnik','ul. Partyzantów',227,'04-608','567-471-14-93','833635379','fogifebod@4efusyv2.pl',80200348226041,'mazowieckie','m. Włocławek','Kłaj'),
-(18,7,'Wylan','ul. Galileusza',6,'70-767','769-738-22-26','+734 763987997','qyny.ovonop@4udyp.pl',70640946889285,'śląskie','wodzisławski','świecie'),
-(19,9,'Jasieniec Solecki','ul. Zaciszna',156,'02-760','151-28-88-348','162 014 095','relerudugojozod9rav@jyd7k75ytesedyzy3umyjalupyryso.pl',88180738331385,'warmińsko-mazurskie','m. Grudziądz','M. Bielsko-Biała'),
-(20,8,'Kozielsko','ul. Nasypowa',3,'45-527','245-43-97-449','842-384-242','ne1imocuz5toky@ci5yl0s1k4bukejisi9i0acyzany.pl',271714851,'mazowieckie','zawierciański','M. Kraków');
+(1,1,'Gołębiów','ul. Majkowskiego Aleksandra (Doktora Aleksandra Majkowskiego)',174,'42-360','608-895-98-84','453-981-686','nuderunokifatavuzu1otynaxugomiqo@t0fe5idip.pl',656636362,'opolskie','lipnowski','Siewierz'),
+(2,2,'Rutkowice','ul. Świętego Brata Alberta',233,'86-307','121-65-91-210','267-429-560','nyjezele9uha1yhowyvimajyfaxuzegi@qodozomek4jozaq2q3sywofiz9k0rude.pl',294835373,'mazowieckie','lubiński','Cewice'),
+(3,3,'Przewłoka','ul. Marmurowa',82,'13-220','557-43-73-1710','146-966-693','my@6u6uwyvesywykitomocekitihikefovybijibozesyjorabuxavy.pl',784066207,'wielkopolskie','m. Tychy','M. Lublin'),
+(4,4,'Nieborzyn','ul. Kacza',286,'98-290','628-479-51-95','991-458-343','zoc71@xevyfutif0kucyf.pl',247169207,'kujawsko-pomorskie','m. Szczecin','Strachówka'),
+(5,5,'Mochle','ul. Konarskiego Stanisława',193,'05-077','835-91-29-415','402-446-009','bo.ytarepyqela7ezap5sizyve7oluk@cife1e.pl',50309116842741,'mazowieckie','m. st. Warszawa','M. Bydgoszcz'),
+(6,6,'Opinogóra Górna','ul. Moniuszki Stanisława',39,'41-800','117-353-66-63','181-858-296','kavovu3yp0duhidimasov6@wyruhyra3ibovetujysykoge4osihuz6quq5.pl',562628407,'dolnoŚląskie','koniński','M. Rzeszów'),
+(7,7,'Brodowa Góra','ul. Rokitniańska',120,'81-919','915-14-47-620','650-086-406','hamutazacudiwud05a4ylodig@lasepawiny7utyf2xezorihuto8omo2ifijiqetos2.pl',76478303452374,'mazowieckie','polkowicki','M. Łódź'),
+(8,8,'Bydgoszcz','ul. Miarki Karola',26,'72-221','195-132-28-38','651-222-914','sak7hajycobobegapocizyzu@botyjosekekywozonekun3hu7uc1qowifu8ive9a56gavuzeruzopyvonup.pl',188225130,'łódzkie','m. Lublin','Mykanów'),
+(9,9,'Józefów','ul. Z. Kościńskiego',95,'58-562','624-17-19-339','345-765-395','nak2joga@qohevoriqopasyhyvyzunemu6ehudu08q5jycewixuky.pl',185161818,'kujawsko-pomorskie','Średzki','Chorzele'),
+(10,10,'Władysławowo','ul. Staffa Leopolda',168,'05-085','781-882-18-84','950-182-967','8ybohe2ejeryrofy@mapopu3emirejon.pl',359093795,'wielkopolskie','dębicki','Radomin'),
+(11,1,'Modryń-Kolonia','ul. Zaciszna',35,'85-001','374-214-85-15','937-032-461','serovyfelirumicufynuxu@3az5liraz.pl',95619930560063,'warmińsko-mazurskie','tomaszowski','M. st. Warszawa'),
+(12,1,'Olsztyn','ul. Rabatki',280,'74-120','258-179-49-78','489-884-619','1i5azyhujiji01wotudesa@4a.pl',52597403127730,'dolnośląskie','m. Katowice','Brańsk'),
+(13,2,'Goruszów','ul. Kaliska',247,'03-578','109-26-59-232','474-281-909','seno2oluhip5gucimec9sohuvys@6onylikaxe0ori5e-afupiqetyluwilabu-erez39ocetypimykihito.pl',436018507,'wielkopolskie','czêstochowski','Przerośl'),
+(14,2,'Poznań','ul. Toruńska',96,'86-105','421-61-93-617','751-025-492','1osazad.jusisymomasi3ahize@6ejepuhizepe8e4ujuvodu-emad6kekymi.pl',64152464317452,'śląskie','sochaczewski','M. Bielsko-Biała'),
+(15,4,'Wałbrzych','ul. Staszica Stanisława',183,'02-203','747-66-92-632','962-261-707','ficixa2osegolodacu@1ozimaposydyhun2jynapuw0lukumysuxy8irypeh8c1zojaquz.pl',290070451,'mazowieckie','pleszewski','Wilamowice'),
+(16,5,'Jaworzno','ul. Poziomkowa',240,'61-441','306-65-31-1310','921-249-078','bypebesetywis5de@nelogosiqafanugufuly41we.pl',225425440,'mazowieckie','pabianicki','Bobolice'),
+(17,5,'Rybnik','ul. Partyzantów',227,'04-608','567-471-14-93','989-814-684','fogifebod@4efusyv2.pl',80200348226041,'mazowieckie','m. Włocławek','Kłaj'),
+(18,7,'Wylan','ul. Galileusza',6,'70-767','769-738-22-26','318-304-946','qyny.ovonop@4udyp.pl',70640946889285,'śląskie','wodzisławski','świecie'),
+(19,9,'Jasieniec Solecki','ul. Zaciszna',156,'02-760','151-28-88-348','474-808-310','relerudugojozod9rav@jyd7k75ytesedyzy3umyjalupyryso.pl',88180738331385,'warmińsko-mazurskie','m. Grudziądz','M. Bielsko-Biała'),
+(20,8,'Kozielsko','ul. Nasypowa',3,'45-527','245-43-97-449','195-933-932','ne1imocuz5toky@ci5yl0s1k4bukejisi9i0acyzany.pl',271714851,'mazowieckie','zawierciański','M. Kraków');
 
 INSERT INTO `kategorie` VALUES
 (1,'mikrokontroler',NULL),
@@ -406,12 +403,12 @@ INSERT INTO `datki` VALUES
 (4,NULL,2,0,15000),
 (5,3,NULL,1,20000);
 
-INSERT INTO `faktury` VALUES
-(1,3,1,1,'Artur','Królikowski','498 581 962 122','nuderunokifatavuzu1otynaxugomiqo@t0fe5idip.pl',0.23,'2020.02.02 10:00:00'),
-(2,4,2,2,'Karol','Nowak','417034652','nyjezele9uha1yhowyvimajyfaxuzegi@qodozomek4jozaq2q3sywofiz9k0rude.pl',0.23,'2020.02.16 10:05:11'),
-(3,23,3,3,'Mateusz','Podlaski','194 481867236','my@6u6uwyvesywykitomocekitihikefovybijibozesyjorabuxavy.pl',0.23,'2020.02.17 10:11:30'),
-(4,24,4,4,'Alicja','Zielińska','322 363 191 103','zoc71@xevyfutif0kucyf.pl',0.23,'2020.02.21 10:15:35'),
-(5,29,5,5,'Joanna','Marczak','146 504 119','bo.ytarepyqela7ezap5sizyve7oluk@cife1e.pl',0.23,'2020.03.02 10:00:59');
+INSERT INTO data VALUES
+(1,3,1,1,'Artur','Królikowski','390-166-456','nuderunokifatavuzu1otynaxugomiqo@t0fe5idip.pl',0.23,'2020.02.02 10:00:00'),
+(2,4,2,2,'Karol','Nowak','958-734-211','nyjezele9uha1yhowyvimajyfaxuzegi@qodozomek4jozaq2q3sywofiz9k0rude.pl',0.23,'2020.02.16 10:05:11'),
+(3,23,3,3,'Mateusz','Podlaski','362-439-241','my@6u6uwyvesywykitomocekitihikefovybijibozesyjorabuxavy.pl',0.23,'2020.02.17 10:11:30'),
+(4,24,4,4,'Alicja','Zielińska','168-814-657','zoc71@xevyfutif0kucyf.pl',0.23,'2020.02.21 10:15:35'),
+(5,29,5,5,'Joanna','Marczak','163-204-456','bo.ytarepyqela7ezap5sizyve7oluk@cife1e.pl',0.23,'2020.03.02 10:00:59');
 
 INSERT INTO stanowiska_uprawnienia VALUES
 (1,1,1),
@@ -491,7 +488,7 @@ INSERT INTO `listy_przewozowe` VALUES
 (9,NULL,1,4,'2018-12-07 04:56:20','2018-12-07 12:14:17','folia',402,'podzespoły elektroniczne',100,123),
 (10,NULL,2,5,'2020-12-09 15:20:58','2020-12-10 12:13:19','folia',290,'podzespoły elektroniczne',100,123);
 
-INSERT INTO stany_magazynowe VALUES
+INSERT INTO `stany_magazynowe` VALUES
 (1,1,2,2500),
 (2,1,3,3500),
 (3,1,5,6000),
