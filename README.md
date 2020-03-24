@@ -269,14 +269,14 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
         <td>znakowe(4)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający powiat, o długości 4</td>
+        <td>ciąg znakowy określający powiat, o długości 30</td>
     </tr>
     <tr>
         <td>gmina</td>
-        <td>znakowe(6)</td>
+        <td>znakowe(30)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający gminę, o długości 2</td>
+        <td>ciąg znakowy określający gminę, o długości 30</td>
     </tr>
     <tr>
         <td>numer_telefonu</td>
@@ -367,7 +367,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>nip</td>
-        <td>całkowity(10)</td>
+        <td>całkowity(13)</td>
         <td>tak</td>
         <td>tak</td>
         <td>ciąg cyfr określający numer identyfikacyjny podatnika o długości 10</td>
@@ -381,17 +381,17 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>powiat</td>
-        <td>znakowe(4)</td>
+        <td>znakowe(30)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający powiat, o długości 4</td>
+        <td>ciąg znakowy określający powiat, o długości 30</td>
     </tr>
     <tr>
         <td>gmina</td>
-        <td>znakowe(6)</td>
+        <td>znakowe(30)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający gminę, o długości 6</td>
+        <td>ciąg znakowy określający gminę, o długości 30</td>
     </tr>
     <tr>
         <td>login</td>
@@ -461,17 +461,17 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>powiat</td>
-        <td>znakowe(4)</td>
+        <td>znakowe(30)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający powiat, o długości 4</td>
+        <td>ciąg znakowy określający powiat, o długości 30</td>
     </tr>
     <tr>
         <td>gmina</td>
-        <td>znakowe(6)</td>
+        <td>znakowe(30)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający gminę, o długości 6</td>
+        <td>ciąg znakowy określający gminę, o długości 30</td>
     </tr>
     <tr>
         <td>status</td>
@@ -947,17 +947,17 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>gmina</td>
-        <td>znakowe(6)</td>
+        <td>znakowe(30)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający gminę, na którym znajduje się fundacja, o długości 6</td>
+        <td>ciąg znakowy określający gminę, na którym znajduje się fundacja, o długości 30</td>
     </tr>
     <tr>
         <td>kod_pocztowy</td>
-        <td>znakowe(6)</td>
+        <td>znakowe(30)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg 6 znaków określający kod pocztowy miejscowości, w której znajduje się fundacja</td>
+        <td>ciąg 30 znaków określający kod pocztowy miejscowości, w której znajduje się fundacja</td>
     </tr>
     <tr>
         <td>miejscowość</td>
@@ -989,7 +989,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>nip</td>
-        <td>całkowity(10)</td>
+        <td>całkowity(13)</td>
         <td>tak</td>
         <td>tak</td>
         <td>ciag cyfr określający numer identyfikacyjny podatnika o długości 10, fundacji </td>
@@ -1048,17 +1048,17 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>powiat</td>
-        <td>znakowe(4)</td>
+        <td>znakowe(30)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający powiat, na którym znajduje się start up, o długości 4</td>
+        <td>ciąg znakowy określający powiat, na którym znajduje się start up, o długości 30</td>
     </tr>
     <tr>
         <td>gmina</td>
-        <td>znakowe(6)</td>
+        <td>znakowe(30)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający gminę, na którym znajduje się start up, o długości 6</td>
+        <td>ciąg znakowy określający gminę, na którym znajduje się start up, o długości 30</td>
     </tr>
     <tr>
         <td>nazwa</td>
@@ -1069,7 +1069,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>nip</td>
-        <td>znakowy(10)</td>
+        <td>znakowy(13)</td>
         <td>nie</td>
         <td>tak</td>
         <td>ciag znaków określający numer identyfikacyjny podatnika o długości 10, start up'u</td>
@@ -1100,7 +1100,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>nazwa</td>
-        <td>znakowy(20 max)</td>
+        <td>znakowy(50 max)</td>
         <td>tak</td>
         <td>tak</td>
         <td>ciąg znaków określający nazwę stanowiska</td>
@@ -1179,17 +1179,17 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>powiat</td>
-        <td>znakowe(4)</td>
+        <td>znakowe(30)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający powiat, na którym znajduje się przedsiębiorstwo, o długości 4</td>
+        <td>ciąg znakowy określający powiat, na którym znajduje się przedsiębiorstwo, o długości 30</td>
     </tr>
     <tr>
         <td>gmina</td>
-        <td>znakowe(6)</td>
+        <td>znakowe(30)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający gminę, na którym znajduje się przedsiębiorstwo, o długości 6</td>
+        <td>ciąg znakowy określający gminę, na którym znajduje się przedsiębiorstwo, o długości 30</td>
     </tr>
     <tr>
         <td>email</td>
@@ -1221,7 +1221,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>nip</td>
-        <td>znakowy(10)</td>
+        <td>znakowy(13)</td>
         <td>tak</td>
         <td>tak</td>
         <td>ciag znaków określający numer identyfikacyjny podatnika o długości 10, przedsiębiorstwa</td>
@@ -1336,17 +1336,17 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>powiat</td>
-        <td>znakowe(4)</td>
+        <td>znakowe(30)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający powiat, w którym mieszka pracownik, o długości 4</td>
+        <td>ciąg znakowy określający powiat, w którym mieszka pracownik, o długości 30</td>
     </tr>
     <tr>
         <td>gmina</td>
-        <td>znakowe(6)</td>
+        <td>znakowe(30)</td>
         <td>tak</td>
         <td>nie</td>
-        <td>ciąg znakowy określający gminę, w którym mieszka pracownik, o długości 6</td>
+        <td>ciąg znakowy określający gminę, w którym mieszka pracownik, o długości 30</td>
     </tr>
     <tr>
         <td>numer_telefonu</td>
@@ -1357,7 +1357,7 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     </tr>
     <tr>
         <td>nip</td>
-        <td>znakowy(10)</td>
+        <td>znakowy(13)</td>
         <td>nie</td>
         <td>tak</td>
         <td>ciąg znaków określający numer nip pracownika</td>
