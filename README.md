@@ -2386,4 +2386,4 @@ We wcześniejszych krokach projektowych został rozwiązany problem relacji typu
 
 ## 8. Diagram ERD
 
-<img src="STMVendorerDatabaseProject.jpg"/>
+<img src="STMVendorerDatabaseProject.svg"/>
