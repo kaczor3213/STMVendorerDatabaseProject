@@ -1,0 +1,6 @@
+pk;fk_fundacja;fk_start_up;forma;kwota
+1;1;;true;20000
+2;;1;false;20000
+3;2;;true;10000
+4;;2;false;15000
+5;3;;true;20000

@@ -1,0 +1,26 @@
+
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (1,1,1,1000);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (2,2,1,2000);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (3,3,1,1250);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (4,4,1,1750);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (5,5,1,3000);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (6,6,2,1540);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (7,1,2,1250);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (8,2,2,1950);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (9,3,2,1000);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (10,4,2,2000);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (11,5,3,1400);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (12,8,3,1850);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (13,7,3,2000);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (14,1,3,1325);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (15,2,3,1840);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (16,3,4,1950);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (17,4,4,1660);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (18,8,4,2140);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (19,6,4,2150);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (20,7,4,2200);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (21,1,5,2220);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (22,3,5,2250);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (23,4,5,2210);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (24,5,5,2600);
+INSERT INTO towary_sprzedaze(pk,fk_przesuniecia_magazynowe,fk_towary,ilosc) VALUES (25,6,5,2700);

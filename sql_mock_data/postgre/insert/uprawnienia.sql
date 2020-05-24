@@ -1,0 +1,16 @@
+INSERT INTO uprawnienia(pk,rodzaj) VALUES (1,'edycja danych w bazie');
+INSERT INTO uprawnienia(pk,rodzaj) VALUES (2,'wystawianie faktur');
+INSERT INTO uprawnienia(pk,rodzaj) VALUES (3,'dostęp do hurtowni');
+INSERT INTO uprawnienia(pk,rodzaj) VALUES (4,'zarządzanie przesunięciami magazynowymi');
+INSERT INTO uprawnienia(pk,rodzaj) VALUES (5,'składanie zamówień');
+INSERT INTO uprawnienia(pk,rodzaj) VALUES (6,'zarządzanie kadrą');
+INSERT INTO uprawnienia(pk,rodzaj) VALUES (7,'dyspozycja środkami firmy');
+INSERT INTO uprawnienia(pk,rodzaj) VALUES (8,'zarządzanie księgowością i dokumentami');
+INSERT INTO uprawnienia(pk,rodzaj) VALUES (9,'przewóż towaru');
+INSERT INTO uprawnienia(pk,rodzaj) VALUES (10,'ładunek/rozładunek towaru');
+INSERT INTO uprawnienia(pk,rodzaj) VALUES (11,'wystawianie listów przewozowych');
+INSERT INTO uprawnienia(pk,rodzaj) VALUES (12,'dostęp do archiwów');
+INSERT INTO uprawnienia(pk,rodzaj) VALUES (13,'nawiązywanie kontraktów/umów');
+INSERT INTO uprawnienia(pk,rodzaj) VALUES (14,'głos w zarządzie firmy');
+INSERT INTO uprawnienia(pk,rodzaj) VALUES (15,'dostęp do systemu informatycznego');
+INSERT INTO uprawnienia(pk,rodzaj) VALUES (16,'dostęp do danych wrażliwych w bazie');

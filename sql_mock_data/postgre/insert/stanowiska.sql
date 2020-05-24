@@ -1,0 +1,11 @@
+INSERT INTO stawnowiska(pk,nazwa) VALUES (1,'administrator');
+INSERT INTO stawnowiska(pk,nazwa) VALUES (2,'magazynier');
+INSERT INTO stawnowiska(pk,nazwa) VALUES (3,'menadżer');
+INSERT INTO stawnowiska(pk,nazwa) VALUES (4,'dyrektor');
+INSERT INTO stawnowiska(pk,nazwa) VALUES (5,'przedstawiciel handlowy');
+INSERT INTO stawnowiska(pk,nazwa) VALUES (6,'kierowca');
+INSERT INTO stawnowiska(pk,nazwa) VALUES (7,'sprzątacz');
+INSERT INTO stawnowiska(pk,nazwa) VALUES (8,'stróż');
+INSERT INTO stawnowiska(pk,nazwa) VALUES (9,'sekretarz');
+INSERT INTO stawnowiska(pk,nazwa) VALUES (10,'księgowy');
+INSERT INTO stawnowiska(pk,nazwa) VALUES (11,'konserwator budynku');
