@@ -1,1 +1,0 @@
-W cześniejszych krokach projektowych został rozwiązany problem relacji typu n:m

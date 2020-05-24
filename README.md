@@ -2332,27 +2332,27 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
 </tr>
 <tr>
     <th text-align: center>umowy</th>
-    <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
     <td text-align: center>1:1</td>
-    <td text-align: center></td> 
-    <td text-align: center></td>   
-    <td text-align: center></td>   
-    <td text-align: center></td>   
-    <td text-align: center></td>   
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
 </tr>
 <tr>
     <th text-align: center>stany_magazynowe</th>
@@ -2366,17 +2366,17 @@ Firma może przekazywać datki na fundacje, której dane są również księgowa
     <td text-align: center></td> 
     <td text-align: center></td> 
     <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
-    <td text-align: center></td> 
     <td text-align: center></td>
-    <td text-align: center></td> 
-    <td text-align: center></td>   
-    <td text-align: center></td>   
-    <td text-align: center></td>   
-    <td text-align: center></td>   
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
+    <td text-align: center></td>
 </tr>
 </table>
 
@@ -2387,3 +2387,32 @@ We wcześniejszych krokach projektowych został rozwiązany problem relacji typu
 ## 8. Diagram ERD
 
 <img src="STMVendorerDatabaseProject.jpg"/>
+
+## 9. Diagram EER
+
+<img src="img/eer.svg"/>
+<img src="img/1.png"/>
+
+## 10. Skrypt uzupełniający rekordy w bazie MYSQL
+
+<img src="img/2.png"/>
+<img src="img/3.png"/>
+
+![Alt Text](https://j.gifs.com/YWm822.gif)
+
+## 11. Tworzenie nowego użytkownika MYSQL
+
+<img src="img/8.png"/>
+<img src="img/4.png"/>
+<img src="img/5.png"/>
+
+## 12. Eksport bazy MYSQL
+
+<img src="img/6.png"/>
+<img src="img/7.png"/>
+
+## 13. Import kopii zapasowej do bazy MYSQL
+
+<img src="img/9.png"/>
+<img src="img/10.png"/>
+
