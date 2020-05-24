@@ -2386,7 +2386,7 @@ We wcześniejszych krokach projektowych został rozwiązany problem relacji typu
 
 ## 8. Diagram ERD
 
-<img src="STMVendorerDatabaseProject.jpg"/>
+<img src="STMVendorerDatabaseProject.svg"/>
 
 ## 9. Diagram EER
 
@@ -2415,4 +2415,3 @@ We wcześniejszych krokach projektowych został rozwiązany problem relacji typu
 
 <img src="img/9.png"/>
 <img src="img/10.png"/>
-
